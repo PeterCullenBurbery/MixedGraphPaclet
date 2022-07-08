@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7314,        198]
-NotebookOptionsPosition[      4734,        143]
-NotebookOutlinePosition[      6391,        183]
-CellTagsIndexPosition[      6348,        180]
+NotebookDataLength[      7385,        200]
+NotebookOptionsPosition[      4795,        144]
+NotebookOutlinePosition[      6462,        185]
+CellTagsIndexPosition[      6419,        182]
 WindowTitle->Mixed Graph Functions
 WindowFrame->Normal*)
 
@@ -26,7 +26,7 @@ Cell[BoxData[GridBox[{
          RowBox[{
           TemplateBox[{12},
            "Spacer1"], Cell[
-          "PETER BURBERY/ MIXED_ GRAPHS GUIDE", "PacletNameCell",
+          "PETER BURBERY/ MIXED GRAPHS GUIDE", "PacletNameCell",
            TextAlignment->Center], 
           TemplateBox[{8},
            "Spacer1"]}]],
@@ -51,14 +51,14 @@ Cell[BoxData[GridBox[{
            PlotRange->{{-3, 4}, {-1, 1}}]]]
         }]],
         StripOnInput->
-         False], {"\<\"PeterBurbery/Mixed_Graphs/MixedGraphPaclet/guide/\
-MixedGraphFunctions\"\>":>
+         False], {"\<\"PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/\
+guide/MixedGraphFunctions\"\>":>
        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
        Module[{DocumentationSearch`Private`nb$}, 
         DocumentationSearch`Private`nb$ = NotebookPut[
            Notebook[{
              Cell[
-             "PeterBurbery/Mixed_Graphs/MixedGraphPaclet/guide/\
+             "PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/\
 MixedGraphFunctions"]}, Visible -> False]]; 
         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
@@ -71,19 +71,20 @@ MixedGraphFunctions"]}, Visible -> False]];
               BoxData[
                MakeBoxes[
                 Hyperlink[
-                "http://reference.wolfram.com/language/PeterBurbery/Mixed_\
-Graphs/MixedGraphPaclet/guide/MixedGraphFunctions.html"], StandardForm]], 
-              "Input", TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+                "http://reference.wolfram.com/language/PeterBurbery/\
+MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/MixedGraphFunctions.html"], 
+                StandardForm]], "Input", TextClipboardType -> "PlainText"]}, 
+            Visible -> False]]; 
         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
         NotebookClose[DocumentationSearch`Private`nb$]; 
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$454539], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$65606], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
-             "PeterBurbery/Mixed_Graphs/MixedGraphPaclet/guide/\
+             "PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/\
 MixedGraphFunctions") <> ".html"], None}]}]},
        Appearance->None,
        MenuAppearance->Automatic,
@@ -154,18 +155,19 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 7, 8, 15, 21, 36.1581231}", 
+   "built" -> "{2022, 7, 8, 16, 2, 36.9383460}", 
     "history" -> {"", "", "", ""}, "context" -> "PeterBurbery`MixedGraphs`", 
     "keywords" -> {}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
-    "Peter Burbery/ Mixed_ Graphs Guide", "language" -> "en", "paclet" -> 
-    "PeterBurbery/Mixed_Graphs", "status" -> "None", "summary" -> 
+    "Peter Burbery/ Mixed Graphs Guide", "language" -> "en", "paclet" -> 
+    "PeterBurbery/MixedGraphs", "status" -> "None", "summary" -> 
     "This paclet has functions for manipulating, analyzing, generating, and \
 creating mixed graphs.", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$454510, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$65577, "title" -> 
     "Mixed Graph Functions", "titlemodifier" -> "", "windowtitle" -> 
     "Mixed Graph Functions", "type" -> "Guide", "uri" -> 
-    "PeterBurbery/Mixed_Graphs/MixedGraphPaclet/guide/MixedGraphFunctions"}},
+    "PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/\
+MixedGraphFunctions"}},
 CacheGraphics->False,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
@@ -182,24 +184,24 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[593, 21, 3107, 77, 70, "AnchorBarGrid",ExpressionUUID->"c690cabd-84d8-4044-8cd1-ffc6fc565478",
+Cell[593, 21, 3168, 78, 70, "AnchorBarGrid",ExpressionUUID->"66c4cc33-c64d-4eb5-acf7-9fa59f0af4ff",
  CellID->1],
 Cell[CellGroupData[{
-Cell[3725, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"50eba134-6edd-442d-8b5a-097fa71ee5b6",
+Cell[3786, 103, 63, 1, 70, "GuideTitle",ExpressionUUID->"661c12cc-fbcc-4742-b81c-ba59537e3cdd",
  CellID->144552694],
-Cell[3791, 105, 148, 4, 70, "GuideAbstract",ExpressionUUID->"09b725ff-0b75-40cd-8a53-9c61e10402e0",
+Cell[3852, 106, 148, 4, 70, "GuideAbstract",ExpressionUUID->"0040b5f6-ccdc-4374-ae4d-e5d81f1e69e9",
  CellID->100853033],
-Cell[3942, 111, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"580ceaf4-d4e1-4737-9509-852313861688"],
-Cell[3983, 113, 188, 6, 70, "GuideText",ExpressionUUID->"5e3aca2a-7f4e-4e8e-9fcd-824ef24bf56e",
+Cell[4003, 112, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"095a9902-3222-4756-b97a-6b62daa2716a"],
+Cell[4044, 114, 188, 6, 70, "GuideText",ExpressionUUID->"1e67d1ce-bc32-4037-98aa-7af4258ae612",
  CellID->12848555],
-Cell[4174, 121, 212, 6, 70, "GuideText",ExpressionUUID->"bfccc222-5f4e-45d1-853b-3e331f80f069",
+Cell[4235, 122, 212, 6, 70, "GuideText",ExpressionUUID->"fbebe515-72db-4aab-93f8-3874d358adf4",
  CellID->295096609],
-Cell[4389, 129, 245, 6, 70, "GuideText",ExpressionUUID->"b77a5c1f-b879-4752-b11a-4e9c633a1b92",
+Cell[4450, 130, 245, 6, 70, "GuideText",ExpressionUUID->"fbb2edd4-a435-42d9-9f8c-4492b6b93a7c",
  CellID->419295194],
-Cell[4637, 137, 55, 1, 70, "MetadataSection",ExpressionUUID->"936c8527-b749-4c30-b362-cbfae29ab193",
+Cell[4698, 138, 55, 1, 70, "MetadataSection",ExpressionUUID->"aa567deb-8c3f-41ea-b21d-674a0ce26a42",
  CellID->323421020]
 }, Open  ]],
-Cell[4707, 141, 23, 0, 70, "FooterCell",ExpressionUUID->"432f8e5d-9417-4fe6-9850-24ccaa90b241"]
+Cell[4768, 142, 23, 0, 70, "FooterCell",ExpressionUUID->"6593b816-69ef-4320-9891-9280d7c9b189"]
 }
 ]
 *)

@@ -2,7 +2,7 @@
 
 PacletObject[
   <|
-    "Name" -> "PeterBurbery/Mixed_Graphs",
+    "Name" -> "PeterBurbery/MixedGraphs",
     "Description" -> "A collection of mixed graph functionality",
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",

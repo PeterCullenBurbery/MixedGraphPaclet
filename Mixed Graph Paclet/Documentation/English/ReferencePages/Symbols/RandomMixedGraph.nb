@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     16789,        467]
-NotebookOptionsPosition[     10968,        340]
-NotebookOutlinePosition[     11734,        365]
-CellTagsIndexPosition[     11655,        360]
+NotebookDataLength[     16802,        468]
+NotebookOptionsPosition[     10981,        341]
+NotebookOutlinePosition[     11747,        366]
+CellTagsIndexPosition[     11668,        361]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -293,7 +293,7 @@ Cell["Symbol", "Categorization",
  CellLabel->"Entity Type",
  CellID->460208940,ExpressionUUID->"00aefbc6-a518-47e1-8253-af3346ee73ff"],
 
-Cell["PeterBurbery/Mixed_Graphs", "Categorization",
+Cell["PeterBurbery/MixedGraphs", "Categorization",
  CellLabel->"Paclet Name",
  CellID->291611987,ExpressionUUID->"97382112-cc3a-407e-a61d-b38f868903ff"],
 
@@ -301,7 +301,8 @@ Cell["PeterBurbery`MixedGraphs`", "Categorization",
  CellLabel->"Context",
  CellID->476565676,ExpressionUUID->"39f895cc-0b91-49b7-a2af-a0ccad24b5a6"],
 
-Cell["PeterBurbery/Mixed_Graphs/ref/RandomMixedGraph", "Categorization",
+Cell["PeterBurbery/MixedGraphs/Mixed_Graphs/ref/RandomMixedGraph", \
+"Categorization",
  CellLabel->"URI",
  CellID->284414344,ExpressionUUID->"91ac7a21-edd0-4c8b-ae75-198244af4583"]
 }, Open  ]],
@@ -359,7 +360,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 11462, 353}
+ {"ExtendedExamples", 11475, 354}
  }
 *)
 (*NotebookFileOutline
@@ -443,29 +444,29 @@ Cell[8871, 276, 484, 13, 31, "CategorizationSection",ExpressionUUID->"0831d78e-9
  CellID->375633636],
 Cell[9358, 291, 134, 2, 35, "Categorization",ExpressionUUID->"00aefbc6-a518-47e1-8253-af3346ee73ff",
  CellID->460208940],
-Cell[9495, 295, 153, 2, 35, "Categorization",ExpressionUUID->"97382112-cc3a-407e-a61d-b38f868903ff",
+Cell[9495, 295, 152, 2, 35, "Categorization",ExpressionUUID->"97382112-cc3a-407e-a61d-b38f868903ff",
  CellID->291611987],
-Cell[9651, 299, 149, 2, 35, "Categorization",ExpressionUUID->"39f895cc-0b91-49b7-a2af-a0ccad24b5a6",
+Cell[9650, 299, 149, 2, 35, "Categorization",ExpressionUUID->"39f895cc-0b91-49b7-a2af-a0ccad24b5a6",
  CellID->476565676],
-Cell[9803, 303, 166, 2, 35, "Categorization",ExpressionUUID->"91ac7a21-edd0-4c8b-ae75-198244af4583",
+Cell[9802, 303, 180, 3, 35, "Categorization",ExpressionUUID->"91ac7a21-edd0-4c8b-ae75-198244af4583",
  CellID->284414344]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10006, 310, 109, 1, 31, "KeywordsSection",ExpressionUUID->"979ede95-7886-4a12-9b91-2699f4763b80",
+Cell[10019, 311, 109, 1, 31, "KeywordsSection",ExpressionUUID->"979ede95-7886-4a12-9b91-2699f4763b80",
  CellID->67988249],
-Cell[10118, 313, 99, 1, 70, "Keywords",ExpressionUUID->"817f8917-22de-4089-8223-9dff47955a9b",
+Cell[10131, 314, 99, 1, 70, "Keywords",ExpressionUUID->"817f8917-22de-4089-8223-9dff47955a9b",
  CellID->343411829]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[10254, 319, 119, 1, 21, "TemplatesSection",ExpressionUUID->"75e53861-f026-42af-98fa-14724e212b7e",
+Cell[10267, 320, 119, 1, 21, "TemplatesSection",ExpressionUUID->"75e53861-f026-42af-98fa-14724e212b7e",
  CellID->588874629],
-Cell[10376, 322, 148, 2, 70, "Template",ExpressionUUID->"b9f1fdf4-b6df-41d5-a22d-a97856e382fe",
+Cell[10389, 323, 148, 2, 70, "Template",ExpressionUUID->"b9f1fdf4-b6df-41d5-a22d-a97856e382fe",
  CellID->145632611],
-Cell[10527, 326, 136, 2, 70, "Template",ExpressionUUID->"f5c1bfaa-2b18-4a91-8f8f-288c79671645",
+Cell[10540, 327, 136, 2, 70, "Template",ExpressionUUID->"f5c1bfaa-2b18-4a91-8f8f-288c79671645",
  CellID->97608845],
-Cell[10666, 330, 135, 2, 70, "Template",ExpressionUUID->"41134b2b-50c5-4023-b935-829c73f31681",
+Cell[10679, 331, 135, 2, 70, "Template",ExpressionUUID->"41134b2b-50c5-4023-b935-829c73f31681",
  CellID->141766174],
-Cell[10804, 334, 136, 2, 70, "Template",ExpressionUUID->"06745b9c-2713-4063-91c4-f054b614352e",
+Cell[10817, 335, 136, 2, 70, "Template",ExpressionUUID->"06745b9c-2713-4063-91c4-f054b614352e",
  CellID->41385398]
 }, Closed]]
 }, Open  ]]
