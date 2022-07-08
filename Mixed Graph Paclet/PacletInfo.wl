@@ -1,12 +1,14 @@
+(* ::Package:: *)
+
 PacletObject[
   <|
-    "Name" -> "PeterBurbery/MixedGraphPaclet",
-    "Description" -> "a paclet for mixed graphs",
+    "Name" -> "PeterBurbery/Mixed_Graphs",
+    "Description" -> "A collection of mixed graph functionality",
     "Creator" -> "Peter Cullen Burbery",
+    "License" -> "MIT",
+    "PublisherID" -> "PeterBurbery",
     "Version" -> "1.0.0",
     "WolframVersion" -> "13.1+",
-    "PublisherID" -> "PeterBurbery",
-    "License" -> "MIT",
     "Extensions" -> {
       {
         "Kernel",
