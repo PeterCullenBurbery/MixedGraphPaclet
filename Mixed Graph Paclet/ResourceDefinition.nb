@@ -84,11 +84,12 @@ Cell[TextData[Cell[BoxData[
     BaseStyle->{"Text"}],
    Annotation[#, 
     DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[0]]& ],
-  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\Documentation"],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "Documentation"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"f5d830f0-4f75-4c24-bfd0-b09c492ec7e0"]], \
+   "Text"}]],ExpressionUUID->"df2b38b8-707f-4082-8709-4fa1ade6dbd2"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -98,7 +99,7 @@ Paclet\\Documentation"],
       TemplateBox[{}, "FileManagerDocumentationIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->448820341,ExpressionUUID->"81e0356c-e9b4-4952-bf99-49cfec5fe7ff"],
+ CellID->448820341,ExpressionUUID->"d26f3139-5e18-4293-9432-0f22fe96f20d"],
 
 Cell[CellGroupData[{
 
@@ -122,11 +123,12 @@ Cell[TextData[Cell[BoxData[
     BaseStyle->{"Text"}],
    Annotation[#, 
     DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[0]]& ],
-  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\Kernel"],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "Kernel"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"44cc28ab-bd8d-425f-9216-cd9816ce4603"]], \
+   "Text"}]],ExpressionUUID->"31a54c7d-69da-4985-9ca0-a70021111c1b"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -136,20 +138,21 @@ Paclet\\Kernel"],
       TemplateBox[{}, "FileManagerKernelIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->4005346,ExpressionUUID->"65b63cbe-47f4-4f8d-bc7d-bbb95fe2f014"],
+ CellID->4005346,ExpressionUUID->"cc8f62bd-929d-4e1f-bb51-b57a7f208f52"],
 
 Cell[BoxData[
  InterpretationBox[
   TagBox[
    TemplateBox[{"\"MixedGraphPaclet.wl\"", 
      File[
-     "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\Kernel\\MixedGraphPaclet.wl"]},
+      FileNameJoin[{
+        NotebookDirectory[], "Kernel/MixedGraphPaclet.wl"}]]},
     "FileManagerFileOpenerTemplate"],
    Annotation[#, 
     DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[1]]& ],
-  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\Kernel\\MixedGraphPaclet.wl"],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "Kernel/MixedGraphPaclet.wl"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{"Text"}]], "FileManagerFile",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
@@ -160,7 +163,7 @@ Paclet\\Kernel\\MixedGraphPaclet.wl"],
       TemplateBox[{}, "FileManagerWLIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->356967456,ExpressionUUID->"08c800a6-259d-43d1-9c34-c62d52e698aa"]
+ CellID->356967456,ExpressionUUID->"94ab7ade-f8d3-40ec-89f1-d2746ac8f87b"]
 }, Closed]],
 
 Cell[BoxData[
@@ -168,13 +171,14 @@ Cell[BoxData[
   TagBox[
    TemplateBox[{"\"LICENSE\"", 
      File[
-     "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\LICENSE"]},
+      FileNameJoin[{
+        NotebookDirectory[], "LICENSE"}]]},
     "FileManagerFileOpenerTemplate"],
    Annotation[#, 
     DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[0]]& ],
-  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\LICENSE"],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "LICENSE"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{"Text"}]], "FileManagerFile",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
@@ -185,20 +189,21 @@ Paclet\\LICENSE"],
       TemplateBox[{}, "FileManagerUnknownIconTemplate"]], Background -> None],
      Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->165808963,ExpressionUUID->"7cd0944c-5778-4b4d-a213-352ce614c994"],
+ CellID->165808963,ExpressionUUID->"bbf79fec-850a-4def-bc3f-dd37b733c830"],
 
 Cell[BoxData[
  InterpretationBox[
   TagBox[
    TemplateBox[{"\"PacletInfo.wl\"", 
      File[
-     "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\PacletInfo.wl"]},
+      FileNameJoin[{
+        NotebookDirectory[], "PacletInfo.wl"}]]},
     "FileManagerFileOpenerTemplate"],
    Annotation[#, 
     DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[0]]& ],
-  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed Graph \
-Paclet\\PacletInfo.wl"],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "PacletInfo.wl"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{"Text"}]], "FileManagerFile",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
@@ -209,12 +214,37 @@ Paclet\\PacletInfo.wl"],
       TemplateBox[{}, "FileManagerPacletInfoIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->244791171,ExpressionUUID->"bf62ea7d-f601-46e2-bb9b-022ef11c0b73"],
+ CellID->244791171,ExpressionUUID->"e9e0153f-1f15-49f0-82e0-84b29ab5401f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"ResourceDefinition.nb\"", 
+     File[
+      FileNameJoin[{
+        NotebookDirectory[], "ResourceDefinition.nb"}]]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[0]]& ],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], "ResourceDefinition.nb"}]],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 100},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->190533719,ExpressionUUID->"f98de339-fb88-43b2-ab56-3a564be0a1dd"],
 
 Cell["", "FileManagerBottomSpacer",
  CellGroupingRules->{"SectionGrouping", 100},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->17898387,ExpressionUUID->"535e4e83-e53a-4f33-9de2-1f4fd33e38f9"]
+ CellID->17898387,ExpressionUUID->"2a5fafc8-f503-466f-bd1a-1ae7bf724161"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5284,7 +5314,7 @@ Fu6DuJJG2H9mK2QZ3X1Y8rjKVdsLU11Qbnfn/Mae/TiO1RZHs2bny+6Vwq5Sfi8TnHKi+1+K4NOh"]\
    "LoadingMethod" -> "Paclet", "PacletName" -> "PacletResource", 
     "Contexts" -> {"PacletResource`", "PacletResource`DefinitionNotebook`"}, 
     "DefaultContentMethod" -> "Tagged"}, "ToolsOpen" -> True, "StatusMessage" -> 
-  "", "SubmissionReviewData" -> {"Review" -> False}},
+  "", "SubmissionReviewData" -> {"Review" -> False}, "AutoUpdate" -> True},
 CreateCellID->True,
 DynamicEvaluationTimeout->60,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
