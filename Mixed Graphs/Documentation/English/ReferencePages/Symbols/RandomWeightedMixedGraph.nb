@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1373459,      22144]
-NotebookOptionsPosition[   1358626,      21844]
-NotebookOutlinePosition[   1359439,      21870]
-CellTagsIndexPosition[   1359356,      21865]
+NotebookDataLength[   1369045,      21985]
+NotebookOptionsPosition[   1354214,      21685]
+NotebookOutlinePosition[   1355027,      21711]
+CellTagsIndexPosition[   1354944,      21706]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -17745,67 +17745,66 @@ ulReVq3gp72OSU3fxKAP9ndC+183L+R0AADk55fp
 }, Open  ]],
 
 Cell[BoxData[
- RowBox[{"\n", 
+ RowBox[{
   RowBox[{
+   RowBox[{"RandomWeightedMixedGraph", "[", 
+    RowBox[{"graphDistribution_", ",", "threshold_", ",", "randomFunction_"}],
+     "]"}], "/;", 
+   RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+  RowBox[{"Block", "[", 
    RowBox[{
-    RowBox[{"RandomWeightedMixedGraph", "[", 
-     RowBox[{
-     "graphDistribution_", ",", "threshold_", ",", "randomFunction_"}], "]"}],
-     "/;", 
-    RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
-   RowBox[{"Block", "[", 
+    RowBox[{"{", 
+     RowBox[{"replaceCount", ",", "randomGraph"}], "}"}], " ", ",", 
     RowBox[{
-     RowBox[{"{", 
-      RowBox[{"replaceCount", ",", "randomGraph"}], "}"}], " ", ",", 
-     RowBox[{
-      RowBox[{"randomGraph", "=", 
-       RowBox[{"RandomGraph", "[", "graphDistribution", "]"}]}], ";", 
-      RowBox[{"replaceCount", "=", 
-       RowBox[{"Floor", "[", 
-        RowBox[{"threshold", " ", 
-         RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "]"}]}], ";", 
-      RowBox[{"randomGraph", "=", 
-       RowBox[{"Graph", "[", 
-        RowBox[{
-         RowBox[{"Fold", "[", 
+     RowBox[{"randomGraph", "=", 
+      RowBox[{"RandomGraph", "[", "graphDistribution", "]"}]}], ";", 
+     RowBox[{"replaceCount", "=", 
+      RowBox[{"Floor", "[", 
+       RowBox[{"threshold", " ", 
+        RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "]"}]}], ";", 
+     RowBox[{"randomGraph", "=", 
+      RowBox[{"Graph", "[", 
+       RowBox[{
+        RowBox[{"Fold", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"EdgeAdd", "[", 
+            RowBox[{
+             RowBox[{"EdgeDelete", "[", 
+              RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+             RowBox[{
+              RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+              RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+          "randomGraph", ",", 
+          RowBox[{"RandomSample", "[", 
+           RowBox[{
+            RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
+            "replaceCount"}], "]"}]}], "]"}], ",", 
+        RowBox[{"EdgeWeight", "->", 
+         RowBox[{"Thread", "[", 
           RowBox[{
            RowBox[{
-            RowBox[{"EdgeAdd", "[", 
-             RowBox[{
-              RowBox[{"EdgeDelete", "[", 
-               RowBox[{"#1", ",", "#2"}], "]"}], ",", 
-              RowBox[{
-               RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
-               RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
-           "randomGraph", ",", 
-           RowBox[{"RandomSample", "[", 
             RowBox[{
-             RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
-             "replaceCount"}], "]"}]}], "]"}], ",", 
-         RowBox[{"EdgeWeight", "->", 
-          RowBox[{"Thread", "[", 
-           RowBox[{
-            RowBox[{
-             RowBox[{
-              RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
-              RowBox[{"(", 
-               RowBox[{"AnnotationValue", "[", 
-                RowBox[{
-                 RowBox[{"{", 
-                  RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
-                 "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-            RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-        "]"}]}], ";", 
-      RowBox[{"Graph", "[", 
-       RowBox[{"randomGraph", ",", 
-        RowBox[{"Table", "[", 
-         RowBox[{
-          RowBox[{"randomFunction", "[", "kvar", "]"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"kvar", ",", 
-            RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "}"}]}], 
-         "]"}]}], "]"}]}]}], "]"}]}]}]], "Input",
- CellChangeTimes->{{3.866382193413912*^9, 3.866382238705224*^9}},
+             RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
+             RowBox[{"(", 
+              RowBox[{"AnnotationValue", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
+                "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
+           RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
+       "]"}]}], ";", 
+     RowBox[{"Graph", "[", 
+      RowBox[{"randomGraph", ",", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"randomFunction", "[", "kvar", "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"kvar", ",", 
+           RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "}"}]}], "]"}]}],
+       "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.866382193413912*^9, 3.866382238705224*^9}, 
+   3.866382552450038*^9},
  CellLabel->"In[84]:=",
  CellID->204870987,ExpressionUUID->"9449bf19-4987-4144-9fb4-940bdb19f529"],
 
@@ -21458,226 +21457,68 @@ P6wsLvpK9QxASuNGNjsk9T+eCIVBOOjwP3KQJg5Psuw/nYKVHA==
  CellID->183058993,ExpressionUUID->"6ce2d7f8-c567-48c5-8cce-06a08d6bb9d8"]
 }, Open  ]],
 
-Cell[BoxData[{
+Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{"RandomMixedGraph", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_", ",", 
-      "array_List"}], "]"}], "/;", 
-    RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
-   RowBox[{"ArrayReshape", "[", 
-    RowBox[{
-     RowBox[{"Table", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"randomGraph", "|->", 
-          RowBox[{"Graph", "[", 
-           RowBox[{
-            RowBox[{"Fold", "[", 
-             RowBox[{
-              RowBox[{
-               RowBox[{"EdgeAdd", "[", 
-                RowBox[{
-                 RowBox[{"EdgeDelete", "[", 
-                  RowBox[{"#1", ",", "#2"}], "]"}], ",", 
-                 RowBox[{
-                  RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
-                  RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
-              "randomGraph", ",", 
-              RowBox[{"RandomSample", "[", 
-               RowBox[{
-                RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
-                RowBox[{"\[LeftFloor]", 
-                 RowBox[{"threshold", " ", 
-                  RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], 
-                 "\[RightFloor]"}]}], "]"}]}], "]"}], ",", 
-            RowBox[{"EdgeWeight", "->", 
-             RowBox[{"Thread", "[", 
-              RowBox[{
-               RowBox[{
-                RowBox[{
-                 RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
-                 RowBox[{"(", 
-                  RowBox[{"AnnotationValue", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
-                    "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-               RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-           "]"}]}], ")"}], "[", "k", "]"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"k", ",", 
-         RowBox[{"Flatten", "[", 
-          RowBox[{"RandomGraph", "[", 
-           RowBox[{
-            RowBox[{"{", 
-             RowBox[{"vertices", ",", "edges"}], "}"}], ",", "array"}], "]"}],
-           "]"}]}], "}"}]}], "]"}], ",", "array"}], "]"}]}], "\n"}], "\n", 
- RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{"RandomMixedGraph", "[", 
-     RowBox[{"graphDistribution_", ",", "threshold_"}], "]"}], "/;", 
-    RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
-   RowBox[{"Block", "[", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"replaceCount", ",", "randomGraph"}], "}"}], " ", ",", 
-     RowBox[{
-      RowBox[{"randomGraph", "=", 
-       RowBox[{"RandomGraph", "[", "graphDistribution", "]"}]}], ";", 
-      RowBox[{"replaceCount", "=", 
-       RowBox[{"Floor", "[", 
-        RowBox[{"threshold", " ", 
-         RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "]"}]}], ";", 
-      RowBox[{"Graph", "[", 
-       RowBox[{
-        RowBox[{"Fold", "[", 
-         RowBox[{
-          RowBox[{
-           RowBox[{"EdgeAdd", "[", 
-            RowBox[{
-             RowBox[{"EdgeDelete", "[", 
-              RowBox[{"#1", ",", "#2"}], "]"}], ",", 
-             RowBox[{
-              RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
-              RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
-          "randomGraph", ",", 
-          RowBox[{"RandomSample", "[", 
-           RowBox[{
-            RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
-            "replaceCount"}], "]"}]}], "]"}], ",", 
-        RowBox[{"EdgeWeight", "->", 
-         RowBox[{"Thread", "[", 
-          RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
-             RowBox[{"(", 
-              RowBox[{"AnnotationValue", "[", 
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
-                "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-           RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-       "]"}]}]}], "]"}]}], "\n"}], "\n", 
- RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{
-     RowBox[{"RandomMixedGraph", "[", 
-      RowBox[{"graphDistribution_", ",", "threshold_", ",", 
-       RowBox[{"k_", "?", "IntegerQ"}]}], "]"}], "/;", 
-     RowBox[{
-      RowBox[{"0", "<=", "threshold", "<=", "1"}], "\[And]", 
-      RowBox[{"k", ">=", "1"}]}]}], ":=", 
-    RowBox[{"Block", "[", 
-     RowBox[{
-      RowBox[{"{", "randomGraphList", "}"}], " ", ",", 
-      RowBox[{
-       RowBox[{"randomGraphList", "=", 
-        RowBox[{"RandomGraph", "[", 
-         RowBox[{"graphDistribution", ",", "k"}], "]"}]}], ";", 
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"randomGraph", "|->", 
-          RowBox[{"Graph", "[", 
-           RowBox[{
-            RowBox[{"Fold", "[", 
-             RowBox[{
-              RowBox[{
-               RowBox[{"EdgeAdd", "[", 
-                RowBox[{
-                 RowBox[{"EdgeDelete", "[", 
-                  RowBox[{"#1", ",", "#2"}], "]"}], ",", 
-                 RowBox[{
-                  RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
-                  RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
-              "randomGraph", ",", 
-              RowBox[{"RandomSample", "[", 
-               RowBox[{
-                RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
-                RowBox[{"Floor", "[", 
-                 RowBox[{"threshold", " ", 
-                  RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "]"}]}], 
-               "]"}]}], "]"}], ",", 
-            RowBox[{"EdgeWeight", "->", 
-             RowBox[{"Thread", "[", 
-              RowBox[{
-               RowBox[{
-                RowBox[{
-                 RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
-                 RowBox[{"(", 
-                  RowBox[{"AnnotationValue", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
-                    "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-               RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-           "]"}]}], ")"}], "/@", "randomGraphList"}]}]}], "]"}]}], ";"}], 
-  "\n"}], "\n", 
- RowBox[{
-  RowBox[{
-   RowBox[{"RandomMixedGraph", "[", 
-    RowBox[{"graphDistribution_", ",", "threshold_", ",", "array_List"}], 
-    "]"}], "/;", 
-   RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
-  RowBox[{"ArrayReshape", "[", 
-   RowBox[{
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{"randomGraph", "|->", 
-         RowBox[{"Graph", "[", 
-          RowBox[{
-           RowBox[{"Fold", "[", 
-            RowBox[{
-             RowBox[{
-              RowBox[{"EdgeAdd", "[", 
-               RowBox[{
-                RowBox[{"EdgeDelete", "[", 
-                 RowBox[{"#1", ",", "#2"}], "]"}], ",", 
-                RowBox[{
-                 RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
-                 RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
-             "randomGraph", ",", 
-             RowBox[{"RandomSample", "[", 
-              RowBox[{
-               RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
-               RowBox[{"\[LeftFloor]", 
-                RowBox[{"threshold", " ", 
-                 RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], 
-                "\[RightFloor]"}]}], "]"}]}], "]"}], ",", 
-           RowBox[{"EdgeWeight", "->", 
-            RowBox[{"Thread", "[", 
-             RowBox[{
-              RowBox[{
-               RowBox[{
-                RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
-                RowBox[{"(", 
-                 RowBox[{"AnnotationValue", "[", 
-                  RowBox[{
-                   RowBox[{"{", 
-                    RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
-                   "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-              RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-          "]"}]}], ")"}], "[", "k", "]"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"k", ",", 
-        RowBox[{"Flatten", "[", 
-         RowBox[{"RandomGraph", "[", 
-          RowBox[{"graphDistribution", ",", "array"}], "]"}], "]"}]}], 
-       "}"}]}], "]"}], ",", "array"}], "]"}]}], "\n"}], "Input",
- CellChangeTimes->{{3.8663817320723853`*^9, 3.866381745601986*^9}, {
-  3.8663817765409746`*^9, 3.866381831695809*^9}, {3.866381963427009*^9, 
-  3.8663819650433044`*^9}},
- CellLabel->"In[66]:=",
- CellID->200294508,ExpressionUUID->"b57401fd-eb4d-459d-98c7-1fc079be32dc"]
+  RowBox[{"RandomWeightedMixedGraph", "::", "usage"}], "=", 
+  "\"\<RandomWeightedMixedGraph[{\!\(\*StyleBox[\"vertices\",FontSlant->\"\
+Italic\"]\), \!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\)}, \
+\!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\)] creates a random \
+mixed graph with \!\(\*StyleBox[\"vertices\",FontSlant->\"Italic\"]\) \
+vertices and \!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\) edges where \
+directed edges make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) \
+of the entire number of edges with edge weights assigned by \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\)\\\
+nRandomWeightedMixedGraph[{\!\(\*StyleBox[\"vertices\",FontSlant->\"Italic\"]\
+\), \!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\)}, \
+\!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\),\!\(\*StyleBox[\" \
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)] \
+creates \!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\) random mixed graphs \
+with \!\(\*StyleBox[\"vertices\",FontSlant->\"Italic\"]\) vertices and \
+\!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\) edges where directed edges \
+make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) of the entire \
+number of edges with edge weights assigned by \!\(\*StyleBox[\"randomFunction\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\\\\n\",FontSlant->\"Italic\"]\)\
+RandomWeightedMixedGraph[{\!\(\*StyleBox[\"vertices\",FontSlant->\"Italic\"]\)\
+, \!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\)}, \
+\!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\), array] creates an \
+array of dimensions \!\(\*StyleBox[\"array\",FontSlant->\"Italic\"]\) of \
+random mixed graphs with \!\(\*StyleBox[\"vertices\",FontSlant->\"Italic\"]\) \
+vertices and \!\(\*StyleBox[\"edges\",FontSlant->\"Italic\"]\) edges where \
+directed edges make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) \
+of the entire number of edges with edge weights assigned by \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\)\\\
+nRandomWeightedMixedGraph[\!\(\*StyleBox[\"distribution\",FontSlant->\"Italic\
+\"]\), \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \!\(\*StyleBox[\
+\"randomFunction\",FontSlant->\"Italic\"]\)] creates a random mixed graph \
+with graph distribution \
+\!\(\*StyleBox[\"distribution\",FontSlant->\"Italic\"]\) where directed edges \
+make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) of the entire \
+number of edges with edge weights assigned by \!\(\*StyleBox[\"randomFunction\
+\",FontSlant->\"Italic\"]\)\\nRandomWeightedMixedGraph[\!\(\*StyleBox[\"\
+distribution\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\),\!\(\*StyleBox[\" \
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)] \
+creates \!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\) random mixed graphs \
+with graph distribution \
+\!\(\*StyleBox[\"distribution\",FontSlant->\"Italic\"]\) where directed edges \
+make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) of the entire \
+number of edges with edge weights assigned by \!\(\*StyleBox[\"randomFunction\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\\\\n\",FontSlant->\"Italic\"]\)\
+RandomWeightedMixedGraph[\!\(\*StyleBox[\"distribution\",FontSlant->\"Italic\"\
+]\), \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\), \
+\!\(\*StyleBox[\"randomFunction\",FontSlant->\"Italic\"]\), array] creates an \
+array of dimensions \!\(\*StyleBox[\"array\",FontSlant->\"Italic\"]\) of \
+random mixed graphs with graph distribution \
+\!\(\*StyleBox[\"distribution\",FontSlant->\"Italic\"]\) where directed edges \
+make up \!\(\*StyleBox[\"threshold\",FontSlant->\"Italic\"]\) of the entire \
+number of edges with edge weights assigned by \!\(\*StyleBox[\"randomFunction\
+\",FontSlant->\"Italic\"]\)\>\""}]], "Input",
+ CellChangeTimes->{{3.8663826202140055`*^9, 3.866382900241482*^9}},
+ CellID->19806355,ExpressionUUID->"3b40aef5-1b3e-4c0b-831c-27fd3efb8396"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -21857,14 +21698,14 @@ ExpressionUUID->"0d2f3f94-3cbe-4712-95c7-5c297d13385a"
 (*CellTagsOutline
 CellTagsIndex->{
  "ExtendedExamples"->{
-  Cell[1353305, 21684, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"5b8d91a8-a494-4845-8e41-c05b1597ca3a",
+  Cell[1348893, 21525, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"5b8d91a8-a494-4845-8e41-c05b1597ca3a",
    CellTags->"ExtendedExamples",
    CellID->198720780]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 1359158, 21858}
+ {"ExtendedExamples", 1354746, 21699}
  }
 *)
 (*NotebookFileOutline
@@ -22058,91 +21899,91 @@ Cell[1073287, 17082, 525, 14, 25, "Input",ExpressionUUID->"42cbae72-e17d-43f4-85
 Cell[1073815, 17098, 38244, 645, 506, "Output",ExpressionUUID->"22b4af5c-69f7-45bf-979c-2fd3d640d90e",
  CellID->390085635]
 }, Open  ]],
-Cell[1112074, 17746, 2452, 63, 271, "Input",ExpressionUUID->"9449bf19-4987-4144-9fb4-940bdb19f529",
+Cell[1112074, 17746, 2395, 62, 254, "Input",ExpressionUUID->"9449bf19-4987-4144-9fb4-940bdb19f529",
  CellID->204870987],
 Cell[CellGroupData[{
-Cell[1114551, 17813, 504, 13, 43, "Input",ExpressionUUID->"abd98741-0a75-4c89-9816-fc74b1a472ed",
+Cell[1114494, 17812, 504, 13, 43, "Input",ExpressionUUID->"abd98741-0a75-4c89-9816-fc74b1a472ed",
  CellID->90785200],
-Cell[1115058, 17828, 11787, 187, 276, "Output",ExpressionUUID->"63bf936b-de27-446d-bab8-1b3a4e7f2207",
+Cell[1115001, 17827, 11787, 187, 276, "Output",ExpressionUUID->"63bf936b-de27-446d-bab8-1b3a4e7f2207",
  CellID->233627705]
 }, Open  ]],
-Cell[1126860, 18018, 3095, 76, 324, "Input",ExpressionUUID->"b0efc743-bb71-4358-8b41-dbdf739fbf08",
+Cell[1126803, 18017, 3095, 76, 324, "Input",ExpressionUUID->"b0efc743-bb71-4358-8b41-dbdf739fbf08",
  CellID->92621756],
 Cell[CellGroupData[{
-Cell[1129980, 18098, 515, 13, 43, "Input",ExpressionUUID->"42bf9285-15f7-4b94-bab2-a8e8077cb833",
+Cell[1129923, 18097, 515, 13, 43, "Input",ExpressionUUID->"42bf9285-15f7-4b94-bab2-a8e8077cb833",
  CellID->324437773],
-Cell[1130498, 18113, 85967, 1316, 573, "Output",ExpressionUUID->"a784a21a-249d-4b6c-aaa9-052fd5bf4f13",
+Cell[1130441, 18112, 85967, 1316, 573, "Output",ExpressionUUID->"a784a21a-249d-4b6c-aaa9-052fd5bf4f13",
  CellID->323823134]
 }, Open  ]],
-Cell[1216480, 19432, 3247, 80, 359, "Input",ExpressionUUID->"cf720411-8323-490f-92da-150a54b365e0",
+Cell[1216423, 19431, 3247, 80, 359, "Input",ExpressionUUID->"cf720411-8323-490f-92da-150a54b365e0",
  CellID->113255892],
 Cell[CellGroupData[{
-Cell[1219752, 19516, 571, 14, 43, "Input",ExpressionUUID->"7e41530a-e3be-4738-88f4-8d90581a9474",
+Cell[1219695, 19515, 571, 14, 43, "Input",ExpressionUUID->"7e41530a-e3be-4738-88f4-8d90581a9474",
  CellID->136730865],
-Cell[1220326, 19532, 124326, 1925, 555, "Output",ExpressionUUID->"6ce2d7f8-c567-48c5-8cce-06a08d6bb9d8",
+Cell[1220269, 19531, 124326, 1925, 555, "Output",ExpressionUUID->"6ce2d7f8-c567-48c5-8cce-06a08d6bb9d8",
  CellID->183058993]
 }, Open  ]],
-Cell[1344667, 21460, 8601, 219, 974, "Input",ExpressionUUID->"b57401fd-eb4d-459d-98c7-1fc079be32dc",
- CellID->200294508]
+Cell[1344610, 21459, 4246, 61, 500, "Input",ExpressionUUID->"3b40aef5-1b3e-4c0b-831c-27fd3efb8396",
+ CellID->19806355]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1353305, 21684, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"5b8d91a8-a494-4845-8e41-c05b1597ca3a",
+Cell[1348893, 21525, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"5b8d91a8-a494-4845-8e41-c05b1597ca3a",
  CellTags->"ExtendedExamples",
  CellID->198720780],
-Cell[1353795, 21699, 240, 5, 35, "ExampleSection",ExpressionUUID->"22fdb7b1-27d8-46d4-aafa-364c5d27647e",
+Cell[1349383, 21540, 240, 5, 35, "ExampleSection",ExpressionUUID->"22fdb7b1-27d8-46d4-aafa-364c5d27647e",
  CellID->10503899],
-Cell[1354038, 21706, 263, 5, 23, "ExampleSection",ExpressionUUID->"1c5a40ca-6ee7-43e5-a3f3-58bf8bc2870d",
+Cell[1349626, 21547, 263, 5, 23, "ExampleSection",ExpressionUUID->"1c5a40ca-6ee7-43e5-a3f3-58bf8bc2870d",
  CellID->46611133],
 Cell[CellGroupData[{
-Cell[1354326, 21715, 242, 5, 23, "ExampleSection",ExpressionUUID->"899a76f7-b166-4cda-873c-f5815fb2e5f7",
+Cell[1349914, 21556, 242, 5, 23, "ExampleSection",ExpressionUUID->"899a76f7-b166-4cda-873c-f5815fb2e5f7",
  CellID->16727936],
-Cell[1354571, 21722, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"57947a0b-9810-451c-9000-8c61966c7c59",
+Cell[1350159, 21563, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"57947a0b-9810-451c-9000-8c61966c7c59",
  CellID->859202983],
-Cell[1354820, 21729, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"e02eb6b8-f3b6-407b-81ab-94b896280f7a",
+Cell[1350408, 21570, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"e02eb6b8-f3b6-407b-81ab-94b896280f7a",
  CellID->469957113]
 }, Open  ]],
-Cell[1355081, 21737, 248, 5, 35, "ExampleSection",ExpressionUUID->"e554b25e-dccc-4e04-bfa7-91ec651f1c87",
+Cell[1350669, 21578, 248, 5, 35, "ExampleSection",ExpressionUUID->"e554b25e-dccc-4e04-bfa7-91ec651f1c87",
  CellID->371732224],
-Cell[1355332, 21744, 258, 5, 23, "ExampleSection",ExpressionUUID->"b201687a-cebf-489e-a4e5-bd4d7be62a2c",
+Cell[1350920, 21585, 258, 5, 23, "ExampleSection",ExpressionUUID->"b201687a-cebf-489e-a4e5-bd4d7be62a2c",
  CellID->134353440],
-Cell[1355593, 21751, 251, 5, 23, "ExampleSection",ExpressionUUID->"cfdd3b06-f28b-42fa-a4b1-4afa84cc1566",
+Cell[1351181, 21592, 251, 5, 23, "ExampleSection",ExpressionUUID->"cfdd3b06-f28b-42fa-a4b1-4afa84cc1566",
  CellID->558088627],
-Cell[1355847, 21758, 256, 5, 23, "ExampleSection",ExpressionUUID->"a8a1727c-75c3-4ad3-9c06-262e39e6e9c7",
+Cell[1351435, 21599, 256, 5, 23, "ExampleSection",ExpressionUUID->"a8a1727c-75c3-4ad3-9c06-262e39e6e9c7",
  CellID->683989353],
-Cell[1356106, 21765, 249, 5, 23, "ExampleSection",ExpressionUUID->"50a3947d-e96f-4074-8da6-d6097baf53a1",
+Cell[1351694, 21606, 249, 5, 23, "ExampleSection",ExpressionUUID->"50a3947d-e96f-4074-8da6-d6097baf53a1",
  CellID->257078336]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1356392, 21775, 109, 1, 62, "MetadataSection",ExpressionUUID->"3d6de931-7ccd-42e1-8566-e14ac5501689",
+Cell[1351980, 21616, 109, 1, 62, "MetadataSection",ExpressionUUID->"3d6de931-7ccd-42e1-8566-e14ac5501689",
  CellID->18614406],
 Cell[CellGroupData[{
-Cell[1356526, 21780, 484, 13, 31, "CategorizationSection",ExpressionUUID->"bf96858b-6ed2-4bda-ae8b-a5ba50a1d0c7",
+Cell[1352114, 21621, 484, 13, 31, "CategorizationSection",ExpressionUUID->"bf96858b-6ed2-4bda-ae8b-a5ba50a1d0c7",
  CellID->662632122],
-Cell[1357013, 21795, 134, 2, 70, "Categorization",ExpressionUUID->"20f1d43e-00e4-4c92-b67a-f8d0e305737f",
+Cell[1352601, 21636, 134, 2, 70, "Categorization",ExpressionUUID->"20f1d43e-00e4-4c92-b67a-f8d0e305737f",
  CellID->132408229],
-Cell[1357150, 21799, 152, 2, 70, "Categorization",ExpressionUUID->"5f9b2682-d761-444e-a02a-50a37c6a868c",
+Cell[1352738, 21640, 152, 2, 70, "Categorization",ExpressionUUID->"5f9b2682-d761-444e-a02a-50a37c6a868c",
  CellID->536760342],
-Cell[1357305, 21803, 149, 2, 70, "Categorization",ExpressionUUID->"8c324a5b-de9a-4512-a8b7-d1553dd2438b",
+Cell[1352893, 21644, 149, 2, 70, "Categorization",ExpressionUUID->"8c324a5b-de9a-4512-a8b7-d1553dd2438b",
  CellID->155084654],
-Cell[1357457, 21807, 172, 2, 70, "Categorization",ExpressionUUID->"8d77c7f1-7a7e-429f-882d-5d205d9e5fbf",
+Cell[1353045, 21648, 172, 2, 70, "Categorization",ExpressionUUID->"8d77c7f1-7a7e-429f-882d-5d205d9e5fbf",
  CellID->25913016]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1357666, 21814, 109, 1, 21, "KeywordsSection",ExpressionUUID->"1af7d928-48d0-4232-aee0-f9446273d5c2",
+Cell[1353254, 21655, 109, 1, 21, "KeywordsSection",ExpressionUUID->"1af7d928-48d0-4232-aee0-f9446273d5c2",
  CellID->38733677],
-Cell[1357778, 21817, 99, 1, 70, "Keywords",ExpressionUUID->"aae921a0-e8ac-4c9e-8d26-72a1603d4b1a",
+Cell[1353366, 21658, 99, 1, 70, "Keywords",ExpressionUUID->"aae921a0-e8ac-4c9e-8d26-72a1603d4b1a",
  CellID->149988021]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1357914, 21823, 118, 1, 21, "TemplatesSection",ExpressionUUID->"aba14b19-10d9-4658-86d4-fe656b095f1a",
+Cell[1353502, 21664, 118, 1, 21, "TemplatesSection",ExpressionUUID->"aba14b19-10d9-4658-86d4-fe656b095f1a",
  CellID->30805984],
-Cell[1358035, 21826, 146, 2, 70, "Template",ExpressionUUID->"49809fb0-1a74-43c9-af56-4077e540d393",
+Cell[1353623, 21667, 146, 2, 70, "Template",ExpressionUUID->"49809fb0-1a74-43c9-af56-4077e540d393",
  CellID->8585282],
-Cell[1358184, 21830, 137, 2, 70, "Template",ExpressionUUID->"1c5b098f-31c4-4a80-98e1-d1666d16ac44",
+Cell[1353772, 21671, 137, 2, 70, "Template",ExpressionUUID->"1c5b098f-31c4-4a80-98e1-d1666d16ac44",
  CellID->220829863],
-Cell[1358324, 21834, 134, 2, 70, "Template",ExpressionUUID->"608ed416-d8fe-48d4-9f46-b571579f5f5e",
+Cell[1353912, 21675, 134, 2, 70, "Template",ExpressionUUID->"608ed416-d8fe-48d4-9f46-b571579f5f5e",
  CellID->34381741],
-Cell[1358461, 21838, 137, 2, 70, "Template",ExpressionUUID->"c8a67ff2-a8ce-45d1-a4b2-403635d558f7",
+Cell[1354049, 21679, 137, 2, 70, "Template",ExpressionUUID->"c8a67ff2-a8ce-45d1-a4b2-403635d558f7",
  CellID->556428752]
 }, Closed]]
 }, Open  ]]

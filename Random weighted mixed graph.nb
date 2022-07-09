@@ -56,11 +56,11 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"RandomMixedGraph", "[", 
+     RowBox[{"RandomWeightedMixedGraph", "[", 
       RowBox[{
        RowBox[{"{", 
-        RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_"}], 
-      "]"}], "/;", 
+        RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_", ",", 
+       "randomfunction_"}], "]"}], "/;", 
      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
     RowBox[{"Block", "[", 
      RowBox[{
@@ -103,8 +103,22 @@ Cell[BoxData[{
                  RowBox[{"{", 
                   RowBox[{"randomGraph", ",", "#1"}], "}"}], ",", 
                  "EdgeWeight"}], "]"}], ")"}]}], "&"}], "/@", 
-            RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], 
-        "]"}]}]}], "]"}]}], ";"}], 
+            RowBox[{"EdgeList", "[", "randomGraph", "]"}]}], "]"}]}]}], "]"}],
+        ";", 
+       RowBox[{"Graph", "[", 
+        RowBox[{
+         RowBox[{"EdgeList", "@", "randomGraph"}], ",", 
+         RowBox[{"EdgeWeight", "->", 
+          RowBox[{"Thread", "[", 
+           RowBox[{
+            RowBox[{"EdgeList", "[", "randomGraph", "]"}], "->", 
+            RowBox[{"Table", "[", 
+             RowBox[{
+              RowBox[{"randomfunction", "[", "k", "]"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"k", ",", 
+                RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "}"}]}], 
+             "]"}]}], "]"}]}]}], "]"}]}]}], "]"}]}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
@@ -344,19 +358,16 @@ undirected graphs with dimensions array from distribution and converts \
 threshhold of the undirected edges into directed arcs to make mixed \
 graphs\>\""}], ";"}]}], "Input",
  TaggingRules->{},
- CellChangeTimes->{{3.862514598152813*^9, 3.8625146643096743`*^9}, {
-  3.8625148341652822`*^9, 3.8625148734867306`*^9}, {3.862514920792667*^9, 
-  3.8625149554214945`*^9}, {3.8642218210247035`*^9, 3.86422182995168*^9}, {
-  3.866210355893478*^9, 3.866210357581464*^9}, {3.8662104173064766`*^9, 
-  3.866210549932575*^9}, {3.8662105848375998`*^9, 3.8662106067546015`*^9}, {
-  3.866211164177085*^9, 3.8662112026140957`*^9}, {3.8662813671123753`*^9, 
-  3.866281414628555*^9}, {3.8662832055192986`*^9, 3.866283224051365*^9}, {
-  3.8663743796136255`*^9, 3.866374391694162*^9}, {3.866374458008666*^9, 
-  3.8663744732033544`*^9}, {3.8663745037087803`*^9, 3.8663745170584574`*^9}, {
-  3.8663745562534647`*^9, 3.8663746018814497`*^9}, {3.8663746833153915`*^9, 
-  3.866374727716049*^9}},
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQfePxkRLN428cb73grAXR/zxdJ4Fon8n600F0e6zk
+XBD9qCZ3IYiOP7WAP/vUG0etkn0CIDp+eg2b2bk3jlGzN4HpFec0+cD09b1y
+IHreWSllEL1J9YYqiF63qjUbRK9ZFlwAoqfMeLwpAkjLy17ZAaIl5m2YEQmk
+TyxhnA2iLy0qlm0D0pPNvsmB6H9uDuog+mGjmiaIDln3TQdEP7q3UA9EJ8l0
+GIPoayY2liB6g3iWM4h+8PKbB4heFit5HURP+XfmFojWejjpGYjWaL/+GkQ/
+a38r2A6kZ6zQEAbReiWrpEH0DtUPYBoAvzWncg==
+  "],
  CellTags->"DefaultContent",
- CellLabel->"In[187]:=",
+ CellLabel->"In[311]:=",
  CellID->24911376,ExpressionUUID->"d0e59ff5-2ab2-4e0b-b191-fc43ed8c6a2a"]
 }, Open  ]],
 
@@ -388,7 +399,6 @@ then pressing ",
              StyleBox[
               DynamicBox[
                ToBoxes[
-                
                 If[$OperatingSystem === "MacOSX", "\[ReturnKey]", 
                  "\[EnterKey]"], StandardForm], SingleEvaluation -> True, 
                Evaluator -> "System"], ShowStringCharacters -> False]]], 
@@ -32835,7 +32845,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8663757450207047`17.33987904683477*^9, TimeZone -> 
+                    3.8663757903763254`17.339879051929387*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -32859,7 +32869,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8663757450207047`17.33987904683477*^9, TimeZone -> 
+                    3.8663757903763254`17.339879051929387*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -32884,7 +32894,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8663757450207047`17.33987904683477*^9, TimeZone -> 
+                    3.8663757903763254`17.339879051929387*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     SingleEvaluation -> True, Evaluator -> "System"], 
@@ -32898,7 +32908,7 @@ DockedCells->{
                    DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8663757450207047`17.33987904683477*^9, TimeZone -> 
+                    3.8663757903763254`17.339879051929387*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                    StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -32906,39 +32916,142 @@ DockedCells->{
                   FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
                Alignment -> {Right, Baseline}], "\"   \"", 
               ItemBox[
-               
-               DynamicModuleBox[{
-                DefinitionNotebookClient`Utilities`PackagePrivate`pi$$ = 
-                 Mouseover[
-                   Dynamic[
-                   DefinitionNotebookClient`$StripeProgressDisplay, 
-                    TrackedSymbols :> {
-                    DefinitionNotebookClient`$StripeProgressDisplay}], 
-                   Button["Abort \[RightGuillemet]", FrontEndExecute[
-                    FrontEnd`EvaluatorAbort[Automatic]]; 
-                    DefinitionNotebookClient`$ButtonsDisabled = False; Null, 
-                    Appearance -> None, BaseStyle -> Dynamic[
-                    FEPrivate`If[
-                    CurrentValue["MouseOver"], {"HyperlinkActive"}, {
-                    "Hyperlink"}]], Method -> "Preemptive"], ImageSize -> 
-                   All]}, 
-                DynamicBox[
-                 ToBoxes[
-                 DefinitionNotebookClient`Utilities`PackagePrivate`pi$$, 
-                  StandardForm], 
-                 TrackedSymbols :> {
-                  DefinitionNotebookClient`Utilities`PackagePrivate`pi$$}], 
-                Initialization :> 
-                If[$SessionID =!= 19441454899584151767, 
-                  DefinitionNotebookClient`Utilities`PackagePrivate`pi$$ = 
-                  ""], DynamicModuleValues :> {}], ItemSize -> Scaled[0.75], 
+              "\"Found 4 suggestions\"", ItemSize -> Scaled[0.75], 
                StripOnInput -> False]}}, 
             GridBoxAlignment -> {
              "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
             False, GridBoxItemSize -> {
              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
           ItemSize -> Fit, StripOnInput -> False], 
-         ItemBox["\"\"", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          StyleBox[
+           ActionMenuBox[
+            TagBox[
+             TagBox[
+              GridBox[{{
+                 TemplateBox[{
+                   TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    RGBColor[
+                    0.49019607843137253`, 0.49019607843137253`, 
+                    0.49019607843137253`], 
+                    RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
+                    "SuggestionIconTemplate"], 
+                    StyleBox[
+                    "4", FontColor -> GrayLevel[0.5], FontSize -> 9, 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
+                 "\"   \""}}, AutoDelete -> False, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+              "Grid"], 
+             MouseAppearanceTag["LinkHand"]], {TemplateBox[{
+                TemplateBox[{
+                  RGBColor[
+                  0.49019607843137253`, 0.49019607843137253`, 
+                   0.49019607843137253`], 
+                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"The character \\\",\\\" should not be included in argument \
+formatting\""}, "RowDefault"] :> (
+              DefinitionNotebookClient`LoadDefinitionNotebook["Function", 
+                NotebookObject[
+                "cc159ac9-dc71-4fac-869a-b969050df866", 
+                 "54b391af-a8ac-4097-b2e2-942f490df51c"]]; 
+              DefinitionNotebookClient`PackageScope`setHint[
+               "Suggestion", "Function", 
+                ParentNotebook[
+                 CellObject[
+                 "e562a415-7737-454e-b166-7a5ebf74ffb8", 
+                  "e79f48ad-3ca9-4815-ad06-e7a09cd9400e"]], 52321410, 
+                "ExcessiveArgFormat", {","}]; 
+              DefinitionNotebookClient`PackageScope`seek[
+                CellObject[
+                "e562a415-7737-454e-b166-7a5ebf74ffb8", 
+                 "e79f48ad-3ca9-4815-ad06-e7a09cd9400e"]]; Null), TemplateBox[{
+                TemplateBox[{
+                  RGBColor[
+                  0.49019607843137253`, 0.49019607843137253`, 
+                   0.49019607843137253`], 
+                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"The character \\\",\\\" should not be included in argument \
+formatting\""}, "RowDefault"] :> (
+              DefinitionNotebookClient`LoadDefinitionNotebook["Function", 
+                NotebookObject[
+                "cc159ac9-dc71-4fac-869a-b969050df866", 
+                 "54b391af-a8ac-4097-b2e2-942f490df51c"]]; 
+              DefinitionNotebookClient`PackageScope`setHint[
+               "Suggestion", "Function", 
+                ParentNotebook[
+                 CellObject[
+                 "8d0c0ae4-a96d-4995-ae64-ff807b920ec5", 
+                  "84313f2c-f373-403e-b839-398ab9a738e3"]], 379069214, 
+                "ExcessiveArgFormat", {","}]; 
+              DefinitionNotebookClient`PackageScope`seek[
+                CellObject[
+                "8d0c0ae4-a96d-4995-ae64-ff807b920ec5", 
+                 "84313f2c-f373-403e-b839-398ab9a738e3"]]; Null), TemplateBox[{
+                TemplateBox[{
+                  RGBColor[
+                  0.49019607843137253`, 0.49019607843137253`, 
+                   0.49019607843137253`], 
+                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"Extra whitespace should be removed\""}, "RowDefault"] :> (
+              DefinitionNotebookClient`LoadDefinitionNotebook["Function", 
+                NotebookObject[
+                "cc159ac9-dc71-4fac-869a-b969050df866", 
+                 "54b391af-a8ac-4097-b2e2-942f490df51c"]]; 
+              DefinitionNotebookClient`PackageScope`setHint[
+               "Suggestion", "Function", 
+                ParentNotebook[
+                 CellObject[
+                 "8ce3fa0d-0d40-4881-a3bf-3f0b2713ae2a", 
+                  "925ed673-ff11-402f-9ac1-df7732c9a894"]], 208842089, 
+                "ExtraWhitespace", {
+                 Cell[
+                  TextData[{"creates ", 
+                    StyleBox["k", FontSlant -> "Italic"], 
+                    " random graphs  with graph distribution", 
+                    StyleBox["dist", "TI"], " with ", 
+                    StyleBox["frac", "TI"], " of directed edges/arcs."}], 
+                  "UsageDescription", CellID -> 208842089]}]; 
+              DefinitionNotebookClient`PackageScope`seek[
+                CellObject[
+                "8ce3fa0d-0d40-4881-a3bf-3f0b2713ae2a", 
+                 "925ed673-ff11-402f-9ac1-df7732c9a894"]]; Null), TemplateBox[{
+                TemplateBox[{
+                  RGBColor[
+                  0.49019607843137253`, 0.49019607843137253`, 
+                   0.49019607843137253`], 
+                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
+                 "SuggestionIconTemplate"], "\" \"", 
+                "\"Example captions should usually end in a colon when \
+appearing before input\""}, "RowDefault"] :> (
+              DefinitionNotebookClient`LoadDefinitionNotebook["Function", 
+                NotebookObject[
+                "cc159ac9-dc71-4fac-869a-b969050df866", 
+                 "54b391af-a8ac-4097-b2e2-942f490df51c"]]; 
+              DefinitionNotebookClient`PackageScope`setHint[
+               "Suggestion", "Function", 
+                ParentNotebook[
+                 CellObject[
+                 "d8ef9998-6043-4c12-9539-4e86eedeae36", 
+                  "d2b3fd40-f2f1-413e-b77e-4339c46432c9"]], 140435123, 
+                "ExampleTextLastCharacter", {}]; 
+              DefinitionNotebookClient`PackageScope`seek[
+                CellObject[
+                "d8ef9998-6043-4c12-9539-4e86eedeae36", 
+                 "d2b3fd40-f2f1-413e-b77e-4339c46432c9"]]; Null)}, Appearance -> 
+            None, Method -> "Queued"], "BoxID" -> "WarningCountButton", 
+           StripOnInput -> False], ItemSize -> All, StripOnInput -> False], 
          ItemBox[
           TagBox[
            ButtonBox[
@@ -32978,7 +33091,8 @@ DockedCells->{
                CurrentValue["MouseOver"]], ImageSize -> Automatic, 
               FrameMargins -> 0], 
              MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+            With[{
+              DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
                EvaluationNotebook[]}, 
               CurrentValue[
                DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
@@ -33005,8 +33119,8 @@ DockedCells->{
                   Not[
                    FreeQ[
                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "81d66f32-c3e3-4522-94e2-dab6d6649673"]]]]]], Appearance -> 
-            None, BoxID -> "81d66f32-c3e3-4522-94e2-dab6d6649673", Evaluator -> 
+                    "9cce7968-5802-4efd-9b1c-6535313cd80e"]]]]]], Appearance -> 
+            None, BoxID -> "9cce7968-5802-4efd-9b1c-6535313cd80e", Evaluator -> 
             Automatic, Method -> "Preemptive"], 
            MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
           False]}}, 
@@ -33068,8 +33182,7 @@ WyabbVsUI30dbWyR5mC4Y6npzAQV7A7CHW8e0ORJGTUV01ufdzMGR2GbTwVmCj3d8A9cd0NNHoiRcl\
    "ToolsOpen" -> True, "UpdatedTimestamp" -> 
   3.8662814920829074`17.33986845965121*^9, 
   "VersionInformation" -> {"ResourceVersion" -> "1.0.0"}, "TemplateVersion" -> 
-  "1.6.4", "StatusMessage" -> ProgressIndicator[Appearance -> "Necklace"], 
-  "AutoUpdate" -> True},
+  "1.6.4", "StatusMessage" -> "", "AutoUpdate" -> True},
 CreateCellID->True,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->Notebook[{
@@ -33476,8 +33589,7 @@ VX/aMEEQzrerjFhhelYAzofFB3r8AgApYdcE
                 MouseAppearanceTag["LinkHand"]]}}, 
              GridBoxAlignment -> {
               "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, 
-             GridBoxItemSize -> {
+             False, GridBoxItemSize -> {
               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
              GridBoxSpacings -> {"Columns" -> {{0.4}}}], "Grid"], 
            DynamicModuleValues :> {}]}, 
