@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "94d696eb83a9db216b87d128c8538691d62ca3505d533443e34db0409fcaafb8"
+            "78838ff448b8e60567cfa1c4b58148774f15d6fcf20a6b362b073182417940e0"
                 
         |>
         ,
@@ -39,7 +39,21 @@
             ,
             "Hash"
             ->
-            "82c098b24245f3f5d4f1168e6517ece00f4edeb3d8107244e17d61b9866ed4a7"
+            "523677569fa4f67388813396081b90cdd1a8977aab6315e843304474ee6fc086"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\UndirectedGraphToMixedGraph.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "7c5b643fd75d5a25c7421fbf32835064b567dfddb5e03984c2cefb1d8c63edb9"
                 
         |>
     }
