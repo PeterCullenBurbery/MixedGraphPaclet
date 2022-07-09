@@ -26,7 +26,7 @@ RandomMixedGraph[graphDistribution_,threshold_]/;0<=threshold<=1:=Block[{replace
 RandomMixedGraph[graphDistribution_,threshold_,k_?IntegerQ]/;0<=threshold<=1\[And]k>=1:=Block[{randomGraphList} ,randomGraphList=RandomGraph[graphDistribution,k];(randomGraph|->Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],Floor[threshold EdgeCount[randomGraph]]]],EdgeWeight->Thread[EdgeList[randomGraph]->(AnnotationValue[{randomGraph,#1},EdgeWeight])&/@EdgeList[randomGraph]]])/@randomGraphList];
 
 RandomMixedGraph[graphDistribution_,threshold_,array_List]/;0<=threshold<=1:=ArrayReshape[Table[(randomGraph|->Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],\[LeftFloor]threshold EdgeCount[randomGraph]\[RightFloor]]],EdgeWeight->Thread[EdgeList[randomGraph]->(AnnotationValue[{randomGraph,#1},EdgeWeight])&/@EdgeList[randomGraph]]])[k],{k,Flatten[RandomGraph[graphDistribution,array]]}],array]
-
+RandomMixedGraph::usage="RandomMixedGraph[{vertices, edges},threshold]\nRandomMixedGraph[{vertices, edges}, threshold,k]\nRandomMixedGraph[{vertices, edges}, threshold, array]\nRandomMixedGraph[distribution, threshold]\nRandomMixedGraph[distribution, threshold, k]\nRandomMixedGraph[distribution, threshold, array]";
 ClearAll[UndirectedGraphToMixedGraph]
 UndirectedGraphToMixedGraph[graph_?GraphQ,threshold_]:=Block[{replaceCount} ,replaceCount=Floor[threshold EdgeCount[graph]];Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,graph,RandomSample[EdgeList[graph],replaceCount]],EdgeWeight->Thread[EdgeList[graph]->(AnnotationValue[{graph,#1},EdgeWeight])&/@EdgeList[graph]]]]/;0<=threshold<=1
 ClearAll[RandomWeightedMixedGraph]
@@ -41,7 +41,13 @@ RandomWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_]/;0<=thre
 
 RandomWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,k_?IntegerQ]/;0<=threshold<=1\[And]k>=1:=Block[{randomGraphList} ,randomGraphList=RandomGraph[graphDistribution,k];randomGraphList=(randomGraph|->Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],Floor[threshold EdgeCount[randomGraph]]]],EdgeWeight->Thread[EdgeList[randomGraph]->(AnnotationValue[{randomGraph,#1},EdgeWeight])&/@EdgeList[randomGraph]]])/@randomGraphList;Table[(randomGraph|->Graph[randomGraph,Table[randomFunction[kvariable],{kvariable,EdgeCount[randomGraph]}]])[graph],{graph,randomGraphList}]];
 
+
 RandomWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,array_List]/;0<=threshold<=1:=Block[{randomGraphArray},randomGraphArray=Table[(randomGraph|->Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],\[LeftFloor]threshold EdgeCount[randomGraph]\[RightFloor]]],EdgeWeight->Thread[EdgeList[randomGraph]->(AnnotationValue[{randomGraph,#1},EdgeWeight])&/@EdgeList[randomGraph]]])[k],{k,Flatten[RandomGraph[graphDistribution,array]]}];ArrayReshape[Table[(randomGraph|->Graph[randomGraph,Table[randomFunction[kvariable],{kvariable,EdgeCount[randomGraph]}]])[graph],{graph,Flatten@randomGraphArray}],array]]
+
+
+RandomWeightedMixedGraph::usage="RandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction]\nRandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction, k]\nRandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction, array]\nRandomWeightedMixedGraph[distribution, threshold, randomFunction]\nRandomWeightedMixedGraph[distribution, threshold, randomFunction, k]\nRandomWeightedMixedGraph[distribution, threshold, randomFunction, array]";
+
+
 
 
 End[]; (* End `Private` *)
