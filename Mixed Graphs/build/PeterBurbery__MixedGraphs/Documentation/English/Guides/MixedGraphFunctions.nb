@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7386,        200]
-NotebookOptionsPosition[      4795,        144]
-NotebookOutlinePosition[      6463,        185]
-CellTagsIndexPosition[      6420,        182]
+NotebookDataLength[      7713,        210]
+NotebookOptionsPosition[      5003,        152]
+NotebookOutlinePosition[      6673,        193]
+CellTagsIndexPosition[      6630,        190]
 WindowTitle->Mixed Graph Functions
 WindowFrame->Normal*)
 
@@ -81,7 +81,7 @@ MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/MixedGraphFunctions.html"],
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$66987], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$2477509], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/\
@@ -136,6 +136,14 @@ Cell[TextData[{
 }], "GuideText",
  CellID->419295194],
 
+Cell[TextData[{
+ Cell["RandomWeightedMixedGraph", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " make a random weighted mixed graph"
+}], "GuideText",
+ CellID->671619200],
+
 Cell["Metadata", "MetadataSection",
  CellID->323421020]
 }, Open  ]],
@@ -155,7 +163,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 7, 9, 12, 19, 12.5222425}", 
+   "built" -> "{2022, 7, 9, 14, 51, 51.9878595}", 
     "history" -> {"", "", "", ""}, "context" -> "PeterBurbery`MixedGraphs`", 
     "keywords" -> {}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
@@ -163,7 +171,7 @@ TaggingRules->{
     "PeterBurbery/MixedGraphs", "status" -> "None", "summary" -> 
     "This paclet has functions for manipulating, analyzing, generating, and \
 creating mixed graphs.", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$66959, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$2477481, "title" -> 
     "Mixed Graph Functions", "titlemodifier" -> "", "windowtitle" -> 
     "Mixed Graph Functions", "type" -> "Guide", "uri" -> 
     "PeterBurbery/MixedGraphs/Mixed_Graphs/MixedGraphPaclet/guide/\
@@ -184,24 +192,26 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[593, 21, 3168, 78, 70, "AnchorBarGrid",ExpressionUUID->"52550dac-f250-4cee-bf2f-919391bc64e6",
+Cell[593, 21, 3170, 78, 70, "AnchorBarGrid",ExpressionUUID->"893232b4-12bc-44f7-8012-55e622f73e0c",
  CellID->1],
 Cell[CellGroupData[{
-Cell[3786, 103, 63, 1, 70, "GuideTitle",ExpressionUUID->"145693fb-68cf-46cf-ae37-dde6ea481fc1",
+Cell[3788, 103, 63, 1, 70, "GuideTitle",ExpressionUUID->"b1784eb5-44de-4cf6-aeef-1472786ad111",
  CellID->144552694],
-Cell[3852, 106, 148, 4, 70, "GuideAbstract",ExpressionUUID->"909c3ccc-510e-4b2e-972f-fc70ee11f734",
+Cell[3854, 106, 148, 4, 70, "GuideAbstract",ExpressionUUID->"924433a1-7955-45bb-bad0-310d36e962af",
  CellID->100853033],
-Cell[4003, 112, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"b02db326-c268-4e88-a8da-18b84daa7964"],
-Cell[4044, 114, 188, 6, 70, "GuideText",ExpressionUUID->"99d300a4-167d-485d-876e-c58999f7f6e5",
+Cell[4005, 112, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"09a01ae1-76e5-45a6-9116-97ed7243e7ef"],
+Cell[4046, 114, 188, 6, 70, "GuideText",ExpressionUUID->"e0bb6f0e-e108-49a7-a541-dd09d294f74b",
  CellID->12848555],
-Cell[4235, 122, 212, 6, 70, "GuideText",ExpressionUUID->"9cb36026-3b21-40c0-84d8-087ace4ea93f",
+Cell[4237, 122, 212, 6, 70, "GuideText",ExpressionUUID->"86e8d8a2-7ac1-4951-8aff-ed9521cd00bd",
  CellID->295096609],
-Cell[4450, 130, 245, 6, 70, "GuideText",ExpressionUUID->"9f80e974-96f1-415f-9205-957e26491674",
+Cell[4452, 130, 245, 6, 70, "GuideText",ExpressionUUID->"0d28efb6-4a79-4b5d-b5d1-e9fecb2421e7",
  CellID->419295194],
-Cell[4698, 138, 55, 1, 70, "MetadataSection",ExpressionUUID->"76566def-f5d8-4929-800a-a8f102149534",
+Cell[4700, 138, 203, 6, 70, "GuideText",ExpressionUUID->"2873645c-2930-4288-8dc3-0407d9afed64",
+ CellID->671619200],
+Cell[4906, 146, 55, 1, 70, "MetadataSection",ExpressionUUID->"b0520f65-a22b-4951-bd39-ce36e74ceee4",
  CellID->323421020]
 }, Open  ]],
-Cell[4768, 142, 23, 0, 70, "FooterCell",ExpressionUUID->"bf5a8499-e140-439f-94c0-c4145c1ed826"]
+Cell[4976, 150, 23, 0, 70, "FooterCell",ExpressionUUID->"cf8056bf-11df-4978-ad23-f571b94058ac"]
 }
 ]
 *)

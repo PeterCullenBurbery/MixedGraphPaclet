@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.1.0",
+    "Version" -> "1.2.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -21,6 +21,7 @@ PacletObject[
         },
         "Symbols" -> {
           "PeterBurbery`MixedGraphs`RandomMixedGraph",
+          "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
           "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph"
         }
       },

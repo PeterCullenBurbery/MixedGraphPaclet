@@ -21,8 +21,8 @@ PacletObject[
         },
         "Symbols" -> {
           "PeterBurbery`MixedGraphs`RandomMixedGraph",
-          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
-          "PeterBurbery`MixedGraphs`RandomWeightedMixedGraphs"
+          "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
+          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph"
         }
       },
       {"Documentation", "Language" -> "English"}
