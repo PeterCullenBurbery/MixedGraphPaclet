@@ -1,0 +1,504 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20366,        495]
+NotebookOptionsPosition[     16725,        421]
+NotebookOutlinePosition[     18276,        458]
+CellTagsIndexPosition[     18233,        455]
+WindowTitle->EulerizeGraph
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ MIXED GRAPHS SYMBOL", "PacletNameCell",
+           TextAlignment->Center], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]]]
+         }]],
+         StripOnInput->False], {"\<\"Mixed Graph Functions\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/MixedGraphs/guide/MixedGraphFunctions"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"MoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0}],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]]]
+         }]],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/MixedGraphs/ref/EulerizeGraph\"\>":>
+        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell["PeterBurbery/MixedGraphs/ref/EulerizeGraph"]}, Visible -> 
+             False]]; SelectionMove[
+          DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/PeterBurbery/\
+MixedGraphs/ref/EulerizeGraph.html"], StandardForm]], "Input", 
+               TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[(If[
+                TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$35545], 
+                "http://reference.wolfram.com/system-modeler/", 
+                "http://reference.wolfram.com/language/"] <> 
+              "PeterBurbery/MixedGraphs/ref/EulerizeGraph") <> ".html"], 
+            None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0}]
+    }], "AnchorBar",
+     CacheGraphics->False]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1],
+
+Cell["PeterBurbery`MixedGraphs`", "ContextNameCell"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell["EulerizeGraph", "ObjectName"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]]],
+     Cell[BoxData[""], "ObjectNameTranslation"]
+    }]], "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{"EulerizeGraph", "[", "graph", "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro"],
+     " \[LineSeparator]makes graph Eulerian or unicursal by adding edges"
+    }]]}
+  }]], "Usage",
+ CellID->519171020]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]]],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]]],
+   "Details and Options"
+  }], "NotesFrameText"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->"Preemptive"]]]], "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->269504409],
+
+Cell["The graph has to be connected", "Notes",
+ CellID->159675742]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+       "RelatedFunction.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"See", " ", "Also"}], "SeeAlsoSection"]},
+      {Cell[BoxData[
+        TemplateBox[{"SeeAlso", 
+          Cell[
+           BoxData[
+            FrameBox[
+             Cell[
+             "Insert links to any related reference (function) pages. Type a \
+space, a period and then another space between function names. Then click the \
+palette's Inline Listing Toggle button.", "MoreInfoText"], BaseStyle -> 
+             "IFrameBox"]], "MoreInfoTextOuter"]},
+         "MoreInfoOpenerButtonTemplate"]]]}
+     }]}
+  }]], "SeeAlsoSection"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "MoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Mixed Graph Functions"]], 
+           "paclet:PeterBurbery/MixedGraphs/guide/MixedGraphFunctions"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout"]}]}
+     }]}
+  }]], "MoreAboutSection"],
+
+Cell[TextData[{
+ "Examples Initialization",
+ Cell[BoxData[
+  TemplateBox[{"ExamplesInitialization", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Input that is to be evaluated before any examples are run, e.g. \
+Needs[\[Ellipsis]].", "MoreInfoText"], BaseStyle -> "IFrameBox"]], 
+     "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]]]
+}], "ExamplesInitializationSection",
+ CellID->35376270],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`MixedGraphs`\>\"", 
+  "]"}]], "ExampleInitialization",
+ CellID->65065730],
+
+Cell["Create a connected graph", "ExampleText",
+ CellLabel->"In[1]:=",
+ CellID->27494719],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptCapitalG]", "=", 
+  RowBox[{"First", "[", 
+   RowBox[{"TakeLargestBy", "[", 
+    RowBox[{
+     RowBox[{"ConnectedGraphComponents", "[", 
+      RowBox[{"RandomGraph", "[", 
+       RowBox[{"{", 
+        RowBox[{"20", ",", "54"}], "}"}], "]"}], "]"}], ",", "EdgeCount", ",",
+      "1"}], "]"}], "]"}]}]], "Input",
+ CellLabel->"In[3]:=",
+ CellID->23382219],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+       20}, {Null, 
+       SparseArray[
+       Automatic, {20, 20}, 0, {
+        1, {{0, 3, 8, 15, 22, 24, 30, 37, 44, 49, 51, 56, 63, 67, 72, 77, 82, 
+          86, 94, 102, 108}, {{6}, {8}, {16}, {3}, {6}, {16}, {17}, {19}, {
+          2}, {8}, {9}, {11}, {12}, {14}, {18}, {5}, {7}, {12}, {13}, {18}, {
+          19}, {20}, {4}, {19}, {1}, {2}, {8}, {11}, {13}, {18}, {4}, {8}, {
+          9}, {11}, {12}, {19}, {20}, {1}, {3}, {6}, {7}, {11}, {18}, {19}, {
+          3}, {7}, {12}, {14}, {18}, {12}, {15}, {3}, {6}, {7}, {8}, {20}, {
+          3}, {4}, {7}, {9}, {10}, {15}, {18}, {4}, {6}, {15}, {18}, {3}, {
+          9}, {15}, {16}, {17}, {10}, {12}, {13}, {14}, {16}, {1}, {2}, {
+          14}, {15}, {19}, {2}, {14}, {19}, {20}, {3}, {4}, {6}, {8}, {9}, {
+          12}, {13}, {20}, {2}, {4}, {5}, {7}, {8}, {16}, {17}, {20}, {4}, {
+          7}, {11}, {17}, {18}, {19}}}, Pattern}]}]]}, 
+    TagBox[GraphicsGroupBox[GraphicsComplexBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQvcrt1Swpf3aHP4t175dmcDkEuDNvn5fG4eAiaxh2
+XoXVYcMOyVDjFEYHp/u9asfi/9svWpXAFWfM5BDwfesq800P7T/vdY7r0eF0
+YIAC4bnB3PeqWBzO2UVUn7FncvCy3Kv1M4HZweXBZLlUr4/2CUZr51TysTsU
+HQoRl1BgcJgwh/XkkqXf7ZOlq+eHJP+xh5mzJepgfNmmH/YXf65Lnt7N5fDp
+aBmzj8BP+xcLw3+dq/ls3zPzvmB+3Gf7Bx6JQisKf9pXOH84/n3PF/sl6848
+FZr5x17oyaHQxSdYHNoyHO6W6by192BmVP4QzOhw6+ZrppCJjA4rmI85HtvF
+5lBj/Srm5jcuh0mKZd9jvRgddlyrOlEuxOiweqrvjfWrvtrvcrjK693I7mCR
+7ZV05/U3+03/Ynp6nTgdws78YJR799YeAM2WjBM=
+       "], {
+        {Hue[0.6, 0.7, 0.5], Opacity[0.7], Arrowheads[0.], 
+         ArrowBox[{{1, 6}, {1, 8}, {1, 16}, {2, 3}, {2, 6}, {2, 16}, {2, 
+          17}, {2, 19}, {3, 8}, {3, 9}, {3, 11}, {3, 12}, {3, 14}, {3, 18}, {
+          4, 5}, {4, 7}, {4, 12}, {4, 13}, {4, 18}, {4, 19}, {4, 20}, {5, 
+          19}, {6, 8}, {6, 11}, {6, 13}, {6, 18}, {7, 8}, {7, 9}, {7, 11}, {7,
+           12}, {7, 19}, {7, 20}, {8, 11}, {8, 18}, {8, 19}, {9, 12}, {9, 
+          14}, {9, 18}, {10, 12}, {10, 15}, {11, 20}, {12, 15}, {12, 18}, {13,
+           15}, {13, 18}, {14, 15}, {14, 16}, {14, 17}, {15, 16}, {16, 19}, {
+          17, 19}, {17, 20}, {18, 20}, {19, 20}}, 0.03283903357969589]}, 
+        {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[0.7]}], 
+         DiskBox[1, 0.03283903357969589], DiskBox[2, 0.03283903357969589], 
+         DiskBox[3, 0.03283903357969589], DiskBox[4, 0.03283903357969589], 
+         DiskBox[5, 0.03283903357969589], DiskBox[6, 0.03283903357969589], 
+         DiskBox[7, 0.03283903357969589], DiskBox[8, 0.03283903357969589], 
+         DiskBox[9, 0.03283903357969589], DiskBox[10, 0.03283903357969589], 
+         DiskBox[11, 0.03283903357969589], DiskBox[12, 0.03283903357969589], 
+         DiskBox[13, 0.03283903357969589], DiskBox[14, 0.03283903357969589], 
+         DiskBox[15, 0.03283903357969589], DiskBox[16, 0.03283903357969589], 
+         DiskBox[17, 0.03283903357969589], DiskBox[18, 0.03283903357969589], 
+         DiskBox[19, 0.03283903357969589], 
+         DiskBox[20, 0.03283903357969589]}}]],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FormatType->TraditionalForm,
+  FrameTicks->None]], "Output",
+ CellLabel->"Out[3]=",
+ CellID->12702820]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EulerizeGraph", "[", "\[ScriptCapitalG]", "]"}]], "Input",
+ CellLabel->"In[4]:=",
+ CellID->31479465],
+
+Cell[BoxData[
+ RowBox[{"EulerizeGraph", "[", 
+  GraphicsBox[
+   NamespaceBox["NetworkGraphics",
+    DynamicModuleBox[{Typeset`graph = HoldComplete[
+      Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
+       19, 20}, {Null, 
+        SparseArray[
+        Automatic, {20, 20}, 0, {
+         1, {{0, 3, 8, 15, 22, 24, 30, 37, 44, 49, 51, 56, 63, 67, 72, 77, 82,
+            86, 94, 102, 108}, {{6}, {8}, {16}, {3}, {6}, {16}, {17}, {19}, {
+           2}, {8}, {9}, {11}, {12}, {14}, {18}, {5}, {7}, {12}, {13}, {18}, {
+           19}, {20}, {4}, {19}, {1}, {2}, {8}, {11}, {13}, {18}, {4}, {8}, {
+           9}, {11}, {12}, {19}, {20}, {1}, {3}, {6}, {7}, {11}, {18}, {19}, {
+           3}, {7}, {12}, {14}, {18}, {12}, {15}, {3}, {6}, {7}, {8}, {20}, {
+           3}, {4}, {7}, {9}, {10}, {15}, {18}, {4}, {6}, {15}, {18}, {3}, {
+           9}, {15}, {16}, {17}, {10}, {12}, {13}, {14}, {16}, {1}, {2}, {
+           14}, {15}, {19}, {2}, {14}, {19}, {20}, {3}, {4}, {6}, {8}, {9}, {
+           12}, {13}, {20}, {2}, {4}, {5}, {7}, {8}, {16}, {17}, {20}, {4}, {
+           7}, {11}, {17}, {18}, {19}}}, Pattern}]}]]}, 
+     TagBox[GraphicsGroupBox[GraphicsComplexBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQvcrt1Swpf3aHP4t175dmcDkEuDNvn5fG4eAiaxh2
+XoXVYcMOyVDjFEYHp/u9asfi/9svWpXAFWfM5BDwfesq800P7T/vdY7r0eF0
+YIAC4bnB3PeqWBzO2UVUn7FncvCy3Kv1M4HZweXBZLlUr4/2CUZr51TysTsU
+HQoRl1BgcJgwh/XkkqXf7ZOlq+eHJP+xh5mzJepgfNmmH/YXf65Lnt7N5fDp
+aBmzj8BP+xcLw3+dq/ls3zPzvmB+3Gf7Bx6JQisKf9pXOH84/n3PF/sl6848
+FZr5x17oyaHQxSdYHNoyHO6W6by192BmVP4QzOhw6+ZrppCJjA4rmI85HtvF
+5lBj/Srm5jcuh0mKZd9jvRgddlyrOlEuxOiweqrvjfWrvtrvcrjK693I7mCR
+7ZV05/U3+03/Ynp6nTgdws78YJR799YeAM2WjBM=
+        "], {
+         {Hue[0.6, 0.7, 0.5], Opacity[0.7], Arrowheads[0.], 
+          ArrowBox[{{1, 6}, {1, 8}, {1, 16}, {2, 3}, {2, 6}, {2, 16}, {2, 
+           17}, {2, 19}, {3, 8}, {3, 9}, {3, 11}, {3, 12}, {3, 14}, {3, 18}, {
+           4, 5}, {4, 7}, {4, 12}, {4, 13}, {4, 18}, {4, 19}, {4, 20}, {5, 
+           19}, {6, 8}, {6, 11}, {6, 13}, {6, 18}, {7, 8}, {7, 9}, {7, 11}, {
+           7, 12}, {7, 19}, {7, 20}, {8, 11}, {8, 18}, {8, 19}, {9, 12}, {9, 
+           14}, {9, 18}, {10, 12}, {10, 15}, {11, 20}, {12, 15}, {12, 18}, {
+           13, 15}, {13, 18}, {14, 15}, {14, 16}, {14, 17}, {15, 16}, {16, 
+           19}, {17, 19}, {17, 20}, {18, 20}, {19, 20}}, 
+           0.03283903357969589]}, 
+         {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[0.7]}], 
+          DiskBox[1, 0.03283903357969589], DiskBox[2, 0.03283903357969589], 
+          DiskBox[3, 0.03283903357969589], DiskBox[4, 0.03283903357969589], 
+          DiskBox[5, 0.03283903357969589], DiskBox[6, 0.03283903357969589], 
+          DiskBox[7, 0.03283903357969589], DiskBox[8, 0.03283903357969589], 
+          DiskBox[9, 0.03283903357969589], DiskBox[10, 0.03283903357969589], 
+          DiskBox[11, 0.03283903357969589], DiskBox[12, 0.03283903357969589], 
+          DiskBox[13, 0.03283903357969589], DiskBox[14, 0.03283903357969589], 
+          DiskBox[15, 0.03283903357969589], DiskBox[16, 0.03283903357969589], 
+          DiskBox[17, 0.03283903357969589], DiskBox[18, 0.03283903357969589], 
+          DiskBox[19, 0.03283903357969589], 
+          DiskBox[20, 0.03283903357969589]}}]],
+      MouseAppearanceTag["NetworkGraphics"]],
+     AllowKernelInitialization->False]],
+   DefaultBaseStyle->{
+    "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+   FormatType->TraditionalForm,
+   FrameTicks->None], "]"}]], "Output",
+ CellLabel->"Out[4]=",
+ CellID->14717134]
+}, Open  ]],
+
+Cell["Metadata", "MetadataSection",
+ CellID->231682347]
+}, Open  ]],
+
+Cell[" ", "FooterCell"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"EulerizeGraph",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}, 
+    "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 7, 11, 18, 35, 23.2044703}", 
+    "history" -> {"", "", "", ""}, "context" -> "PeterBurbery`MixedGraphs`", 
+    "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "Peter Burbery/ Mixed Graphs Symbol", "language" -> "en", "paclet" -> 
+    "PeterBurbery/MixedGraphs", "status" -> "None", "summary" -> 
+    "EulerizeGraph[graph] makes graph Eulerian or unicursal by adding edges", 
+    "synonyms" -> {}, "tabletags" -> {}, "title" -> "EulerizeGraph", 
+    "titlemodifier" -> "", "windowtitle" -> "EulerizeGraph", "type" -> 
+    "Symbol", "uri" -> "PeterBurbery/MixedGraphs/ref/EulerizeGraph"}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[585, 21, 3906, 101, 70, "AnchorBarGrid",ExpressionUUID->"cdce49c6-dc89-4868-a7e1-62a8c1b44ac5",
+ CellID->1],
+Cell[4494, 124, 52, 0, 70, "ContextNameCell",ExpressionUUID->"2e9421ed-1aff-44f2-afc1-c1cbf439e9e4"],
+Cell[CellGroupData[{
+Cell[4571, 128, 248, 8, 70, "ObjectNameGrid",ExpressionUUID->"ada6b68c-57ce-4084-ab7b-a08c615a02bc"],
+Cell[4822, 138, 292, 8, 70, "Usage",ExpressionUUID->"8de7c5a0-0a30-4411-8163-3f1e55558203",
+ CellID->519171020]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5151, 151, 1633, 45, 70, "NotesSection",ExpressionUUID->"ab98e6bc-8b2f-4998-bb84-bc053b50bb26",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->269504409],
+Cell[6787, 198, 66, 1, 70, "Notes",ExpressionUUID->"c86c6b23-e7c9-45f9-9c49-9130df389db7",
+ CellID->159675742]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[6958, 203, 782, 21, 70, "SeeAlsoSection",ExpressionUUID->"9572ac71-a80e-467d-a5a8-aec968a4637a"],
+Cell[CellGroupData[{
+Cell[7765, 228, 630, 17, 70, "MoreAboutSection",ExpressionUUID->"917dd4b5-9e9f-4ae4-a411-af229f357169"],
+Cell[8398, 247, 416, 13, 70, "ExamplesInitializationSection",ExpressionUUID->"591e2c2c-82e6-40f4-aa9e-3d4a32693e3b",
+ CellID->35376270],
+Cell[8817, 262, 128, 3, 70, "ExampleInitialization",ExpressionUUID->"b8ffe444-3b2c-4e4a-b5b1-f7454a64d538",
+ CellID->65065730],
+Cell[8948, 267, 89, 2, 70, "ExampleText",ExpressionUUID->"dc05f5e4-0d37-4524-9be9-9ad16782407b",
+ CellID->27494719],
+Cell[CellGroupData[{
+Cell[9062, 273, 384, 11, 70, "Input",ExpressionUUID->"76f3b5d5-a3fc-4414-9a03-b69d4beb1e97",
+ CellID->23382219],
+Cell[9449, 286, 3451, 57, 70, "Output",ExpressionUUID->"a115ed07-6eac-41a7-9a93-0b1e9e9e759d",
+ CellID->12702820]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12937, 348, 124, 3, 70, "Input",ExpressionUUID->"6c990c01-7916-473c-803b-46545cdcb1cb",
+ CellID->31479465],
+Cell[13064, 353, 3549, 59, 70, "Output",ExpressionUUID->"33a83aff-4afd-4c14-a9d5-3e25b8f9989e",
+ CellID->14717134]
+}, Open  ]],
+Cell[16628, 415, 55, 1, 70, "MetadataSection",ExpressionUUID->"43ed40bf-62e2-4661-82f9-d303e71084d3",
+ CellID->231682347]
+}, Open  ]],
+Cell[16698, 419, 23, 0, 70, "FooterCell",ExpressionUUID->"82bacfb9-32b7-4c7c-8842-53c632001f27"]
+}
+]
+*)
+
+(* End of internal cache information *)

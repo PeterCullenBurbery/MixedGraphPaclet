@@ -10,14 +10,1233 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[       822,         34]
-NotebookOptionsPosition[       561,         21]
-NotebookOutlinePosition[       962,         37]
-CellTagsIndexPosition[       919,         34]
+NotebookDataLength[     53768,       1258]
+NotebookOptionsPosition[     53187,       1240]
+NotebookOutlinePosition[     53588,       1256]
+CellTagsIndexPosition[     53545,       1253]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_", ",", 
+        "randomFunction_"}], "]"}], "/;", 
+      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"replaceCount", ",", "randomGraph"}], "}"}], ",", 
+       RowBox[{
+        RowBox[{"randomGraph", "=", 
+         RowBox[{"RandomGraph", "[", 
+          RowBox[{"{", 
+           RowBox[{"vertices", ",", "edges"}], "}"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"replaceCount", "=", 
+         RowBox[{"Floor", "[", 
+          RowBox[{"threshold", " ", "edges"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"randomGraph", "=", 
+         RowBox[{"Graph", "[", 
+          RowBox[{"Fold", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"EdgeAdd", "[", 
+              RowBox[{
+               RowBox[{"EdgeDelete", "[", 
+                RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+               RowBox[{
+                RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+            "randomGraph", ",", 
+            RowBox[{"RandomSample", "[", 
+             RowBox[{
+              RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
+              "replaceCount"}], "]"}]}], "]"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"Graph", "[", 
+         RowBox[{"randomGraph", ",", 
+          RowBox[{"EdgeWeight", "->", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"#1", "->", 
+               RowBox[{"randomFunction", "[", "]"}]}], "&"}], ")"}], "/@", 
+            RowBox[{"EdgeList", "[", "randomGraph", "]"}]}]}]}], "]"}]}]}], 
+      "]"}]}], "}"}], ",", 
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_", ",", 
+        "randomFunction_", ",", 
+        RowBox[{"k_", "?", "IntegerQ"}]}], "]"}], "/;", 
+      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"RandomWeightedMixedGraph", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"vertices", ",", "edges"}], "}"}], ",", "threshold", ",", 
+         "randomFunction"}], "]"}], ",", "k"}], "]"}]}], "}"}], ",", 
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"vertices_", ",", "edges_"}], "}"}], ",", "threshold_", ",", 
+        "randomFunction_", ",", "array_List"}], "]"}], "/;", 
+      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+     RowBox[{"Array", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomWeightedMixedGraph", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"vertices", ",", "edges"}], "}"}], ",", "threshold", ",", 
+          "randomFunction"}], "]"}], "&"}], ",", "array"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+       "graphDistribution_", ",", "threshold_", ",", "randomFunction_"}], 
+       "]"}], "/;", 
+      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"replaceCount", ",", "randomGraph"}], "}"}], ",", 
+       RowBox[{
+        RowBox[{"randomGraph", "=", 
+         RowBox[{"RandomGraph", "[", "graphDistribution", "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"replaceCount", "=", 
+         RowBox[{"Floor", "[", 
+          RowBox[{"threshold", " ", 
+           RowBox[{"EdgeCount", "[", "randomGraph", "]"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"randomGraph", "=", 
+         RowBox[{"Graph", "[", 
+          RowBox[{"Fold", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"EdgeAdd", "[", 
+              RowBox[{
+               RowBox[{"EdgeDelete", "[", 
+                RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+               RowBox[{
+                RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+            "randomGraph", ",", 
+            RowBox[{"RandomSample", "[", 
+             RowBox[{
+              RowBox[{"EdgeList", "[", "randomGraph", "]"}], ",", 
+              "replaceCount"}], "]"}]}], "]"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"Graph", "[", 
+         RowBox[{"randomGraph", ",", 
+          RowBox[{"EdgeWeight", "->", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"#1", "->", 
+               RowBox[{"randomFunction", "[", "]"}]}], "&"}], ")"}], "/@", 
+            RowBox[{"EdgeList", "[", "randomGraph", "]"}]}]}]}], "]"}]}]}], 
+      "]"}]}], "}"}], ",", 
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+       "graphDistribution_", ",", "threshold_", ",", "randomFunction_", ",", 
+        RowBox[{"k_", "?", "IntegerQ"}]}], "]"}], "/;", 
+      RowBox[{
+       RowBox[{"0", "<=", "threshold", "<=", "1"}], "&&", 
+       RowBox[{"k", ">=", "1"}]}]}], ":=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"RandomWeightedMixedGraph", "[", 
+        RowBox[{
+        "graphDistribution", ",", "threshold", ",", "randomFunction"}], "]"}],
+        ",", "k"}], "]"}]}], "}"}], ",", 
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"RandomWeightedMixedGraph", "[", 
+       RowBox[{
+       "graphDistribution_", ",", "threshold_", ",", "randomFunction_", ",", 
+        "array_List"}], "]"}], "/;", 
+      RowBox[{"0", "<=", "threshold", "<=", "1"}]}], ":=", 
+     RowBox[{"Array", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomWeightedMixedGraph", "[", 
+         RowBox[{
+         "graphDistribution", ",", "threshold", ",", "randomFunction"}], 
+         "]"}], "&"}], ",", "array"}], "]"}]}], "}"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.86656730205882*^9, 
+  3.866567302061829*^9}},ExpressionUUID->"203baae1-1d09-4161-86fb-\
+a908ea7e09dc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "RandomMixedGraph"}]], "Input",
+ CellChangeTimes->{{3.866567312308201*^9, 3.8665673149428*^9}},
+ CellLabel->
+  "In[187]:=",ExpressionUUID->"9cdcc653-cc0c-4d28-9013-32bf596208d5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph",
+              
+              ButtonNote->
+               "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph"],
+             "\"paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"RandomMixedGraph[{vertices, \
+edges},threshold]\\nRandomMixedGraph[{vertices, edges}, \
+threshold,k]\\nRandomMixedGraph[{vertices, edges}, threshold, \
+array]\\nRandomMixedGraph[distribution, \
+threshold]\\nRandomMixedGraph[distribution, threshold, \
+k]\\nRandomMixedGraph[distribution, threshold, array]\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[
+           TagBox[GridBox[{
+              {
+               StyleBox[
+                TagBox[
+                 TooltipBox[
+                  StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+                   StripOnInput->False],
+                  "\"Definitions\"",
+                  TooltipStyle->"TextStyling"],
+                 Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
+                StripOnInput->False]},
+              {
+               TemplateBox[{"\"\[ThinSpace]\"", 
+                 GridBox[{{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices_", ",",
+                     "PeterBurbery`MixedGraphs`Private`edges_"}], "}"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`threshold_"}], "]"}], 
+                    "/;", 
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}]}], ":=", 
+                    RowBox[{"Block", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    ",", "PeterBurbery`MixedGraphs`Private`randomGraph"}], 
+                    "}"}], ",", 
+                    RowBox[{
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    "=", 
+                    RowBox[{"RandomGraph", "[", 
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices", ",", 
+                    "PeterBurbery`MixedGraphs`Private`edges"}], "}"}], 
+                    "]"}]}], ";", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    "=", 
+                    RowBox[{"Floor", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ",
+                     "PeterBurbery`MixedGraphs`Private`edges"}], "]"}]}], ";", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", "PeterBurbery`MixedGraphs`Private`replaceCount"}], 
+                    "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}]}], "]"}]}]}, {" "}, {
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices_", ",",
+                     "PeterBurbery`MixedGraphs`Private`edges_"}], "}"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`threshold_", ",", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`k_", "?", 
+                    "IntegerQ"}]}], "]"}], "/;", 
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}]}], ":=", 
+                    RowBox[{"Block", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    ",", "PeterBurbery`MixedGraphs`Private`randomGraphList"}],
+                     "}"}], ",", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`randomGraphList", "=", 
+                    RowBox[{"RandomGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices", ",", 
+                    "PeterBurbery`MixedGraphs`Private`edges"}], "}"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`k"}], "]"}]}], ";", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    "=", 
+                    RowBox[{"Floor", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ",
+                     "PeterBurbery`MixedGraphs`Private`edges"}], "]"}]}], ";", 
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", "PeterBurbery`MixedGraphs`Private`replaceCount"}], 
+                    "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}], "]"}], "/@", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraphList"}]}]}], 
+                    "]"}]}]}, {" "}, {
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices_", ",",
+                     "PeterBurbery`MixedGraphs`Private`edges_"}], "}"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`threshold_", ",", 
+                    "PeterBurbery`MixedGraphs`Private`array_List"}], "]"}], 
+                    "/;", 
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}]}], ":=", 
+                    RowBox[{"ArrayReshape", "[", 
+                    RowBox[{
+                    RowBox[{"Table", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ", 
+                    
+                    RowBox[{"EdgeCount", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}], "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}], "]"}], "[", 
+                    "PeterBurbery`MixedGraphs`Private`k", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`k", ",", 
+                    RowBox[{"Flatten", "[", 
+                    RowBox[{"RandomGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`vertices", ",", 
+                    "PeterBurbery`MixedGraphs`Private`edges"}], "}"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`array"}], "]"}], 
+                    "]"}]}], "}"}]}], "]"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`array"}], "]"}]}]}, {
+                   " "}, {
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution_", 
+                    ",", "PeterBurbery`MixedGraphs`Private`threshold_"}], 
+                    "]"}], "/;", 
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}]}], ":=", 
+                    RowBox[{"Block", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    ",", "PeterBurbery`MixedGraphs`Private`randomGraph"}], 
+                    "}"}], ",", 
+                    RowBox[{
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    "=", 
+                    
+                    RowBox[{"RandomGraph", "[", 
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution", 
+                    "]"}]}], ";", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`replaceCount", 
+                    "=", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ", 
+                    
+                    RowBox[{"EdgeCount", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}], ";", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", "PeterBurbery`MixedGraphs`Private`replaceCount"}], 
+                    "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}]}], "]"}]}]}, {" "}, {
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution_", 
+                    ",", "PeterBurbery`MixedGraphs`Private`threshold_", ",", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`k_", "?", 
+                    "IntegerQ"}]}], "]"}], "/;", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}], "&&", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`k", "\[GreaterEqual]", 
+                    "1"}]}]}], ":=", 
+                    RowBox[{"Block", "[", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "{", "PeterBurbery`MixedGraphs`Private`randomGraphList", 
+                    "}"}], ",", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`randomGraphList", "=", 
+                    RowBox[{"RandomGraph", "[", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution", ",",
+                     "PeterBurbery`MixedGraphs`Private`k"}], "]"}]}], ";", 
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ", 
+                    
+                    RowBox[{"EdgeCount", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}], "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}], "]"}], "/@", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraphList"}]}]}], 
+                    "]"}]}]}, {" "}, {
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomMixedGraph", "[", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution_", 
+                    ",", "PeterBurbery`MixedGraphs`Private`threshold_", ",", 
+                    "PeterBurbery`MixedGraphs`Private`array_List"}], "]"}], 
+                    "/;", 
+                    
+                    RowBox[{
+                    "0", "\[LessEqual]", 
+                    "PeterBurbery`MixedGraphs`Private`threshold", 
+                    "\[LessEqual]", "1"}]}], ":=", 
+                    RowBox[{"ArrayReshape", "[", 
+                    RowBox[{
+                    RowBox[{"Table", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Function", "[", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", 
+                    RowBox[{"Graph", "[", 
+                    RowBox[{
+                    RowBox[{"Fold", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"EdgeAdd", "[", 
+                    RowBox[{
+                    RowBox[{"EdgeDelete", "[", 
+                    RowBox[{"#1", ",", "#2"}], "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#2", "]"}], "\[DirectedEdge]", 
+                    RowBox[{"Last", "[", "#2", "]"}]}]}], "]"}], "&"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", ",", 
+                    RowBox[{"RandomSample", "[", 
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    ",", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`threshold", " ", 
+                    
+                    RowBox[{"EdgeCount", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}], "]"}]}], "]"}], ",", 
+                    RowBox[{"EdgeWeight", "\[Rule]", 
+                    RowBox[{"Thread", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}], 
+                    "\[Rule]", 
+                    RowBox[{"AnnotationValue", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`randomGraph", 
+                    ",", "#1"}], "}"}], ",", "EdgeWeight"}], "]"}]}], "&"}], 
+                    ")"}], "/@", 
+                    
+                    RowBox[{"EdgeList", "[", 
+                    "PeterBurbery`MixedGraphs`Private`randomGraph", "]"}]}], 
+                    "]"}]}]}], "]"}]}], "]"}], "[", 
+                    "PeterBurbery`MixedGraphs`Private`k", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"PeterBurbery`MixedGraphs`Private`k", ",", 
+                    RowBox[{"Flatten", "[", 
+                    RowBox[{"RandomGraph", "[", 
+                    
+                    RowBox[{
+                    "PeterBurbery`MixedGraphs`Private`graphDistribution", ",",
+                     "PeterBurbery`MixedGraphs`Private`array"}], "]"}], 
+                    "]"}]}], "}"}]}], "]"}], ",", 
+                    "PeterBurbery`MixedGraphs`Private`array"}], "]"}]}]}, {
+                   " "}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  DefaultBaseStyle -> "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+                "RowDefault"]}
+             },
+             DefaultBaseStyle->"Column",
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Column"],
+           FrameMargins->{{6, 0}, {3, 6}}], "\<\"\"\>"},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", 
+                    "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph", 
+                    "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph", 
+                    "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], \
+"\<\"PeterBurbery`MixedGraphs`RandomMixedGraph\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph",
+              
+              ButtonNote->
+               "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph"],
+             "\"paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"RandomMixedGraph[{vertices, \
+edges},threshold]\\nRandomMixedGraph[{vertices, edges}, \
+threshold,k]\\nRandomMixedGraph[{vertices, edges}, threshold, \
+array]\\nRandomMixedGraph[distribution, \
+threshold]\\nRandomMixedGraph[distribution, threshold, \
+k]\\nRandomMixedGraph[distribution, threshold, array]\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "RandomMixedGraph[{vertices, edges},threshold]\n\
+RandomMixedGraph[{vertices, edges}, threshold,k]\nRandomMixedGraph[{vertices, \
+edges}, threshold, array]\nRandomMixedGraph[distribution, threshold]\n\
+RandomMixedGraph[distribution, threshold, k]\nRandomMixedGraph[distribution, \
+threshold, array]", 
+    "Documentation" -> <|
+     "Local" -> "paclet:PeterBurbery/MixedGraphs/ref/RandomMixedGraph"|>, 
+    "OwnValues" -> None, "UpValues" -> None, "DownValues" -> 
+    Information`InformationValueForm[
+     DownValues, PeterBurbery`MixedGraphs`RandomMixedGraph, {Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[{
+           Pattern[PeterBurbery`MixedGraphs`Private`vertices, 
+            Blank[]], 
+           Pattern[PeterBurbery`MixedGraphs`Private`edges, 
+            Blank[]]}, 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]]], 0 <= PeterBurbery`MixedGraphs`Private`threshold <= 1] :> 
+       Block[{PeterBurbery`MixedGraphs`Private`replaceCount, 
+          PeterBurbery`MixedGraphs`Private`randomGraph}, 
+         PeterBurbery`MixedGraphs`Private`randomGraph = 
+          RandomGraph[{
+            PeterBurbery`MixedGraphs`Private`vertices, 
+             PeterBurbery`MixedGraphs`Private`edges}]; 
+         PeterBurbery`MixedGraphs`Private`replaceCount = 
+          Floor[PeterBurbery`MixedGraphs`Private`threshold 
+            PeterBurbery`MixedGraphs`Private`edges]; Graph[
+           Fold[EdgeAdd[
+             EdgeDelete[#, #2], 
+             DirectedEdge[
+              First[#2], 
+              Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+            RandomSample[
+             EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+             PeterBurbery`MixedGraphs`Private`replaceCount]], EdgeWeight -> 
+           Thread[
+             Map[
+             EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+              AnnotationValue[{
+                PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                EdgeWeight]& , 
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]], 
+       Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[{
+           Pattern[PeterBurbery`MixedGraphs`Private`vertices, 
+            Blank[]], 
+           Pattern[PeterBurbery`MixedGraphs`Private`edges, 
+            Blank[]]}, 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]], 
+          PatternTest[
+           Pattern[PeterBurbery`MixedGraphs`Private`k, 
+            Blank[]], IntegerQ]], 0 <= 
+         PeterBurbery`MixedGraphs`Private`threshold <= 1] :> 
+       Block[{PeterBurbery`MixedGraphs`Private`replaceCount, 
+          PeterBurbery`MixedGraphs`Private`randomGraphList}, 
+         PeterBurbery`MixedGraphs`Private`randomGraphList = 
+          RandomGraph[{
+            PeterBurbery`MixedGraphs`Private`vertices, 
+             PeterBurbery`MixedGraphs`Private`edges}, 
+            PeterBurbery`MixedGraphs`Private`k]; 
+         PeterBurbery`MixedGraphs`Private`replaceCount = 
+          Floor[PeterBurbery`MixedGraphs`Private`threshold 
+            PeterBurbery`MixedGraphs`Private`edges]; Map[
+           Function[PeterBurbery`MixedGraphs`Private`randomGraph, 
+            Graph[
+             Fold[EdgeAdd[
+               EdgeDelete[#, #2], 
+               DirectedEdge[
+                First[#2], 
+                Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+              RandomSample[
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+               PeterBurbery`MixedGraphs`Private`replaceCount]], EdgeWeight -> 
+             Thread[
+               Map[
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+                AnnotationValue[{
+                  PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                  EdgeWeight]& , 
+                EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]], 
+           PeterBurbery`MixedGraphs`Private`randomGraphList]], Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[{
+           Pattern[PeterBurbery`MixedGraphs`Private`vertices, 
+            Blank[]], 
+           Pattern[PeterBurbery`MixedGraphs`Private`edges, 
+            Blank[]]}, 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]], 
+          Pattern[PeterBurbery`MixedGraphs`Private`array, 
+           Blank[List]]], 0 <= PeterBurbery`MixedGraphs`Private`threshold <= 
+         1] :> ArrayReshape[
+         Table[
+          Function[PeterBurbery`MixedGraphs`Private`randomGraph, 
+           Graph[
+            Fold[EdgeAdd[
+              EdgeDelete[#, #2], 
+              DirectedEdge[
+               First[#2], 
+               Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+             RandomSample[
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+              Floor[
+              PeterBurbery`MixedGraphs`Private`threshold 
+               EdgeCount[PeterBurbery`MixedGraphs`Private`randomGraph]]]], 
+            EdgeWeight -> Thread[
+              Map[
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+               AnnotationValue[{
+                 PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                 EdgeWeight]& , 
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]][
+          PeterBurbery`MixedGraphs`Private`k], {
+          PeterBurbery`MixedGraphs`Private`k, 
+           Flatten[
+            
+            RandomGraph[{
+             PeterBurbery`MixedGraphs`Private`vertices, 
+              PeterBurbery`MixedGraphs`Private`edges}, 
+             PeterBurbery`MixedGraphs`Private`array]]}], 
+         PeterBurbery`MixedGraphs`Private`array], Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[
+          Pattern[PeterBurbery`MixedGraphs`Private`graphDistribution, 
+           Blank[]], 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]]], 0 <= PeterBurbery`MixedGraphs`Private`threshold <= 1] :> 
+       Block[{PeterBurbery`MixedGraphs`Private`replaceCount, 
+          PeterBurbery`MixedGraphs`Private`randomGraph}, 
+         PeterBurbery`MixedGraphs`Private`randomGraph = 
+          RandomGraph[PeterBurbery`MixedGraphs`Private`graphDistribution]; 
+         PeterBurbery`MixedGraphs`Private`replaceCount = 
+          Floor[PeterBurbery`MixedGraphs`Private`threshold 
+            EdgeCount[PeterBurbery`MixedGraphs`Private`randomGraph]]; Graph[
+           Fold[EdgeAdd[
+             EdgeDelete[#, #2], 
+             DirectedEdge[
+              First[#2], 
+              Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+            RandomSample[
+             EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+             PeterBurbery`MixedGraphs`Private`replaceCount]], EdgeWeight -> 
+           Thread[
+             Map[
+             EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+              AnnotationValue[{
+                PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                EdgeWeight]& , 
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]], 
+       Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[
+          Pattern[PeterBurbery`MixedGraphs`Private`graphDistribution, 
+           Blank[]], 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]], 
+          PatternTest[
+           Pattern[PeterBurbery`MixedGraphs`Private`k, 
+            Blank[]], IntegerQ]], 
+         And[
+         0 <= PeterBurbery`MixedGraphs`Private`threshold <= 1, 
+          PeterBurbery`MixedGraphs`Private`k >= 1]] :> 
+       Block[{PeterBurbery`MixedGraphs`Private`randomGraphList}, 
+         PeterBurbery`MixedGraphs`Private`randomGraphList = 
+          RandomGraph[
+           PeterBurbery`MixedGraphs`Private`graphDistribution, 
+            PeterBurbery`MixedGraphs`Private`k]; Map[
+           Function[PeterBurbery`MixedGraphs`Private`randomGraph, 
+            Graph[
+             Fold[EdgeAdd[
+               EdgeDelete[#, #2], 
+               DirectedEdge[
+                First[#2], 
+                Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+              RandomSample[
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+               Floor[
+               PeterBurbery`MixedGraphs`Private`threshold 
+                EdgeCount[PeterBurbery`MixedGraphs`Private`randomGraph]]]], 
+             EdgeWeight -> Thread[
+               Map[
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+                AnnotationValue[{
+                  PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                  EdgeWeight]& , 
+                EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]], 
+           PeterBurbery`MixedGraphs`Private`randomGraphList]], Condition[
+         PeterBurbery`MixedGraphs`RandomMixedGraph[
+          Pattern[PeterBurbery`MixedGraphs`Private`graphDistribution, 
+           Blank[]], 
+          Pattern[PeterBurbery`MixedGraphs`Private`threshold, 
+           Blank[]], 
+          Pattern[PeterBurbery`MixedGraphs`Private`array, 
+           Blank[List]]], 0 <= PeterBurbery`MixedGraphs`Private`threshold <= 
+         1] :> ArrayReshape[
+         Table[
+          Function[PeterBurbery`MixedGraphs`Private`randomGraph, 
+           Graph[
+            Fold[EdgeAdd[
+              EdgeDelete[#, #2], 
+              DirectedEdge[
+               First[#2], 
+               Last[#2]]]& , PeterBurbery`MixedGraphs`Private`randomGraph, 
+             RandomSample[
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph], 
+              Floor[
+              PeterBurbery`MixedGraphs`Private`threshold 
+               EdgeCount[PeterBurbery`MixedGraphs`Private`randomGraph]]]], 
+            EdgeWeight -> Thread[
+              Map[
+              EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph] -> 
+               AnnotationValue[{
+                 PeterBurbery`MixedGraphs`Private`randomGraph, #}, 
+                 EdgeWeight]& , 
+               EdgeList[PeterBurbery`MixedGraphs`Private`randomGraph]]]]][
+          PeterBurbery`MixedGraphs`Private`k], {
+          PeterBurbery`MixedGraphs`Private`k, 
+           Flatten[
+            RandomGraph[
+            PeterBurbery`MixedGraphs`Private`graphDistribution, 
+             PeterBurbery`MixedGraphs`Private`array]]}], 
+         PeterBurbery`MixedGraphs`Private`array]}], "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {}, "FullName" -> 
+    "PeterBurbery`MixedGraphs`RandomMixedGraph"|>, False]]], "Output",
+ CellChangeTimes->{3.86656731574482*^9},
+ CellLabel->
+  "Out[187]=",ExpressionUUID->"2d2812df-a668-4d53-8bf9-d48d0f9ee2cd"]
+}, Open  ]]
 },
 WindowSize->{1141.2, 585.6},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -36,9 +1255,12 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 6578, 176, 390, "Input",ExpressionUUID->"203baae1-1d09-4161-86fb-a908ea7e09dc"],
+Cell[CellGroupData[{
+Cell[7161, 200, 206, 4, 28, "Input",ExpressionUUID->"9cdcc653-cc0c-4d28-9013-32bf596208d5"],
+Cell[7370, 206, 45801, 1031, 222, "Output",ExpressionUUID->"2d2812df-a668-4d53-8bf9-d48d0f9ee2cd"]
+}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 

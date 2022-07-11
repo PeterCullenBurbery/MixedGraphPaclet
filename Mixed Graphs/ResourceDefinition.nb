@@ -100,7 +100,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"a45261ad-590f-46d5-a508-acd9da7be18a"]], \
+   "Text"}]],ExpressionUUID->"37d00395-5adf-467e-8dbd-33b864f999f9"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -111,7 +111,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDocumentationIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->782337372,ExpressionUUID->"222b59f5-6d1a-49c6-bc09-f93efc43a51b"],
+ CellID->782337372,ExpressionUUID->"06358c64-34a9-4f3d-9a3c-a3cc7d23c327"],
 
 Cell[CellGroupData[{
 
@@ -141,7 +141,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation/English"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"7980c3ac-cf7d-4f62-8941-343131199f48"]], \
+   "Text"}]],ExpressionUUID->"459e7b10-800e-423b-bae1-f0588dfcdf74"]], \
 "FileManagerDirectory",
  CellMargins->{{23 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 110},
@@ -152,7 +152,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->65349531,ExpressionUUID->"1941a8d5-2017-4ca0-928d-0495dac61a2c"],
+ CellID->65349531,ExpressionUUID->"bd349437-ce86-4b78-a06d-d80e9b77e5c5"],
 
 Cell[CellGroupData[{
 
@@ -181,7 +181,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation/English/Guides"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"5984b94f-c25c-4d6d-85c5-cbbf6a0e0e93"]], \
+   "Text"}]],ExpressionUUID->"d5162e94-c304-489b-ad71-016a02726c28"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -192,7 +192,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->83806972,ExpressionUUID->"2c963c6c-b4ae-48ce-ac6a-78a4d3313657"],
+ CellID->83806972,ExpressionUUID->"31225a2f-be41-4a31-9590-52e9c79a84f2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -220,7 +220,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->751818396,ExpressionUUID->"d0ac7fc4-3c35-4e1f-901c-32c9ce46455f"]
+ CellID->751818396,ExpressionUUID->"028d7b40-80d4-4285-ae89-b0280db848a0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -251,7 +251,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation/English/ReferencePages"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"ea7df189-2f1e-40a1-965b-107a33990407"]], \
+   "Text"}]],ExpressionUUID->"8090f23b-e169-43c7-a5c6-7e95b61f7eb7"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -262,7 +262,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->199648429,ExpressionUUID->"9dc49c8a-ed2e-45b8-a07e-38596c8a3f72"],
+ CellID->199648429,ExpressionUUID->"ddbc830b-3247-4acc-bb52-a1716ffb2fde"],
 
 Cell[CellGroupData[{
 
@@ -292,7 +292,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation/English/ReferencePages/Symbols"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"46b9cad8-6f60-46ef-a497-302b82f3f28a"]], \
+   "Text"}]],ExpressionUUID->"0fb3266f-5be9-47d6-8df9-ba470a97d84c"]], \
 "FileManagerDirectory",
  CellMargins->{{69 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 130},
@@ -303,7 +303,35 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->500036586,ExpressionUUID->"fb6422a9-29bd-46ca-bc18-f82e105d51f5"],
+ CellID->500036586,ExpressionUUID->"c6bf262a-c91a-494d-8dd5-bb94c69ce940"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TemplateBox[{"\"EulerizeGraph.nb\"", 
+     File[
+      FileNameJoin[{
+        NotebookDirectory[], 
+        "Documentation/English/ReferencePages/Symbols/EulerizeGraph.nb"}]]},
+    "FileManagerFileOpenerTemplate"],
+   Annotation[#, 
+    DefinitionNotebookClient`TemplateCells`PackagePrivate`fileDepth[4]]& ],
+  File[
+   FileNameJoin[{
+     NotebookDirectory[], 
+     "Documentation/English/ReferencePages/Symbols/EulerizeGraph.nb"}]],
+  BoxID -> "FileTreePath",
+  BaseStyle->{"Text"}]], "FileManagerFile",
+ CellMargins->{{92 + Inherited, Inherited}, {Inherited, Inherited}},
+ CellGroupingRules->{"SectionGrouping", 140},
+ TaggingRules->{},
+ CellFrameLabels->{{
+    Cell[
+     BoxData[
+      TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
+    Inherited}, {Inherited, Inherited}},
+ CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
+ CellID->363853616,ExpressionUUID->"bf4db489-50b7-4224-9309-6ef974002f9a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -331,7 +359,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->144014500,ExpressionUUID->"223a8ff3-c84f-4771-bfb2-9bc9808bf752"],
+ CellID->144014500,ExpressionUUID->"9394f509-5366-44a1-b08d-fa52d6d5fbae"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -361,7 +389,7 @@ nb"}]],
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->154520045,ExpressionUUID->"13dbfbd8-3b72-4041-bc03-052b798e2023"],
+ CellID->154520045,ExpressionUUID->"860c4f98-0427-4860-b106-7be96b3595d7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -391,7 +419,7 @@ UndirectedGraphToMixedGraph.nb"}]],
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->13945019,ExpressionUUID->"a9c7b1ed-1d00-4613-88d6-3857770c37ad"]
+ CellID->13945019,ExpressionUUID->"68fae7ee-3e01-45bc-bb13-653a5e6fb8ba"]
 }, Open  ]]
 }, Open  ]],
 
@@ -421,7 +449,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Documentation/English/Tutorials"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"e699193b-a340-4bad-8966-149b3e4fb652"]], \
+   "Text"}]],ExpressionUUID->"e95256ec-808d-41aa-9235-e62044cd7107"]], \
 "FileManagerDirectory",
  CellMargins->{{46 + Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 120},
@@ -432,7 +460,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerEmptyDirectoryIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->59378989,ExpressionUUID->"d24d39bd-6df9-4995-9d38-48a47f54b70b"]
+ CellID->59378989,ExpressionUUID->"bdf7e7c0-176c-4b22-9115-e3c8aea3651e"]
 }, Open  ]]
 }, Open  ]],
 
@@ -463,7 +491,7 @@ Cell[TextData[Cell[BoxData[
      NotebookDirectory[], "Kernel"}]],
   BoxID -> "FileTreePath",
   BaseStyle->{
-   "Text"}]],ExpressionUUID->"302a2577-d54c-40ca-a822-6d77b54885b6"]], \
+   "Text"}]],ExpressionUUID->"bc023da2-ea16-48c6-ac42-4c6d4add789a"]], \
 "FileManagerDirectory",
  CellMargins->{{Inherited, Inherited}, {Inherited, Inherited}},
  CellGroupingRules->{"SectionGrouping", 100},
@@ -474,7 +502,7 @@ Cell[TextData[Cell[BoxData[
       TemplateBox[{}, "FileManagerKernelIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->1155957630,ExpressionUUID->"9b0e9019-7605-4c5f-ba59-86fa5a09bf72"],
+ CellID->1155957630,ExpressionUUID->"dc2dd51e-9c12-42c6-b1d8-480878766dd0"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -500,7 +528,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerWLIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->314021865,ExpressionUUID->"49516459-5f0b-49c7-8428-920af0983aeb"]
+ CellID->314021865,ExpressionUUID->"b4d23467-0b8a-4557-b75e-c69788e86e55"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -527,7 +555,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerUnknownIconTemplate"]], Background -> None],
      Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->204742150,ExpressionUUID->"3bae7963-bfee-4aef-b244-81681fcdab12"],
+ CellID->204742150,ExpressionUUID->"3e4b2392-4925-454a-97b4-3db7177b1083"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -553,7 +581,7 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerPacletInfoIconTemplate"]], Background -> 
      None], Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->216076509,ExpressionUUID->"553ce457-e01c-44b0-95f8-7e3c4d877653"],
+ CellID->216076509,ExpressionUUID->"fe3a29ab-7364-4021-9000-393ceedfc128"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -579,13 +607,13 @@ Cell[BoxData[
       TemplateBox[{}, "FileManagerNBIconTemplate"]], Background -> None], 
     Inherited}, {Inherited, Inherited}},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->353587111,ExpressionUUID->"e4ede290-0463-4a40-9bb4-51a560f42b11"],
+ CellID->353587111,ExpressionUUID->"24eac19f-af23-455c-9fe0-8a9cc35e2821"],
 
 Cell["", "FileManagerBottomSpacer",
  CellGroupingRules->{"SectionGrouping", 100},
  TaggingRules->{},
  CellTags->{"FileManagerCell", "FileManager-PacletFiles"},
- CellID->57344226,ExpressionUUID->"960562c6-38dc-4ae6-a45f-191eff04c1aa"]
+ CellID->57344226,ExpressionUUID->"29bf30e3-7b25-4a32-b8d5-17995fd1220f"]
 }, Open  ]]
 }, Open  ]],
 
@@ -13432,18 +13460,16 @@ GitHub), you can provide the URL here.", "MoreInfoText"], Background ->
   "Source Control Repository", "SourceControlURL", "TemplateCellGroup"},
  CellID->221376991,ExpressionUUID->"c8f3de13-5af1-498b-856f-fb1cc49da2ec"],
 
-Cell["https://github.com/PeterCullenBurbery/MixedGraphPaclet", "Text",
+Cell[TextData[ButtonBox["https://github.com/PeterCullenBurbery/mixed-graphs-\
+paclet",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://github.com/PeterCullenBurbery/mixed-graphs-paclet"], None},
+ ButtonNote->
+  "https://github.com/PeterCullenBurbery/mixed-graphs-paclet"]], "Text",
  TaggingRules->{},
- CellEventActions->{Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
-       SelectedNotebook[], After, Cell]; NotebookFind[
-       SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> True, 
-       WrapAround -> True], Blank[NotebookSelection] :> SelectionMove[
-       SelectedNotebook[], All, CellContents, AutoScroll -> True]], 
-   PassEventsDown -> False, PassEventsUp -> False},
- CellChangeTimes->{
-  3.847965088209901*^9, {3.8662924153217597`*^9, 3.866292432745414*^9}},
- CellTags->{"DefaultContent", "TabNext"},
- CellID->75689085,ExpressionUUID->"e800e518-82cd-4b8e-a96d-993e614762ec"]
+ CellChangeTimes->{{3.8665676466908245`*^9, 3.8665676617427444`*^9}},
+ CellID->34705501,ExpressionUUID->"44c0b9c9-7c0e-4472-88d6-3a0800892e49"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -14517,6 +14543,7 @@ Cell[BoxData[
          StyleBox[
           TemplateBox[{
             CheckboxBox["WebAPI", {False, "WebAPI"}], "\" \"", 
+            
             TemplateBox[{
              "\"WebAPI\"", "\"API called through an HTTP request\""}, 
              "PrettyTooltipTemplate"]},
@@ -15718,9 +15745,249 @@ Cell[BoxData[
    StripOnInput->False],
   Deploy,
   DefaultBaseStyle->"Deploy"]], "PrintTemporary",
+ TaggingRules->{},
  CellChangeTimes->{3.866391500865199*^9},
  CellLabel->"During evaluation of In[2]:=",
- CellID->485694478,ExpressionUUID->"7c49a653-187b-4297-a9c4-5e809b512800"]
+ CellID->485694478,ExpressionUUID->"7c49a653-187b-4297-a9c4-5e809b512800"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OptionValue", "nodef", 
+   "\"Unknown option \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"OverwriteTarget\\\\\\\"\\\"}]\\) for \
+\\!\\(\\*RowBox[{\\\"PacletTools`PacletBuild\\\"}]\\).\"", 2, 2, 1, 
+   19443170685337734410, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677125319557`*^9},
+ CellLabel->"",
+ CellID->61214837,ExpressionUUID->"e0c82cba-c1fe-4db6-a47e-7ff1bceda610"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OptionValue", "nodef", 
+   "\"Unknown option \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"OverwriteTarget\\\\\\\"\\\"}]\\) for \
+\\!\\(\\*RowBox[{\\\"PacletTools`PacletBuild\\\"}]\\).\"", 2, 2, 2, 
+   19443170685337734410, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866567712916958*^9},
+ CellLabel->"",
+ CellID->82348702,ExpressionUUID->"4f80cea7-0e90-4eeb-9d8d-14f9cd245af2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OptionValue", "nodef", 
+   "\"Unknown option \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"OverwriteTarget\\\\\\\"\\\"}]\\) for \
+\\!\\(\\*RowBox[{\\\"PacletTools`PacletBuild\\\"}]\\).\"", 2, 2, 3, 
+   19443170685337734410, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866567713329974*^9},
+ CellLabel->"",
+ CellID->448453843,ExpressionUUID->"ad494f62-b3bd-4025-aa0c-083b49961ea1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"OptionValue\\\", \\\"::\
+\\\", \\\"nodef\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 2, 4, 19443170685337734410, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866567714036953*^9},
+ CellLabel->"",
+ CellID->54111862,ExpressionUUID->"42bdd2d0-2db2-4163-90cf-e4c69a7ed2da"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for New\"", 2, 2, 5, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677149249563`*^9},
+ CellLabel->"",
+ CellID->114266049,ExpressionUUID->"f4bb0603-2e0b-49c7-b6b9-eb22b1fcde70"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Modified\"", 2, 2, 6, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677153309608`*^9},
+ CellLabel->"",
+ CellID->870611210,ExpressionUUID->"ac2b8f4d-1950-4d95-81bb-f92aec31190b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Obsolete\"", 2, 2, 7, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677157099705`*^9},
+ CellLabel->"",
+ CellID->341368240,ExpressionUUID->"149d1cab-4a6d-46f4-81e5-6de150b1448b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \
+\\!\\(\\*StyleBox[RowBox[{\\\"DocumentationBuild`Info`GetNotebookHistoryData\\\
+\", \\\"::\\\", \\\"notfound\\\"}], \\\"MessageName\\\"]\\) will be \
+suppressed during this calculation.\"", 2, 2, 8, 19443170685337734410, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677160829697`*^9},
+ CellLabel->"",
+ CellID->5562960,ExpressionUUID->"c6e912ef-a859-435e-b416-438cd16606c5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for New\"", 2, 2, 9, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677164729567`*^9},
+ CellLabel->"",
+ CellID->74983793,ExpressionUUID->"c4008027-54b9-4eef-977e-22d9f1855f46"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Modified\"", 2, 2, 10, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.866567716839962*^9},
+ CellLabel->"",
+ CellID->312435717,ExpressionUUID->"edf45023-cceb-400b-a3d6-486c92e26040"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Obsolete\"", 2, 2, 11, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677172159557`*^9},
+ CellLabel->"",
+ CellID->17608247,ExpressionUUID->"d72917cb-a590-4fc1-bfb2-d38e0ac2a32b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Excised\"", 2, 2, 12, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677175969725`*^9},
+ CellLabel->"",
+ CellID->301724803,ExpressionUUID->"cf3c3be7-2ffe-4aa0-b79a-17fdf8a58130"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Put", "noopen", 
+   "\"Cannot open \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\peter\\\\\
+\\\\\\\\\\\\AppData\\\\\\\\\\\\\\\\Roaming\\\\\\\\\\\\\\\\Mathematica\\\\\\\\\
+\\\\\\\\SystemFiles\\\\\\\\\\\\\\\\FrontEnd\\\\\\\\\\\\\\\\StyleSheets\\\\\\\\\
+\\\\\\\\Wolfram\\\\\\\\\\\\\\\\Reference.nb\\\\\\\"\\\"}]\\).\"", 2, 2, 13, 
+   19443170685337734410, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866567719123973*^9},
+ CellLabel->"",
+ CellID->13059642,ExpressionUUID->"d9fe5517-8e84-415b-8292-46240c61c763"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for New\"", 2, 2, 14, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.866567720886472*^9},
+ CellLabel->"",
+ CellID->10398501,ExpressionUUID->"8c634bf4-36e0-43f6-970e-f72bcd22f7df"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Modified\"", 2, 2, 15, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677212774715`*^9},
+ CellLabel->"",
+ CellID->979096523,ExpressionUUID->"43e01c80-11ee-44e4-a1b2-cbadcadef0e4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Obsolete\"", 2, 2, 16, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.866567721647503*^9},
+ CellLabel->"",
+ CellID->95981262,ExpressionUUID->"841761cd-3624-4cea-a07b-11c8cb74793a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Excised\"", 2, 2, 17, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677220204906`*^9},
+ CellLabel->"",
+ CellID->37667031,ExpressionUUID->"0b31b4e2-3978-4d51-a6d8-fb8a33eb293c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for New\"", 2, 2, 18, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677252308955`*^9},
+ CellLabel->"",
+ CellID->411063923,ExpressionUUID->"d1b70ae3-7986-42e5-b287-e16baa3d2164"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Modified\"", 2, 2, 19, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677256089025`*^9},
+ CellLabel->"",
+ CellID->677515508,ExpressionUUID->"80272748-e822-4c56-9233-31ccfcb132fd"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Obsolete\"", 2, 2, 20, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677259859033`*^9},
+ CellLabel->"",
+ CellID->10959148,ExpressionUUID->"bf00b1e4-ad97-4753-8ec1-5c11a034ceba"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DocumentationBuild`Info`GetNotebookHistoryData", "notfound", 
+   "\"Could not find the history data for Excised\"", 2, 2, 21, 
+   19443170685337734410, "Local", 
+   "DocumentationBuild`Info`GetNotebookHistoryData"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8665677263528943`*^9},
+ CellLabel->"",
+ CellID->957932054,ExpressionUUID->"a511d8b0-13f9-4856-8f4d-45fbace866d0"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -18674,6 +18941,940 @@ dD/B6RWd0I="}, "ClickToCopyTemplate"]]}}, Alignment -> Left,
         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
      "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
      False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      GridBox[{{
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              OverlayBox[{
+                StyleBox[
+                 TagBox[
+                  DynamicModuleBox[{Typeset`var$$ = False}, 
+                   InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675745191176`17.339900593738506*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675745191176`17.339900593738506*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Style[
+                    Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675745191176`17.339900593738506*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+                    FontSize -> 0.9 Inherited], ""}, False]], 
+                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+                 ShowContents -> False, StripOnInput -> False], 
+                StyleBox[
+                 DynamicBox[
+                  ToBoxes[
+                   DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675745191176`17.339900593738506*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                   StandardForm], SingleEvaluation -> True, Evaluator -> 
+                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
+                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
+               Alignment -> {Right, Baseline}], "\"   \"", 
+              ItemBox[
+              "\"Found 1 potential issue and 2 suggestions\"", ItemSize -> 
+               Scaled[0.75], StripOnInput -> False]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          ItemSize -> Fit, StripOnInput -> False], 
+         ItemBox["", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "61d978bb-0cf0-42e9-8907-7d64c9d9e9ff"]]]]]], Appearance -> 
+            None, BoxID -> "61d978bb-0cf0-42e9-8907-7d64c9d9e9ff", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
+          False]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+       AutoDelete -> False, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      GridBox[{{
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              OverlayBox[{
+                StyleBox[
+                 TagBox[
+                  DynamicModuleBox[{Typeset`var$$ = False}, 
+                   InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675911185217`17.339900595602955*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675911185217`17.339900595602955*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Style[
+                    Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675911185217`17.339900595602955*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+                    FontSize -> 0.9 Inherited], ""}, False]], 
+                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+                 ShowContents -> False, StripOnInput -> False], 
+                StyleBox[
+                 DynamicBox[
+                  ToBoxes[
+                   DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665675911185217`17.339900595602955*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                   StandardForm], SingleEvaluation -> True, Evaluator -> 
+                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
+                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
+               Alignment -> {Right, Baseline}], "\"   \"", 
+              ItemBox[
+              "$Canceled", ItemSize -> Scaled[0.75], StripOnInput -> False]}},
+             GridBoxAlignment -> {
+             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          ItemSize -> Fit, StripOnInput -> False], 
+         ItemBox["", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "9373589c-cd24-4b9c-b5d2-7904ee6f4bd0"]]]]]], Appearance -> 
+            None, BoxID -> "9373589c-cd24-4b9c-b5d2-7904ee6f4bd0", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
+          False]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+       AutoDelete -> False, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      GridBox[{{
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              OverlayBox[{
+                StyleBox[
+                 TagBox[
+                  DynamicModuleBox[{Typeset`var$$ = False}, 
+                   InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665676165000944`17.339900598453827*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665676165000944`17.339900598453827*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Style[
+                    Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665676165000944`17.339900598453827*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+                    FontSize -> 0.9 Inherited], ""}, False]], 
+                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+                 ShowContents -> False, StripOnInput -> False], 
+                StyleBox[
+                 DynamicBox[
+                  ToBoxes[
+                   DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665676165000944`17.339900598453827*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                   StandardForm], SingleEvaluation -> True, Evaluator -> 
+                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
+                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
+               Alignment -> {Right, Baseline}], "\"   \"", 
+              ItemBox[
+              "\"Found 1 potential issue and 2 suggestions\"", ItemSize -> 
+               Scaled[0.75], StripOnInput -> False]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          ItemSize -> Fit, StripOnInput -> False], 
+         ItemBox["", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "827af3c9-afd9-4b2f-be56-b3187363c91e"]]]]]], Appearance -> 
+            None, BoxID -> "827af3c9-afd9-4b2f-be56-b3187363c91e", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
+          False]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+       AutoDelete -> False, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      GridBox[{{
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              OverlayBox[{
+                StyleBox[
+                 TagBox[
+                  DynamicModuleBox[{Typeset`var$$ = False}, 
+                   InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677030719035`17.339900608177608*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677030719035`17.339900608177608*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Style[
+                    Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677030719035`17.339900608177608*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+                    FontSize -> 0.9 Inherited], ""}, False]], 
+                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+                 ShowContents -> False, StripOnInput -> False], 
+                StyleBox[
+                 DynamicBox[
+                  ToBoxes[
+                   DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677030719035`17.339900608177608*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                   StandardForm], SingleEvaluation -> True, Evaluator -> 
+                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
+                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
+               Alignment -> {Right, Baseline}], "\"   \"", 
+              ItemBox[
+              "\"Found 1 suggestion\"", ItemSize -> Scaled[0.75], 
+               StripOnInput -> False]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          ItemSize -> Fit, StripOnInput -> False], 
+         ItemBox["", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "0d55b055-890a-44e2-8fdb-5b09616591ee"]]]]]], Appearance -> 
+            None, BoxID -> "0d55b055-890a-44e2-8fdb-5b09616591ee", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
+          False]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+       AutoDelete -> False, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      GridBox[{{
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              OverlayBox[{
+                StyleBox[
+                 TagBox[
+                  DynamicModuleBox[{Typeset`var$$ = False}, 
+                   InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677082825045`17.339900608762864*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    StyleBox[
+                    DynamicBox[
+                    ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677082825045`17.339900608762864*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                    "System"], FontSlant -> Italic, FontColor -> 
+                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                    False]}, {"", 
+                    PaneBox["\"\"", ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Style[
+                    Dynamic[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677082825045`17.339900608762864*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    SingleEvaluation -> True, Evaluator -> "System"], 
+                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
+                    FontSize -> 0.9 Inherited], ""}, False]], 
+                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+                 ShowContents -> False, StripOnInput -> False], 
+                StyleBox[
+                 DynamicBox[
+                  ToBoxes[
+                   DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8665677082825045`17.339900608762864*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                   StandardForm], SingleEvaluation -> True, Evaluator -> 
+                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
+                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
+               Alignment -> {Right, Baseline}], "\"   \"", 
+              ItemBox[
+               
+               DynamicModuleBox[{
+                DefinitionNotebookClient`Utilities`PackagePrivate`pi$$ = 
+                 Mouseover[
+                   Dynamic[
+                   DefinitionNotebookClient`$StripeProgressDisplay, 
+                    TrackedSymbols :> {
+                    DefinitionNotebookClient`$StripeProgressDisplay}], 
+                   Button["Abort \[RightGuillemet]", FrontEndExecute[
+                    FrontEnd`EvaluatorAbort[Automatic]]; 
+                    DefinitionNotebookClient`$ButtonsDisabled = False; Null, 
+                    Appearance -> None, BaseStyle -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], {"HyperlinkActive"}, {
+                    "Hyperlink"}]], Method -> "Preemptive"], ImageSize -> 
+                   All]}, 
+                DynamicBox[
+                 ToBoxes[
+                 DefinitionNotebookClient`Utilities`PackagePrivate`pi$$, 
+                  StandardForm], 
+                 TrackedSymbols :> {
+                  DefinitionNotebookClient`Utilities`PackagePrivate`pi$$}], 
+                Initialization :> 
+                If[$SessionID =!= 19443170685337734410, 
+                  DefinitionNotebookClient`Utilities`PackagePrivate`pi$$ = 
+                  ""], DynamicModuleValues :> {}], ItemSize -> Scaled[0.75], 
+               StripOnInput -> False]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          ItemSize -> Fit, StripOnInput -> False], 
+         ItemBox["\"\"", ItemSize -> All, StripOnInput -> False], 
+         ItemBox[
+          TagBox[
+           ButtonBox[
+            TagBox[
+             PaneSelectorBox[{False -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
+                True -> GraphicsBox[{
+                  GrayLevel[
+                   NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                  
+                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                   0.42426406871192845`}, {0.42426406871192845`, 
+                   0.282842712474619}}], 
+                  
+                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                   0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                   0.42426406871192845`}}]}, ImageSize -> 18, 
+                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                 None]}, 
+              Dynamic[
+               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+              FrameMargins -> 0], 
+             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+               EvaluationNotebook[]}, 
+              CurrentValue[
+               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                DockedCells] = If[
+                TrueQ[
+                 MemberQ[
+                  CurrentValue["ModifierKeys"], "Control"]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Cell[
+                  Blank[], "StripeCell", 
+                  BlankNullSequence[]]], 
+                DeleteCases[
+                 Flatten[{
+                   CurrentValue[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                 Condition[
+                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                   Blank[Cell]], 
+                  Not[
+                   FreeQ[
+                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "891a2e43-ffa5-449f-9d77-11043540fbf0"]]]]]], Appearance -> 
+            None, BoxID -> "891a2e43-ffa5-449f-9d77-11043540fbf0", Evaluator -> 
+            Automatic, Method -> "Preemptive"], 
+           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
+          False]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+       AutoDelete -> False, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{"CompatibilityTest" -> HoldComplete[
     BinaryDeserialize[
@@ -18713,7 +19914,8 @@ Fu6DuJJG2H9mK2QZ3X1Y8rjKVdsLU11Qbnfn/Mae/TiO1RZHs2bny+6Vwq5Sfi8TnHKi+1+K4NOh"]\
     "DefaultContentMethod" -> "Tagged"}, 
   "SubmissionReviewData" -> {"Review" -> False}, "ToolsOpen" -> False, 
   "UpdatedTimestamp" -> 3.8662899758142459`17.339869412616913*^9, 
-  "TemplateVersion" -> "1.5.62", "StatusMessage" -> "", "AutoUpdate" -> True, 
+  "TemplateVersion" -> "1.5.62", "StatusMessage" -> 
+  ProgressIndicator[Appearance -> "Necklace"], "AutoUpdate" -> True, 
   "Openers" -> {
    "PrimaryExamplesSection" -> Open, 
     "ExampleSection" -> {"0" -> Closed, "2" -> Closed, "3" -> Closed}, 
@@ -19771,7 +20973,6 @@ AsyncronousResourceInformationUpdates = False,
                 Quiet[
                  
                  Block[{$ContextPath = RSNB`$cp$, 
-                   
                    ResourceSystemClient`$\
 AsyncronousResourceInformationUpdates = False, 
                    DefinitionNotebookClient`$ButtonCodeID = None}, 
@@ -21525,6 +22726,7 @@ dUs5PEh+6Sx+hd/B9HrmkqVGkvD4AQCmgKFd
           FaceForm[
            RGBColor[0.86667, 0.066667, 0.]]], 
          StyleBox[{
+           
            FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3,
              3}, {0, 1, 0}, {1, 3, 3}}}, {{{17., 3.5}, {17., 
             3.223860000000002}, {16.776139999999998`, 3.}, {16.5, 3.}, {4.5, 
