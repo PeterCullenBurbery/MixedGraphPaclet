@@ -15685,7 +15685,7 @@ Cell[BoxData[
             DynamicBox[ToBoxes[
              ResourceSystemClient`Private`$submitProgressContent, 
               StandardForm],
-             ImageSizeCache->{143.43749485015869`, {2., 8.}}],
+             ImageSizeCache->{248.91600751876834`, {2., 9.}}],
             StripOnInput->False,
             FontFamily->"Roboto",
             FontSize->10,
