@@ -8,6 +8,8 @@ PeterBurbery`MixedGraphs`RandomMixedGraph;
 PeterBurbery`MixedGraphs`EulerizeGraph;
 PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph;
 PeterBurbery`MixedGraphs`RandomWeightedMixedGraph;
+PeterBurbery`MixedGraphs`MixedGraphDirectedArcs;
+PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -43,7 +45,10 @@ RandomWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,k_?Intege
 
 RandomWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,array_List]/;0<=threshold<=1:=Array[RandomWeightedMixedGraph[graphDistribution,threshold,randomFunction]&,array]
 RandomWeightedMixedGraph::usage="RandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction] creates a random mixed graph with vertices vertices and edges edges where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction, k] creates k random mixed graphs with vertices vertices and edges edges where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomWeightedMixedGraph[{vertices, edges}, threshold, randomFunction, array] creates an array of dimensions array of random mixed graphs with vertices vertices and edges edges where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomWeightedMixedGraph[distribution, threshold, randomFunction] creates a random mixed graph with graph distribution distribution where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomWeightedMixedGraph[distribution, threshold, randomFunction, k] creates k random mixed graphs with graph distribution distribution where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomWeightedMixedGraph[distribution, threshold, randomFunction, array] creates an array of dimensions array of random mixed graphs with graph distribution distribution where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction";
-
+ClearAll[MixedGraphDirectedArcs]
+MixedGraphDirectedArcs[graph_?GraphQ]:=Cases[EdgeList[graph],_DirectedEdge]
+ClearAll[MixedGraphUndirectedEdges]
+MixedGraphUndirectedEdges[graph_?GraphQ]:=Cases[EdgeList[graph],_UndirectedEdge]
 End[]; (* End `Private` *)
 
 EndPackage[];
