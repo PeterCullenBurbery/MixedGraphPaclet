@@ -25,8 +25,8 @@ PacletObject[
           "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
           "PeterBurbery`MixedGraphs`EulerizeGraph",
           "PeterBurbery`MixedGraphs`GraphInformation",
-          "PeterBurbery`MixedGraphs`GraphEdges",
-          "PeterBurbery`MixedGraphs`GraphArcs",
+          "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
+          "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
           "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ"
         }
       },
