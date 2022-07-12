@@ -28,7 +28,8 @@ PacletObject[
           "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
           "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
           "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ",
-          "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy"
+          "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
+          "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ"
         }
       },
       {"Documentation", "Language" -> "English"}

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    449223,       8212]
-NotebookOptionsPosition[    439783,       8033]
-NotebookOutlinePosition[    440220,       8050]
-CellTagsIndexPosition[    440177,       8047]
+NotebookDataLength[    449848,       8227]
+NotebookOptionsPosition[    440311,       8047]
+NotebookOutlinePosition[    440748,       8064]
+CellTagsIndexPosition[    440705,       8061]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -8026,7 +8026,21 @@ ABBjrUfR2Mk/a6DoiA==
  CellChangeTimes->{{3.8666274070457287`*^9, 3.8666274136409864`*^9}, {
   3.866628523124181*^9, 3.866628535651928*^9}},
  CellLabel->"Out[4]=",ExpressionUUID->"1f726d44-30d3-4b60-8737-27731e82730d"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{
+   RowBox[{"GraphInformation", "[", 
+    RowBox[{"RandomWeightedMixedGraph", "[", 
+     RowBox[{
+      RowBox[{"BarabasiAlbertGraphDistribution", "[", 
+       RowBox[{"30", ",", "4"}], "]"}], ",", "0.5", ",", 
+      RowBox[{
+       RowBox[{"RandomReal", "[", "10", "]"}], "&"}]}], "]"}], "]"}], ",", 
+   "True"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8666285597370415`*^9, 3.866628567053754*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"54a3d4d1-1c0c-47f6-8889-cae69420884e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -8210,7 +8224,8 @@ Cell[CellGroupData[{
 Cell[425376, 7783, 452, 9, 28, "Input",ExpressionUUID->"3ea443a4-d7f2-47df-8c4d-efcf1b699cf6"],
 Cell[425831, 7794, 449, 10, 28, "Message",ExpressionUUID->"236ab879-0e89-46cb-ad96-ebb832248d1c"],
 Cell[426283, 7806, 13448, 221, 167, "Output",ExpressionUUID->"1f726d44-30d3-4b60-8737-27731e82730d"]
-}, Open  ]]
+}, Open  ]],
+Cell[439746, 8030, 525, 12, 28, "Input",ExpressionUUID->"54a3d4d1-1c0c-47f6-8889-cae69420884e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
