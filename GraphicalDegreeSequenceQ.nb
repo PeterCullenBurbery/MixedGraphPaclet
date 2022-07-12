@@ -85,22 +85,22 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"GraphicalDegreeSequenceQ", "[", "__", "]"}], ":=", 
+  RowBox[{"GraphicalDegreeSequenceQ", "[", 
+   RowBox[{"sequence", ":", 
+    RowBox[{"{", "___Integer", "}"}]}], "]"}], ":=", 
   RowBox[{
-   RowBox[{
-    RowBox[{"EvenQ", "[", 
-     RowBox[{"Total", "[", "sequence", "]"}], "]"}], "\[And]", 
-    RowBox[{"Block", "[", 
+   RowBox[{"EvenQ", "[", 
+    RowBox[{"Total", "[", "sequence", "]"}], "]"}], "\[And]", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", "orderedSequence", "}"}], ",", 
      RowBox[{
-      RowBox[{"{", "orderedSequence", "}"}], ",", 
-      RowBox[{
-       RowBox[{"orderedSequence", "=", 
-        RowBox[{"Sort", "[", "sequence", "]"}]}], ";", "\[IndentingNewLine]", 
-       "True"}]}], "]"}]}], "/;", 
-   RowBox[{"ContainsOnly", "[", 
-    RowBox[{"sequence", ",", "Integers"}], "]"}]}]}]], "Input",
+      RowBox[{"orderedSequence", "=", 
+       RowBox[{"Sort", "[", "sequence", "]"}]}], ";", "\[IndentingNewLine]", 
+      "True"}]}], "]"}]}]}]], "Input",
  CellChangeTimes->{{3.86663450411462*^9, 3.8666346057141676`*^9}, {
-  3.86663489257277*^9, 3.866634940776461*^9}},
+  3.86663489257277*^9, 3.866634940776461*^9}, {3.866635083322328*^9, 
+  3.8666351017193995`*^9}},
  CellLabel->"In[6]:=",
  CellID->3733468,ExpressionUUID->"c3ec8f3e-74cf-4215-b607-748b79788fb1"],
 
@@ -234,7 +234,18 @@ Cell[BoxData["False"], "Output",
  CellChangeTimes->{3.8666350616199846`*^9},
  CellLabel->"Out[21]=",
  CellID->797659402,ExpressionUUID->"be2eeb1f-d91f-45f1-b33b-c136383016af"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"MatchQ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "3", ",", "4."}], "}"}], ",", 
+   RowBox[{"sequence", ":", 
+    RowBox[{"{", "___Integer", "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8666350504290004`*^9, 3.866635075159463*^9}},
+ CellLabel->"In[21]:=",
+ CellID->245355865,ExpressionUUID->"0495330e-b8e8-434a-887f-f416a6f0a6e3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2946,8 +2957,7 @@ list\
 }, Open  ]]
 },
 WindowSize->{672.6, 494.4},
-WindowMargins->{{Automatic, -31.200000000000045`}, {
-  18.600000000000023`, Automatic}},
+WindowMargins->{{231, Automatic}, {-9.600000000000023, Automatic}},
 WindowTitle->"Function Resource | Sample Definition Notebook",
 TaggingRules->{"CompatibilityTest" -> HoldComplete[
     BinaryDeserialize[

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     33453,        767]
+NotebookDataLength[     33438,        766]
 NotebookOptionsPosition[     26940,        625]
-NotebookOutlinePosition[     27744,        651]
-CellTagsIndexPosition[     27665,        646]
+NotebookOutlinePosition[     27729,        650]
+CellTagsIndexPosition[     27650,        645]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -623,9 +623,8 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 580.8},
+WindowMargins->{{-71.39999999999999, Automatic}, {Automatic, 128.4}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/MixedGraphs"|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
@@ -645,7 +644,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 27472, 639}
+ {"ExtendedExamples", 27457, 638}
  }
 *)
 (*NotebookFileOutline

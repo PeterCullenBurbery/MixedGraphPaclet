@@ -15395,8 +15395,9 @@ Cell[BoxData[
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1141.8, Automatic},
-WindowMargins->{{1.2, Automatic}, {Automatic, 7.199999999999999}},
+WindowSize->{1152, Automatic},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 DockedCells->{
   Cell[
    BoxData[
