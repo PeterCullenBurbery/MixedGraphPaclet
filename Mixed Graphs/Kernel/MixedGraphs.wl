@@ -10,6 +10,8 @@ PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph;
 PeterBurbery`MixedGraphs`RandomWeightedMixedGraph;
 PeterBurbery`MixedGraphs`MixedGraphDirectedArcs;
 PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges;
+PeterBurbery`MixedGraphs`GraphInformation;
+PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -49,6 +51,15 @@ ClearAll[MixedGraphDirectedArcs]
 MixedGraphDirectedArcs[graph_?GraphQ]:=Cases[EdgeList[graph],_DirectedEdge]
 ClearAll[MixedGraphUndirectedEdges]
 MixedGraphUndirectedEdges[graph_?GraphQ]:=Cases[EdgeList[graph],_UndirectedEdge]
+
+ClearAll[EulerizeGraph]
+EulerizeGraph[graph_?ConnectedGraphQ]:=NestWhile[(x|->EdgeAdd[x,UndirectedEdge[First[#],Last[#]]&@First@TakeDrop[Select[VertexList[x],OddQ[VertexDegree[x,#]]&],2]]),graph,!EulerianGraphQ[#]&]
+
+ClearAll[GraphInformation]
+GraphInformation[graph_?GraphQ]:=<|"Acyclic"->AcyclicGraphQ[graph],"Bipartite"->BipartiteGraphQ[graph],"Complete"->CompleteGraphQ[graph],"Connected"->ConnectedGraphQ[graph],"EdgeTransitive"->EdgeTransitiveGraphQ[graph],"WeightedEdge"->EdgeWeightedGraphQ[graph],"Empty"->EmptyGraphQ[graph],"Eulerian"->EulerianGraphQ[graph],"Hamiltonian"->HamiltonianGraphQ[graph],"LoopFree"->LoopFreeGraphQ[graph],"Mixed"->MixedGraphQ[graph],"Path"->PathGraphQ[graph],"Planar"->PlanarGraphQ[graph],"Simple"->SimpleGraphQ[graph],"Tree"->TreeGraphQ[graph],"Undirected"->UndirectedGraphQ[graph],"VertexTransitive"->VertexTransitiveGraphQ[graph],"WeightedVertex"->VertexWeightedGraphQ[graph],"WeaklyConnected"->WeaklyConnectedGraphQ[graph],"Weighted"->WeightedGraphQ[graph]|>
+
+ClearAll[TakeLargestGraphComponentBy]
+TakeLargestGraphComponentBy[graph_?GraphQ,function_:EdgeCount]:=TakeLargestBy[ConnectedGraphComponents[graph],function]
 End[]; (* End `Private` *)
 
 EndPackage[];
