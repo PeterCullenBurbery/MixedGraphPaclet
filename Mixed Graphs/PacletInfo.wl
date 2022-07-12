@@ -23,7 +23,11 @@ PacletObject[
           "PeterBurbery`MixedGraphs`RandomMixedGraph",
           "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
           "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
-          "PeterBurbery`MixedGraphs`EulerizeGraph"
+          "PeterBurbery`MixedGraphs`EulerizeGraph",
+          "PeterBurbery`MixedGraphs`GraphInformation",
+          "PeterBurbery`MixedGraphs`GraphEdges",
+          "PeterBurbery`MixedGraphs`GraphArcs",
+          "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ"
         }
       },
       {"Documentation", "Language" -> "English"}
