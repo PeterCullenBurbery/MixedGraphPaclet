@@ -12,6 +12,7 @@ PeterBurbery`MixedGraphs`MixedGraphDirectedArcs;
 PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges;
 PeterBurbery`MixedGraphs`GraphInformation;
 PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy;
+PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -19,15 +20,15 @@ Begin["`Private`"];
 ClearAll[RandomMixedGraph];
 RandomMixedGraph[{vertices_,edges_},threshold_]/;0<=threshold<=1:=Block[{replaceCount,randomGraph} ,randomGraph=RandomGraph[{vertices,edges}];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
 
-RandomMixedGraph[{vertices_,edges_},threshold_,k_?IntegerQ]/;0<=threshold<=1:=Table[RandomMixedGraph[{vertices,edges},threshold,randomFunction],k]
+RandomMixedGraph[{vertices_,edges_},threshold_,k_?IntegerQ]/;0<=threshold<=1:=Table[RandomMixedGraph[{vertices,edges},threshold],k]
 
-RandomMixedGraph[{vertices_,edges_},threshold_,array_List]/;0<=threshold<=1:=Array[RandomMixedGraph[{vertices,edges},threshold,randomFunction]&,array]
+RandomMixedGraph[{vertices_,edges_},threshold_,array_List]/;0<=threshold<=1:=Array[RandomMixedGraph[{vertices,edges},threshold]&,array]
 
 RandomMixedGraph[graphDistribution_,threshold_]/;0<=threshold<=1:=Block[{replaceCount,randomGraph} ,randomGraph=RandomGraph[graphDistribution];replaceCount=Floor[threshold EdgeCount[randomGraph]];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
 
-RandomMixedGraph[graphDistribution_,threshold_,k_?IntegerQ]/;0<=threshold<=1\[And]k>=1:=Table[RandomMixedGraph[graphDistribution,threshold,randomFunction],k]
+RandomMixedGraph[graphDistribution_,threshold_,k_?IntegerQ]/;0<=threshold<=1\[And]k>=1:=Table[RandomMixedGraph[graphDistribution,threshold],k]
 
-RandomMixedGraph[graphDistribution_,threshold_,array_List]/;0<=threshold<=1:=Array[RandomMixedGraph[graphDistribution,threshold,randomFunction]&,array]
+RandomMixedGraph[graphDistribution_,threshold_,array_List]/;0<=threshold<=1:=Array[RandomMixedGraph[graphDistribution,threshold]&,array]
 
 
 RandomMixedGraph::usage ="RandomMixedGraph[{vertices, edges}, threshold] creates a random mixed graph with vertices vertices and edges edges where directed edges make up threshold of the entirenumber of edges\nRandomMixedGraph[{vertices, edges}, threshold, k] creates k random mixed graphs with vertices vertices and edges edges where directed edges make up threshold of the entire number of edges\nRandomMixedGraph[{vertices, edges}, threshold, randomFunction, array] creates an array of dimensions array of random mixed graphs with vertices vertices and edges edges where directed edges make up threshold of the entire number of edges \nRandomMixedGraph[distribution, threshold, randomFunction] creates a random mixed graph with graph distribution distribution where directed edges make up threshold of the entire number of edges \nRandomMixedGraph[distribution, threshold, randomFunction, k] creates k random mixed graphs with graph distribution distribution where directed edges make up threshold of the entire number of edges with edge weights assigned by randomFunction\nRandomMixedGraph[distribution, threshold, array] creates an array of dimensions array of random mixed graphs with graph distribution distribution where directed edges make up threshold of the entire number of edges";
@@ -59,7 +60,11 @@ ClearAll[GraphInformation]
 GraphInformation[graph_?GraphQ]:=<|"Acyclic"->AcyclicGraphQ[graph],"Bipartite"->BipartiteGraphQ[graph],"Complete"->CompleteGraphQ[graph],"Connected"->ConnectedGraphQ[graph],"EdgeTransitive"->EdgeTransitiveGraphQ[graph],"WeightedEdge"->EdgeWeightedGraphQ[graph],"Empty"->EmptyGraphQ[graph],"Eulerian"->EulerianGraphQ[graph],"Hamiltonian"->HamiltonianGraphQ[graph],"LoopFree"->LoopFreeGraphQ[graph],"Mixed"->MixedGraphQ[graph],"Path"->PathGraphQ[graph],"Planar"->PlanarGraphQ[graph],"Simple"->SimpleGraphQ[graph],"Tree"->TreeGraphQ[graph],"Undirected"->UndirectedGraphQ[graph],"VertexTransitive"->VertexTransitiveGraphQ[graph],"WeightedVertex"->VertexWeightedGraphQ[graph],"WeaklyConnected"->WeaklyConnectedGraphQ[graph],"Weighted"->WeightedGraphQ[graph]|>
 
 ClearAll[TakeLargestGraphComponentBy]
-TakeLargestGraphComponentBy[graph_?GraphQ,function_:EdgeCount]:=TakeLargestBy[ConnectedGraphComponents[graph],function]
+TakeLargestGraphComponentBy[graph_?GraphQ,function_:EdgeCount,length_:1]:=TakeLargestBy[ConnectedGraphComponents[graph],function,length]
+
+ClearAll[GraphicalDegreeSequenceQ]
+
+GraphicalDegreeSequenceQ[sequence:{___Integer}]:=EvenQ[Total[sequence]]&&Block[{orderedSequence},orderedSequence=ReverseSort[sequence];ContainsOnly[(k|->( Sum[orderedSequence[[i]],{i,1,k}]<=k(k-1)+Sum[Min[{orderedSequence[[i]],k}],{i,k+1,Length[sequence]}]))/@Range[Length[sequence]],{True}]]
 End[]; (* End `Private` *)
 
 EndPackage[];
