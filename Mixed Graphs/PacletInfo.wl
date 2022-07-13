@@ -20,17 +20,17 @@ PacletObject[
           }
         },
         "Symbols" -> {
-          "PeterBurbery`MixedGraphs`RandomMixedGraph",
-          "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
-          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
           "PeterBurbery`MixedGraphs`EulerizeGraph",
-          "PeterBurbery`MixedGraphs`GraphInformation",
-          "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
-          "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
           "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ",
-          "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
+          "PeterBurbery`MixedGraphs`GraphConvexHull",
           "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ",
-          "PeterBurbery`MixedGraphs`GraphConvexHull"
+          "PeterBurbery`MixedGraphs`GraphInformation",
+          "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
+          "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
+          "PeterBurbery`RandomMixedGraph",     "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
+          "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
+          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
+          "RandomMixedGraph"
         }
       },
       {"Documentation", "Language" -> "English"}

@@ -67,7 +67,7 @@ ClearAll[GraphicalDegreeSequenceQ]
 
 GraphicalDegreeSequenceQ[sequence:{___Integer}]:=EvenQ[Total[sequence]]&&Block[{orderedSequence},orderedSequence=ReverseSort[sequence];ContainsOnly[(k|->( Sum[orderedSequence[[i]],{i,1,k}]<=k(k-1)+Sum[Min[{orderedSequence[[i]],k}],{i,k+1,Length[sequence]}]))/@Range[Length[sequence]],{True}]]
 ClearAll[GraphConvexHull]
-GraphConvexHull[graph_?GraphQ,vertexSet_]:=FixedPoint[Function[in,Union@Flatten@Function[{g,v},FindPath[g,First[#],Last[#],GraphDistance[g,First[#],Last[#]],All]&/@Subsets[v,{2}]][example,in]][#]&,{1,2,9}]/;SubsetQ[VertexList[graph],vertexSet]
+GraphConvexHull[graph_?GraphQ,vertexSet_]:=FixedPoint[Function[in,Union@Flatten@Function[{g,v},FindPath[g,First[#],Last[#],GraphDistance[g,First[#],Last[#]],All]&/@Subsets[v,{2}]][graph,in]][#]&,{1,2,9}]/;SubsetQ[VertexList[graph],vertexSet];
 End[]; (* End `Private` *)
 
 EndPackage[];
