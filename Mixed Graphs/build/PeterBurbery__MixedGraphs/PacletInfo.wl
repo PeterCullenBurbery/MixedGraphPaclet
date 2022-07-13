@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.11.0",
+    "Version" -> "1.13.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -29,7 +29,8 @@ PacletObject[
           "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
           "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ",
           "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
-          "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ"
+          "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ",
+          "PeterBurbery`MixedGraphs`GraphConvexHull"
         }
       },
       {"Documentation", "Language" -> "English"}

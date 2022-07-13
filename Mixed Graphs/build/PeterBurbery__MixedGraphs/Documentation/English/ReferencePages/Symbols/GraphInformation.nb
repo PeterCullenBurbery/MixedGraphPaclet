@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27967,        656]
-NotebookOptionsPosition[     23709,        569]
-NotebookOutlinePosition[     25482,        613]
-CellTagsIndexPosition[     25397,        608]
+NotebookDataLength[     31476,        744]
+NotebookOptionsPosition[     26673,        648]
+NotebookOutlinePosition[     28473,        692]
+CellTagsIndexPosition[     28388,        687]
 WindowTitle->GraphInformation
 WindowFrame->Normal*)
 
@@ -103,7 +103,7 @@ MixedGraphs/ref/GraphInformation.html"], StandardForm]], "Input",
          Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
           NotebookLocate[{
             URL[(If[
-                TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$50218], 
+                TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$46528], 
                 "http://reference.wolfram.com/system-modeler/", 
                 "http://reference.wolfram.com/language/"] <> 
               "PeterBurbery/MixedGraphs/ref/GraphInformation") <> ".html"], 
@@ -153,6 +153,85 @@ Cell[BoxData[GridBox[{
 
 Cell[CellGroupData[{
 
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]]],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]]],
+   "Details and Options"
+  }], "NotesFrameText"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->"Preemptive"]]]], "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->261049851],
+
+Cell["Graph Information returns the following properties", "Notes",
+ CellID->134587823],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon"], "Property", "Explanation", Cell[
+    "Key", "TableText"]},
+   {Cell["      ", "TableRowIcon"], 
+    RowBox[{"Acyclic", " "}], 
+    RowBox[{"a", " ", "graph", " ", "with", " ", "no", " ", "cycles"}], Cell[
+    "\"Acyclic\"", "TableText"]},
+   {Cell["      ", "TableRowIcon"], 
+    RowBox[{"Bipartite", " ", "graph"}], 
+    RowBox[{
+    "a", " ", "graph", " ", "that", " ", "has", " ", "a", " ", "chromatic", 
+     " ", "number", " ", "of", " ", "2"}], Cell["\"Bipartite\"", "TableText"]},
+   {Cell["      ", "TableRowIcon"], "Complete", 
+    RowBox[{
+    "a", " ", "graph", " ", "where", " ", "every", " ", "node", " ", "is", 
+     " ", "connected", " ", "to", " ", "every", " ", "other", " ", "node"}], 
+    Cell["\"Complete\"", "TableText"]},
+   {Cell["      ", "TableRowIcon"], "Connected", 
+    RowBox[{
+    "whether", " ", "the", " ", "graph", " ", "has", " ", "only", " ", "one", 
+     " ", "component", " ", "or", " ", "multiple", " ", "disjoint", " ", 
+     "components"}], Cell["\"Connected\"", "TableText"]}
+  }]], "Notes",
+ CellID->31011377]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[CellGroupData[{
+
 Cell[TextData[{
  Cell[BoxData[
   DynamicBox[ToBoxes[
@@ -188,7 +267,7 @@ Cell[TextData[{
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->682517389],
+ CellID->205942213],
 
 Cell[CellGroupData[{
 
@@ -227,7 +306,7 @@ Cell[TextData[{
 }], "ExampleSection", "ExampleSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
- CellID->22376140],
+ CellID->379419087],
 
 Cell["Construct a random mixed graph:", "ExampleText",
  CellID->380242289],
@@ -576,11 +655,11 @@ TaggingRules->{
  "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
   "HasOptions" -> True, "ExampleCounter" -> 1, 
   "Openers" -> {
-   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
-  "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
-  False, "RootCaptions" -> "", 
-  "Metadata" -> {
-   "built" -> "{2022, 7, 12, 16, 24, 29.5514188}", 
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}, 
+    "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 7, 12, 21, 42, 6.7968625}", 
     "history" -> {"", "", "", ""}, "context" -> "PeterBurbery`MixedGraphs`", 
     "keywords" -> {}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
@@ -600,64 +679,73 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5285, 155, 1194, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"a58a5d3b-1402-4b5d-a732-5427f1ee5c37",
+  Cell[8248, 234, 1194, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"105f6e00-8b6a-4ec2-9f06-b7114d99619f",
    CellTags->"PrimaryExamplesSection",
-   CellID->682517389]}
+   CellID->205942213]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 25198, 601}
+ {"PrimaryExamplesSection", 28189, 680}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[588, 21, 3918, 101, 70, "AnchorBarGrid",ExpressionUUID->"de910565-3aa1-44a7-a9fb-1ea3d2627953",
+Cell[588, 21, 3918, 101, 70, "AnchorBarGrid",ExpressionUUID->"4a41308e-8a70-4e30-9413-c0ddcdb28fc7",
  CellID->1],
-Cell[4509, 124, 52, 0, 70, "ContextNameCell",ExpressionUUID->"cd04a40a-97f0-4fe0-80fe-c088f2c10e41"],
+Cell[4509, 124, 52, 0, 70, "ContextNameCell",ExpressionUUID->"69bd642d-6941-46cf-b186-763f0b75a7d7"],
 Cell[CellGroupData[{
-Cell[4586, 128, 251, 8, 70, "ObjectNameGrid",ExpressionUUID->"07d8a888-b919-4fad-a0d3-18bc295ace17"],
-Cell[4840, 138, 408, 12, 70, "Usage",ExpressionUUID->"522f7a12-6d3d-4744-9f62-d4c5a1db63fe",
+Cell[4586, 128, 251, 8, 70, "ObjectNameGrid",ExpressionUUID->"6a87a59c-a354-4dee-bdaf-59e6181576fd"],
+Cell[4840, 138, 408, 12, 70, "Usage",ExpressionUUID->"9831766d-8f53-416e-8063-81099fb4c148",
  CellID->183007378]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5285, 155, 1194, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"a58a5d3b-1402-4b5d-a732-5427f1ee5c37",
- CellTags->"PrimaryExamplesSection",
- CellID->682517389],
+Cell[5285, 155, 1633, 45, 70, "NotesSection",ExpressionUUID->"899d2f6f-5fb3-4149-97dd-aa4ef8f250d9",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->261049851],
+Cell[6921, 202, 87, 1, 70, "Notes",ExpressionUUID->"4e17c1c8-9d52-4896-ac13-ddca2a51ec08",
+ CellID->134587823],
+Cell[7011, 205, 1110, 23, 70, "Notes",ExpressionUUID->"d5dfd504-9656-4c88-a8d0-2fa595f8875e",
+ CellID->31011377]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
 Cell[CellGroupData[{
-Cell[6504, 194, 1194, 35, 70, "ExampleSection",ExpressionUUID->"90e66b2c-12cc-4a3c-89d1-371ea24fce05",
- CellID->22376140],
-Cell[7701, 231, 74, 1, 70, "ExampleText",ExpressionUUID->"b319aaaf-80e8-4957-abc1-4cb1fa4843f0",
+Cell[8248, 234, 1194, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"105f6e00-8b6a-4ec2-9f06-b7114d99619f",
+ CellTags->"PrimaryExamplesSection",
+ CellID->205942213],
+Cell[CellGroupData[{
+Cell[9467, 273, 1195, 35, 70, "ExampleSection",ExpressionUUID->"349d71a6-7490-425f-8bdb-49b2d11865e8",
+ CellID->379419087],
+Cell[10665, 310, 74, 1, 70, "ExampleText",ExpressionUUID->"99f90caa-e00d-4215-9a9f-58a27f4ad1e9",
  CellID->380242289],
 Cell[CellGroupData[{
-Cell[7800, 236, 228, 7, 70, "Input",ExpressionUUID->"35189d2b-60c2-47b5-b138-7206b97b6a86",
+Cell[10764, 315, 228, 7, 70, "Input",ExpressionUUID->"8e91e8e2-5253-4134-be30-7dc69fae521b",
  CellID->9974377],
-Cell[8031, 245, 5472, 94, 70, "Output",ExpressionUUID->"28f56504-b895-4d97-9fcd-a3d79b4842ed",
+Cell[10995, 324, 5472, 94, 70, "Output",ExpressionUUID->"a503f701-5fd6-4468-9f5f-83489ae3398a",
  CellID->91488189]
 }, Open  ]],
-Cell[13518, 342, 149, 4, 70, "ExampleText",ExpressionUUID->"ecd98538-e429-4776-a0ba-775e2de4c0b5",
+Cell[16482, 421, 149, 4, 70, "ExampleText",ExpressionUUID->"15493721-600c-4e4c-ac34-afdaf3848d77",
  CellID->48741650],
 Cell[CellGroupData[{
-Cell[13692, 350, 128, 3, 70, "Input",ExpressionUUID->"de7e63cc-8bf6-4b54-a08e-55f0d6269883",
+Cell[16656, 429, 128, 3, 70, "Input",ExpressionUUID->"3b73d269-ff6a-42f8-a06f-e6f8307781ed",
  CellID->400052633],
-Cell[13823, 355, 366, 8, 70, "Message",ExpressionUUID->"4ec3b8c8-e95e-41d6-8a91-3eb2527a22c8",
+Cell[16787, 434, 366, 8, 70, "Message",ExpressionUUID->"74c4abe5-8bee-4dc5-a69a-b9bbe0b65a1a",
  CellID->590099309],
-Cell[14192, 365, 7186, 125, 70, "Output",ExpressionUUID->"afe1f3c3-270f-42e4-b150-8d75a67d2d59",
+Cell[17156, 444, 7186, 125, 70, "Output",ExpressionUUID->"996334c8-411e-4d34-a81a-1fc18a3f9ef2",
  CellID->275740164]
 }, Open  ]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[21620, 499, 782, 21, 70, "SeeAlsoSection",ExpressionUUID->"1a0dba58-1d52-4dcf-91cf-0db74f662189"],
+Cell[24584, 578, 782, 21, 70, "SeeAlsoSection",ExpressionUUID->"f7e6efeb-4843-49b6-8d8b-f54e5e09fd8f"],
 Cell[CellGroupData[{
-Cell[22427, 524, 630, 17, 70, "MoreAboutSection",ExpressionUUID->"24d116a8-af7e-4803-b319-c29c91704f9e"],
-Cell[23060, 543, 417, 13, 70, "ExamplesInitializationSection",ExpressionUUID->"30a3d517-d121-40f6-9438-9fc0a7defafb",
+Cell[25391, 603, 630, 17, 70, "MoreAboutSection",ExpressionUUID->"bb1acc36-3e3d-4685-852e-c8b251cef1ea"],
+Cell[26024, 622, 417, 13, 70, "ExamplesInitializationSection",ExpressionUUID->"93529274-e4a7-4878-9f05-0e0dc2654898",
  CellID->163278034],
-Cell[23480, 558, 129, 3, 70, "ExampleInitialization",ExpressionUUID->"dea6702a-58df-492a-b7bb-b81312e13b12",
+Cell[26444, 637, 129, 3, 70, "ExampleInitialization",ExpressionUUID->"6fc8d9cb-f61f-490e-ad6b-1f38fddc797c",
  CellID->343348094],
-Cell[23612, 563, 55, 1, 70, "MetadataSection",ExpressionUUID->"0d70177d-424e-44ea-b34e-581478cff2b6",
+Cell[26576, 642, 55, 1, 70, "MetadataSection",ExpressionUUID->"f11862f8-bd67-4b72-9ce7-4abad8e6a802",
  CellID->680098926]
 }, Open  ]],
-Cell[23682, 567, 23, 0, 70, "FooterCell",ExpressionUUID->"e160dadf-489f-487f-9f82-638f686f1963"]
+Cell[26646, 646, 23, 0, 70, "FooterCell",ExpressionUUID->"6e545999-8d9d-4faa-b4c7-38c6f928828b"]
 }
 ]
 *)
