@@ -1,7 +1,7 @@
 <|"English\\Guides\\MixedGraphFunctions.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[2.9848587, "Seconds"]|>], 
-   "FileHash" -> "V/iUMpiyet1U3kxaJcF0P8oRoK4DScJw80sd/hT9ZxE="|>, 
+     <|"Time" -> Quantity[3.7845981, "Seconds"]|>], 
+   "FileHash" -> "5vLH8blATCfVk+PJVLPAPhP7MIA57lks0I/9bTkmd2A="|>, 
  "English\\ReferencePages\\Symbols\\EulerizeGraph.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
      <|"Time" -> Quantity[3.4836123, "Seconds"]|>], 
@@ -24,8 +24,8 @@
    "FileHash" -> "CQIGVPCJhS6s7yeUZO7ftKo5N0q96YVURlClz74WD/k="|>, 
  "English\\ReferencePages\\Symbols\\RandomMixedGraph.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[26.614145, "Seconds"]|>], 
-   "FileHash" -> "aBaX3UzHZmO59eg2+BNDOt5Kgee6+sW1o19L6c6/9DI="|>, 
+     <|"Time" -> Quantity[20.4465974, "Seconds"]|>], 
+   "FileHash" -> "bv3qJE+yTCb8tS8mK5AiraU6CT57bYMdoe2IWiN6ic0="|>, 
  "English\\ReferencePages\\Symbols\\RandomWeightedMixedGraph.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
      <|"Time" -> Quantity[16.0208468, "Seconds"]|>], 
