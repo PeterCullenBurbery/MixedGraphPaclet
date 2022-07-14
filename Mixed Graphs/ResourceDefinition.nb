@@ -15420,11 +15420,61 @@ Cell["I am using this for a Wolfram Summer School 2022 project.", "Text",
    PassEventsDown -> False, PassEventsUp -> False},
  CellChangeTimes->{{3.866294392856001*^9, 3.866294403217195*^9}},
  CellTags->{"DefaultContent", "TabNext"},
- CellID->908162033,ExpressionUUID->"4fc6767a-eea1-4779-b0cb-e1221f2924a3"]
+ CellID->908162033,ExpressionUUID->"4fc6767a-eea1-4779-b0cb-e1221f2924a3"],
+
+Cell[BoxData[
+ TagBox[
+  FrameBox[
+   TagBox[GridBox[{
+      {
+       TagBox[GridBox[{
+          {
+           StyleBox[
+            
+            DynamicBox[ToBoxes[
+             ResourceSystemClient`Private`$submitProgressContent, 
+              StandardForm],
+             ImageSizeCache->{102.2558567047119, {2., 8.}}],
+            StripOnInput->False,
+            FontFamily->"Roboto",
+            FontSize->10,
+            FontColor->RGBColor[0.5, 0.5, 0.5]]}
+         },
+         AutoDelete->False,
+         FrameStyle->Directive[1, 
+           RGBColor[0, 0, 0, 0]],
+         GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Automatic}}},
+         GridBoxBackground->{"Columns" -> {{None}}},
+         GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+         GridBoxItemSize->{"Columns" -> {{24}}, "Rows" -> {{All}}},
+         GridBoxSpacings->{"Columns" -> {0, {0}, 0}, "Rows" -> {0.6, 0.6}}],
+        "Grid"]}
+     },
+     AutoDelete->False,
+     FrameStyle->Directive[
+       RGBColor[1, 0, 0], 
+       Dashing[{0, Small}]],
+     GridBoxAlignment->{"Rows" -> {{Top}}},
+     GridBoxFrame->{"Columns" -> None, "Rows" -> None},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+     GridBoxSpacings->{"Columns" -> {{0.3}}}],
+    "Grid"],
+   Background->RGBColor[0.9529411764705882, 0.9803921568627451, 1.],
+   FrameMargins->{{5, 5}, {1, 2}},
+   FrameStyle->Directive[1, 
+     RGBColor[0.788235294117647, 0.8509803921568627, 0.8980392156862745]],
+   RoundingRadius->3,
+   StripOnInput->False],
+  Deploy,
+  DefaultBaseStyle->"Deploy"]], "PrintTemporary",
+ TaggingRules->{},
+ CellChangeTimes->{3.866739980724005*^9},
+ CellLabel->"During evaluation of In[13]:=",
+ CellID->30624637,ExpressionUUID->"3c99f5c5-c74b-4f7d-8d6b-7da3801ab740"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 580.8},
+WindowSize->{1141.8, 574.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 DockedCells->{
   Cell[
@@ -15466,7 +15516,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8667357160284592`17.33991947905231*^9, TimeZone -> 
+                    3.8667522801745585`17.339921339459217*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -15490,7 +15540,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8667357160284592`17.33991947905231*^9, TimeZone -> 
+                    3.8667522801745585`17.339921339459217*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -15515,7 +15565,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8667357160284592`17.33991947905231*^9, TimeZone -> 
+                    3.8667522801745585`17.339921339459217*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     SingleEvaluation -> True, Evaluator -> "System"], 
@@ -15529,189 +15579,7 @@ DockedCells->{
                    DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8667357160284592`17.33991947905231*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                   StandardForm], SingleEvaluation -> True, Evaluator -> 
-                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
-                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
-               Alignment -> {Right, Baseline}], "\"   \"", 
-              ItemBox[
-              "\"Found 1 potential issue and 1 suggestion\"", ItemSize -> 
-               Scaled[0.75], StripOnInput -> False]}}, 
-            GridBoxAlignment -> {
-             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
-            False, GridBoxItemSize -> {
-             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
-          ItemSize -> Fit, StripOnInput -> False], 
-         ItemBox["", ItemSize -> All, StripOnInput -> False], 
-         ItemBox[
-          TagBox[
-           ButtonBox[
-            TagBox[
-             PaneSelectorBox[{False -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
-                True -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                 None]}, 
-              Dynamic[
-               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-              FrameMargins -> 0], 
-             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-               EvaluationNotebook[]}, 
-              CurrentValue[
-               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                DockedCells] = If[
-                TrueQ[
-                 MemberQ[
-                  CurrentValue["ModifierKeys"], "Control"]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Cell[
-                  Blank[], "StripeCell", 
-                  BlankNullSequence[]]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Condition[
-                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                   Blank[Cell]], 
-                  Not[
-                   FreeQ[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "5bb2e0d6-67c2-43de-a469-67004db40731"]]]]]], Appearance -> 
-            None, BoxID -> "5bb2e0d6-67c2-43de-a469-67004db40731", Evaluator -> 
-            Automatic, Method -> "Preemptive"], 
-           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
-          False]}}, 
-       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
-       AutoDelete -> False, 
-       GridBoxItemSize -> {
-        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
-     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
-     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
-  Cell[
-   BoxData[
-    StyleBox[
-     TagBox[
-      GridBox[{{
-         ItemBox[
-          TagBox[
-           GridBox[{{
-              OverlayBox[{
-                StyleBox[
-                 TagBox[
-                  DynamicModuleBox[{Typeset`var$$ = False}, 
-                   InterpretationBox[
-                    StyleBox[
-                    PaneSelectorBox[{False -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667360402561945`17.339919515468118*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    AutoDelete -> False, 
-                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667360402561945`17.339919515468118*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}, {"", 
-                    PaneBox["\"\"", ImageMargins -> 0]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
-                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
-                    Baseline], Deployed -> False, StripOnInput -> False], 
-                    OpenerView[{
-                    Style[
-                    Dynamic[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667360402561945`17.339919515468118*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    SingleEvaluation -> True, Evaluator -> "System"], 
-                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
-                    FontSize -> 0.9 Inherited], ""}, False]], 
-                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
-                 ShowContents -> False, StripOnInput -> False], 
-                StyleBox[
-                 DynamicBox[
-                  ToBoxes[
-                   DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667360402561945`17.339919515468118*^9, TimeZone -> 
+                    3.8667522801745585`17.339921339459217*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                    StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -15792,8 +15660,8 @@ DockedCells->{
                   Not[
                    FreeQ[
                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "b24be15d-6f1e-43db-b19d-ab3100d9b3f6"]]]]]], Appearance -> 
-            None, BoxID -> "b24be15d-6f1e-43db-b19d-ab3100d9b3f6", Evaluator -> 
+                    "82c9757a-5d98-4c1e-9717-b4a41ad35789"]]]]]], Appearance -> 
+            None, BoxID -> "82c9757a-5d98-4c1e-9717-b4a41ad35789", Evaluator -> 
             Automatic, Method -> "Preemptive"], 
            MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
           False]}}, 
@@ -15824,7 +15692,7 @@ DockedCells->{
                     DateString[
                     TimeZoneConvert[
                     DateObject[
-                    3.8667362211655199`17.339919535787043*^9, TimeZone -> 
+                    3.8667523206097294`17.339921344000697*^9, TimeZone -> 
                     0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
                     "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
                     StandardForm], SingleEvaluation -> True, Evaluator -> 
@@ -15844,9 +15712,9 @@ DockedCells->{
                     TagBox[
                     
                     PaneSelectorBox[{
-                    False -> "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+                    False -> "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     True -> StyleBox[
-                    "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+                    "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "HyperlinkActive", StripOnInput -> False]}, 
                     Dynamic[
                     CurrentValue["MouseOver"]], ImageSize -> Automatic, 
@@ -15857,145 +15725,11 @@ DockedCells->{
                     "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\\
 Mixed Graphs\\build\\"]], Appearance -> None, BaseStyle -> "Hyperlink", 
                     Evaluator -> Automatic, Method -> "Preemptive"], 
-                   "OEM6eJxFjs0KwjAQhIkUEfQhpHeLxZs3q1gPCqXRkyulPxsNpLZkE6xvb1\
-MK3oZvdnZGMJql+SdqOiTBaJo2TguPvLMkw72jVMjZXUxofsW6VblB57PRt/5+\
-C3Aj1ATQokENcGhKW+Pb9CSW5mQLgIvssIp13r6SvFRoRrIcUH9XWKkqgMQ9iKwuUH+z7B+\
-iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"], "", 
-                 TagBox[
-                  ButtonBox[
-                   TagBox[
-                    PaneSelectorBox[{False -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None], True -> GraphicsBox[{
-                    GrayLevel[
-                    NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                    
-                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                    0.42426406871192845`}, {0.42426406871192845`, 
-                    0.282842712474619}}], 
-                    
-                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                    0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                    0.42426406871192845`}}]}, ImageSize -> 18, 
-                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                    None]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-                   With[{
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-                    EvaluationNotebook[]}, 
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells] = If[
-                    TrueQ[
-                    MemberQ[
-                    CurrentValue["ModifierKeys"], "Control"]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Cell[
-                    Blank[], "StripeCell", 
-                    BlankNullSequence[]]], 
-                    DeleteCases[
-                    Flatten[{
-                    CurrentValue[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                    Condition[
-                    Pattern[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    Blank[Cell]], 
-                    Not[
-                    FreeQ[
-                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "9d2de5a5-1c36-495d-a22d-2b5805f325cb"]]]]]], Appearance -> 
-                   None, BoxID -> "9d2de5a5-1c36-495d-a22d-2b5805f325cb", 
-                   Evaluator -> Automatic, Method -> "Preemptive"], 
-                  MouseAppearanceTag["LinkHand"]]}}, 
-               GridBoxAlignment -> {
-                "Columns" -> {Left, Left, Left, Right, Right, Right}, 
-                 "Rows" -> {{Baseline}}}, AutoDelete -> False, 
-               GridBoxItemSize -> {
-                "Columns" -> {
-                  Automatic, Automatic, Automatic, Fit, 8, Automatic}, 
-                 "Rows" -> {{Automatic}}}], "Grid"]}}, 
-           GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False, 
-           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-           GridBoxItemSize -> {
-            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-           BaselinePosition -> {1, 1}], True -> GridBox[{{
-             OpenerBox[
-              Dynamic[
-               CurrentValue[
-                EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], 
-              Appearance -> Automatic, Enabled -> Automatic, AutoAction -> 
-              False, ContinuousAction -> False], 
-             TagBox[
-              GridBox[{{
-                 StyleBox[
-                  DynamicBox[
-                   ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667362211655199`17.339919535787043*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                   "System"], FontSlant -> Italic, FontColor -> 
-                  GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                  False], "\"   \"", 
-                 TagBox[
-                  
-                  GridBox[{{
-                    "\"Paclet build completed successfully.\"", "\"\""}}, 
-                   AutoDelete -> False, 
-                   GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                   GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                 TemplateBox[{
-                   ButtonBox[
-                    TagBox[
-                    
-                    PaneSelectorBox[{
-                    False -> "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
-                    True -> StyleBox[
-                    "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
-                    "HyperlinkActive", StripOnInput -> False]}, 
-                    Dynamic[
-                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-                    FrameMargins -> 0], 
-                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-                    SystemOpen[
-                    File[
-                    "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\\
-Mixed Graphs\\build\\"]], Appearance -> None, BaseStyle -> "Hyperlink", 
-                    Evaluator -> Automatic, Method -> "Preemptive"], 
-                   "OEM6eJxFjs0KwjAQhIkUEfQhpHeLxZs3q1gPCqXRkyulPxsNpLZkE6xvb1\
-MK3oZvdnZGMJql+SdqOiTBaJo2TguPvLMkw72jVMjZXUxofsW6VblB57PRt/5+\
-C3Aj1ATQokENcGhKW+Pb9CSW5mQLgIvssIp13r6SvFRoRrIcUH9XWKkqgMQ9iKwuUH+z7B+\
-iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"], "", 
+                   "OEM6eJxFjs0KwjAQhIkUEfQhpHeLvXjwZhXrQaE0enKl9GejgdSWbIL17W\
+1Kwdvwzc7OCEazNP9ETYckGE3TxmnhkXeWZLh3lAo5u4sJza9Ytyo36Hw2+\
+tbfbwFuhJoAWjSoAQ5NaWt8m57E0pxsAXCRHVaxzttXkpcKzUiWA+\
+rvCitVBZC4B5HVBepvlv1DtAqDcBOsg3ZI+3zhZu30c+jh7PEDzXBGFQ=="}, 
+                  "ClickToCopyTemplate"], "\"\"", 
                  TagBox[
                   ButtonBox[
                    TagBox[
@@ -16062,8 +15796,144 @@ iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"], "",
                     Not[
                     FreeQ[
                     DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "9d2de5a5-1c36-495d-a22d-2b5805f325cb"]]]]]], Appearance -> 
-                   None, BoxID -> "9d2de5a5-1c36-495d-a22d-2b5805f325cb", 
+                    "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c"]]]]]], Appearance -> 
+                   None, BoxID -> "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c", 
+                   Evaluator -> Automatic, Method -> "Preemptive"], 
+                  MouseAppearanceTag["LinkHand"]]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left, Left, Right, Right, Right}, 
+                 "Rows" -> {{Baseline}}}, AutoDelete -> False, 
+               GridBoxItemSize -> {
+                "Columns" -> {
+                  Automatic, Automatic, Automatic, Fit, 8, Automatic}, 
+                 "Rows" -> {{Automatic}}}], "Grid"]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False, 
+           GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+           BaselinePosition -> {1, 1}], True -> GridBox[{{
+             OpenerBox[
+              Dynamic[
+               CurrentValue[
+                EvaluationCell[], {TaggingRules, "StripeOpen"}, False]], 
+              Appearance -> Automatic, Enabled -> Automatic, AutoAction -> 
+              False, ContinuousAction -> False], 
+             TagBox[
+              GridBox[{{
+                 StyleBox[
+                  DynamicBox[
+                   ToBoxes[
+                    DateString[
+                    TimeZoneConvert[
+                    DateObject[
+                    3.8667523206097294`17.339921344000697*^9, TimeZone -> 
+                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
+                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
+                    StandardForm], SingleEvaluation -> True, Evaluator -> 
+                   "System"], FontSlant -> Italic, FontColor -> 
+                  GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
+                  False], "\"   \"", 
+                 TagBox[
+                  
+                  GridBox[{{
+                    "\"Paclet build completed successfully.\"", "\"\""}}, 
+                   AutoDelete -> False, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                 TemplateBox[{
+                   ButtonBox[
+                    TagBox[
+                    
+                    PaneSelectorBox[{
+                    False -> "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
+                    True -> StyleBox[
+                    "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
+                    "HyperlinkActive", StripOnInput -> False]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+                    SystemOpen[
+                    File[
+                    "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\\
+Mixed Graphs\\build\\"]], Appearance -> None, BaseStyle -> "Hyperlink", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                   
+                   "OEM6eJxFjs0KwjAQhIkUEfQhpHeLvXjwZhXrQaE0enKl9GejgdSWbIL17W\
+1Kwdvwzc7OCEazNP9ETYckGE3TxmnhkXeWZLh3lAo5u4sJza9Ytyo36Hw2+\
+tbfbwFuhJoAWjSoAQ5NaWt8m57E0pxsAXCRHVaxzttXkpcKzUiWA+\
+rvCitVBZC4B5HVBepvlv1DtAqDcBOsg3ZI+3zhZu30c+jh7PEDzXBGFQ=="}, 
+                  "ClickToCopyTemplate"], "\"\"", 
+                 TagBox[
+                  ButtonBox[
+                   TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
+                   With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
+                    EvaluationNotebook[]}, 
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells] = If[
+                    TrueQ[
+                    MemberQ[
+                    CurrentValue["ModifierKeys"], "Control"]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Cell[
+                    Blank[], "StripeCell", 
+                    BlankNullSequence[]]], 
+                    DeleteCases[
+                    Flatten[{
+                    CurrentValue[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
+                    DockedCells]}], 
+                    Condition[
+                    Pattern[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    Blank[Cell]], 
+                    Not[
+                    FreeQ[
+                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
+                    "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c"]]]]]], Appearance -> 
+                   None, BoxID -> "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c", 
                    Evaluator -> Automatic, Method -> "Preemptive"], 
                   MouseAppearanceTag["LinkHand"]]}}, 
                GridBoxAlignment -> {
@@ -16118,7 +15988,7 @@ iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"], "",
                     TagBox[
                     "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
 MixedGraphPaclet\\\\Mixed \
-Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
@@ -16126,7 +15996,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"31.1099065`", "\"s\"", "seconds", 
+                    TemplateBox[{"12.6024821`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
@@ -16171,7 +16041,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     TagBox[
                     "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
 MixedGraphPaclet\\\\Mixed \
-Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
@@ -16179,7 +16049,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"31.1099065`", "\"s\"", "seconds", 
+                    TemplateBox[{"12.6024821`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -16196,9 +16066,8 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
                     "InitialData" -> <|"Files" -> {<|"File" -> 
                     File["Kernel\\MixedGraphs.wl"], "Hash" -> 
-                    
-                    "2ec18a6950d354bca6fe0189a34fe39eadc3b4b2e45e64a2241662c79\
-596dab5"|>, <|"File" -> 
+                    "f81f7f0fe17597f0f6dc0867618cd35d1efbea5b853dfd58154f9c893\
+f73d4b8"|>, <|"File" -> 
                     File["Documentation\\English\\Guides\\MixedGraphFunctions.\
 nb"], "Hash" -> 
                     "34018aa0773e72ca6a182f6d68dd6523b679224430b8b66093370a4e5\
@@ -16209,8 +16078,8 @@ EulerizeGraph.nb"], "Hash" ->
 b81e4e6"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 GraphConvexHull.nb"], "Hash" -> 
-                    "b9193a88f915e3a09944f29f2cd847e831e2e8b2553918074828e7317\
-f54c743"|>, <|"File" -> 
+                    "0be1941cc6ec1879804a12540512585af7bc1bec4f6151fe3ff03d838\
+71dae56"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 GraphicalDegreeSequenceQ.nb"], "Hash" -> 
                     "eb63ab7be4f331486e8c0a43138ccb39cda212c229a9d1f5917b4bc8b\
@@ -16229,8 +16098,8 @@ MixedGraphUndirectedEdges.nb"], "Hash" ->
 8134721"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 RandomMixedGraph.nb"], "Hash" -> 
-                    "6278ade22ed07dfdbcb50b3066709c32526f5f15fbc1a054772eba73b\
-c5a4267"|>, <|"File" -> 
+                    "67e1d46dca7b9a4ec75e8b2a819aa44e38afaf062f262ae11e952832b\
+7004e4a"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 RandomWeightedMixedGraph.nb"], "Hash" -> 
                     "d6918b83b1c3f9a5ed1896c0813e14094e1494b0e0b924b8fd70e12b8\
@@ -16277,6 +16146,7 @@ e567421"|>}|>, "AllowEmbedding" -> True, "InitialShape" ->
                     TypeSystem`PackageScope`Limited[
                     TypeSystem`PackageScope`ColumnShape[
                     TypeSystem`PackageScope`Limited[
+                    
                     TypeSystem`PackageScope`RowShape[<|"File" -> 
                     TypeSystem`PackageScope`AtomShape[60], "Hash" -> 
                     TypeSystem`PackageScope`AtomShape[560.]|>], 
@@ -16425,8 +16295,8 @@ e567421"|>}|>, "AllowEmbedding" -> True, "InitialShape" ->
                     Item[
                     Pane[
                     Annotation[
-                    "2ec18a6950d354bca6fe0189a34fe39eadc3b4b2e45e64a2241662c79\
-596dab5", 
+                    "f81f7f0fe17597f0f6dc0867618cd35d1efbea5b853dfd58154f9c893\
+f73d4b8", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -16505,8 +16375,8 @@ GraphConvexHull.nb"],
                     Item[
                     Pane[
                     Annotation[
-                    "b9193a88f915e3a09944f29f2cd847e831e2e8b2553918074828e7317\
-f54c743", 
+                    "0be1941cc6ec1879804a12540512585af7bc1bec4f6151fe3ff03d838\
+71dae56", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -16640,8 +16510,8 @@ RandomMixedGraph.nb"],
                     Item[
                     Pane[
                     Annotation[
-                    "6278ade22ed07dfdbcb50b3066709c32526f5f15fbc1a054772eba73b\
-c5a4267", 
+                    "67e1d46dca7b9a4ec75e8b2a819aa44e38afaf062f262ae11e952832b\
+7004e4a", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -17095,7 +16965,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"7.3685059`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.0071779`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -17142,7 +17012,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"7.3685059`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.0071779`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -17152,15 +17022,8 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    RowBox[{"{", 
-                    RowBox[{
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], ",", 
-                    "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
-MixedGraphPaclet\\\\Mixed \
-Graphs\\\\Documentation\\\\English\\\\ReferencePages\\\\Symbols\\\\\
-GraphConvexHull.nb\""}], "}"}], "SummaryItem"]}]}, {
+                    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}], 
+                    "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -17168,96 +17031,8 @@ GraphConvexHull.nb\""}], "}"}], "SummaryItem"]}]}, {
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    RowBox[{"\[LeftAssociation]", 
-                    
-                    RowBox[{
-                    "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
-MixedGraphPaclet\\\\Mixed \
-Graphs\\\\Documentation\\\\English\\\\ReferencePages\\\\Symbols\\\\\
-GraphConvexHull.nb\"", "\[Rule]", 
-                    RowBox[{
-                    TagBox["Success", "SummaryHead"], "[", 
-                    
-                    DynamicModuleBox[{Typeset`open$$ = False, 
-                    Typeset`embedState$$ = "Ready"}, 
-                    TemplateBox[{
-                    PaneSelectorBox[{False -> GridBox[{{
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Time\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
+                    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}], 
                     "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"BuildDocumentationNotebook\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
-                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{2}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
-                    "Rows" -> {{Top}}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
-                    "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}], 
-                    True -> GridBox[{{
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Time\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"BuildDocumentationNotebook\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
-                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{2}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
-                    "Rows" -> {{Top}}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
-                    "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
-                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}]}], 
-                    "\[RightAssociation]"}], "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -17273,22 +17048,23 @@ GraphConvexHull.nb\"", "\[Rule]",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"100.`", "\"%\"", "percent", "\"Percent\""}, 
-                    "QuantityPostfix", SyntaxForm -> Mod], "SummaryItem"]}]}, {
+                    TemplateBox[{"Indeterminate", "\"%\"", "percent", 
+                    "\"Percent\""}, "QuantityPostfix", SyntaxForm -> Mod], 
+                    "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
                     TemplateBox[{"\"ProcessedFilesCount\"", "\": \""}, 
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["1", "SummaryItem"]}]}, {
+                    TagBox["0", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
                     TemplateBox[{"\"SuccessfulFilesCount\"", "\": \""}, 
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["1", "SummaryItem"]}]}, {
+                    TagBox["0", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -17337,145 +17113,142 @@ GraphConvexHull.nb\"", "\[Rule]",
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                     Short[#, 0.75]& ], 
-                    "OEM6eJztPVtvG9l5pnnRxbJl73pz2aatyipFmkYu5z6zSCBLlGS7sbyyR\
-t5NEBXrMzNnpIGGM8ycoWymCNACfSgKBGibPOYh6O8o0If+\
-gj4UyWuTh6Iv3cf2bfudMxfOkJTMIWmvKZMPIjVzLt/\
-57uc7l88ukcVD9GLbf4mJXSV3HnkhDtoBDlHo+B48tkukdujTAnaFVB47JLSvk9oROoEn+\
-oLeMU1MiH5D77RaKOg+xMjSSz+yy+T2TtdDLcfc962Oi2n162n1so5Dcuuo28YEh8/\
-9NvbW10l1D7kEJ2/vJm9xy8CWDuDg9XW9egjtd6HMjSPcarvwMIIwarhMVg+\
-Qh3XsYjP0g3yflUMAI+mkShYeBI6Vr5x8L9BG6KsaWdruhGGChuV4RFG7H+7tHgTOOYDwfC/\
-wvXDXsw4x8TuBifWlvd1tJ2yhNtFvx4iBSh/\
-DOHFAgaeg7GAXdbFFbkVd7HU8k2L8IuxUjoIOToexvNVuYxQgD5BfeeJ7vTdL24hgPey62L7WN/\
-al3XPkdhBghixtdUK/BSQ207e1fRye+pa+fBBgwG3onGca3XKdE6+\
-FvTBBKKk1MeWU5LtX9FELnWDd+QkGjC3EGEtr5fqtHjktTIJr7LNyP30CFVeanSCAhj8BgLF+cw/\
-w20Tth9g5OaUgVA/8F9BnidzdMojvdkKcLU9u7qMTz7Edk/Fw8wsg9+JegFqMqGWyyNBD2bda/+\
-0vf16HBpd2nAB4ho4Z3h8+2G76rh8EX2WfX28G77PP7zaDH7DPbzabX09HvKKHgdP+\
-2HvktTthj4ujl7eaADoAdoAsy/FO+l8vM7AYPH10XGFv9lFw4ngky8b0u3mtea3/\
-98Ww1HrMnrRTSr8T2S73y3a/kMVV9dX6ATJdHG4F5ingq65X6h+t1fVlaGcH26jjhvoHMc8/CnFry/\
-P8SJfo5c9/9quM7ujUmx8dHz8jwETHx20MTHR8vOObHcpm8OSBEz7sGMfH+85LbD0IUPs06jd+\
-ssYeQTmj47jW8fEBbWC7Exg46H72Wa8S2eDuccK9xr02q11PNRUFbhI83KgfwcBcyrFj4wB6y7VdSd\
-oWAOiGpjVk6blerpO6vkCw6XsW0ZfqevSrri8+7SAvdMJuj530rheil3t+\
-0CJlULz5wSalbsfcMCDUSQl9Adi/0/JIBj+R/FYeY7tXrALjHSwzRLcs00eg8IBG/\
-RKwGgNDIWRaY2RYBvsZHaCkVx24gorlyL02rxfvLKOSK30q+a5+6r+\
-gMuudNE9Bn5tUpfaj6MaTDtjAAHTB2cC7W2CDQLuA8nII1XXlHpVZ04wfIv3SX/U1s0H5yG+/\
-vQxwm9LEdTx84BMntrsRgUvNUloqMrpfirPQdH0ytrPQb2Xm3sLcWxjDW6jOvYV311uYYLC3Y6LvI5\
-ArTMLxR1zNjD35VRsytVzKTy03qD7UuwTafv4EAKDUdaznANUZqJtEE6+\
-TaFa59d6GfuORB2YAuTsoRFulDb265wCG7JWo3a3rG3qFPqFYod/6B9/HgYfdDL+\
-Rey9cKPUQkVP9Po9NTkWyJjUsQRINE8k2bnCqhgTRxoIGk1hTMESDx6KEZRHxvMjJMm8qmqTJFjKkw\
-Q6FhNkZno53vRPXIafHDzqOhUkGjMQ0kHuekYIjiNA5Qg1FEbDCAzSIU3lbtmTVsmSJFwxZ0QAGUWg\
-YqiHLDU0QlAYSsYRtWxAMdRCc7w0H5xDbGDSriQ8Az+RY77YM3yXHu0CmAJQ8gzALGI+\
-RJkmaZgoAnmY1cMMweWTJ2DRMAzAmi5phSbLKNRAnKJalAnxYlm1kqBwWsTwI2GYhwBhAoHTP8cuHH\
-dfNgmZonCYgVbU1TsICAvkSRZvXbN60VFHBqsBhHqsGL0mCxqkNRVR5FSsCp9iSaCqiMAjaw+\
-KggVFyd/AJ2Fgd/7hDCz3NwogNWUCGYmARyMSJqoxVE+\
-gmcIJqmoagmRbiOd7keQ2Qy9mSxinAdaZqcLZiCQ1tEMb7xWF85NmgQVj5LGympiJF4oGyAo+\
-wxQGnKZYsKqIF3MWritQA0iL6nFMx5mXBFu2GISgyhwzBMIbgb68QbD2RiKw1tsAG5aTCsgWMsIlNE\
-SmCAOCCmMjI4hXNBpCQzVuSxUkyNpAoWg2TMwRAriEi2cKabWNzEMJHY0L4zLNiGHctKJEFEphOMm1\
-T4RsNG0uKLEtCQ7FFjG1VtQCzEtcwZEApqBK5gTmRU2RkIvitcoKo8NykJD5EnuW3eqBmYZN5RUUW5\
-nlsNRTLtkBmJSBhQ5aVBog0L/GyLdmcZBsmhxqSqCg8IFMRDFNCIi8rk4pIBNunzM/\
-D1nAYLRmk01AFgzMFW0MScKKqySZFD2CroYnwVxMNqnk0XjRU21IAjbwBggSKBg0h8vcLwXiEzvBj8\
-MvACsXKptUGz80Lt7s5VIKtwACVArbAbjQ0DlAoyaClOVPmeUEyFUmzVFMwTVm0VdDgvAi8qFiiCWq\
-7YTUmBbPHgQzKI384NkVeRKJp8KDubE4EvjQwUjXFaAhg4EAz2opsgHQrEmfaimSoImdIqMFLYEpkR\
-eS5Df3Wluv6L3ZpUJe5uGyKtaGvxPZXP0Vt6tb+\
-ccaCx2ZbN2F285wGmHHAim2VNxKfhJShWfYHxr92Ud3v4+4OeB3dZrlZGlI1QuAFr+\
-j4YWZYIX94UeuPnZYD+AMALgQ+mskmY/zmJXBGUxlWsET+6KKCWzA9YoWCEpsWPb4/\
-RQBHaulCXIOrFxEpw5ivHkfzuzGrjTZqNui//\
-pv7UPp2ouXBHDnAS12YyF9PZ5IpIZsrw8v2wha0UOmCQvEcuecuUhDpWkcG1C1CfBPqr2afAcSkFsV\
-5AKY7mVefsKWKvodQsmOm87cIfzFeehHcgQ4SNF/\
-Uc3MFeFuvwMwdbV3b0JeAREdUM4XNuyCAEenjB8vgAc9FcS6KMyCKlVmUwQMUnvaGcGfHIW0W4ANSN\
-f2OF9JCd9OnEStEL4CGK3SSmi25Sh/0FVrS/\
-SCk3ZBeP7foszh2BTPEzIuHjmVhj87FyT5qk8oTmAxt6MvP2hbMkOlQmiXSGG1S7XfCdid8tLO+\
-nszGvzNaxTYAC5Wu5afyI1Y+P/DJ+joL3RapdjpetRN4CKCWyc1cJKJ/\
-hZsbqTXwxkCNRu9otGUHt12/a1dJNQrMLpAKe3VzIPZcYYEa+KYxaPhe7gVSaJRy3+8Q7J/jgEYp4+\
-kkGYzzpiHYZu2S8DgApsNkFFuBwD7/9q+5VnsisQTPuo/xOXbjkr/bpLHdA9/tnkA7mRWQ+\
-DsKzzINsXjIgEdu8wv2fxThbX5xealRGhqh9kh9Ta+h0YY2KYng4WhcuK67jkkjyGcsVH5vpEquD/\
-099F1rDOUwYNhJBYwt0RcT1yCaGuhVxsbDVgz6w9x05gN6a9hyxQqrdVF8vBotm7HflWa1FyDdBvBP\
-AlCpVp6xbfb5n83LljzYGhlZTKj0SnFd2T2H6g9hSuuyBZJVNu7eyk1OomM7fj3WEem/\
-MTRsBYSuSeTWJ/7pH+nn3zcDjn3+czP4Ifv896a++\
-NjxzmjffQtOqflbYV03gUfOwB5RfXn9kQ1IUUaiu3mKzTO2swjRZROw4AVDtPZ1uzYij3WYzWIbhgp\
-2UsxQFbNMxQxSQTtUWFy/\
-HAFPnPqZ0kqx4xdPj6Ipz1wzXaaZYhc50UyJxzzXTHPN9PZqpjimMFuaicVkr7hmGmmqU0xDxWu7qY\
-pK/5/rqLmOelt0VG/7RRkmRDGPvt0aaijILMwcK6doh9Ho2ikNpb7VSur6pcrp8g0jbzM5yxdwYPx/\
-HBBlMcOihG1+d9oUXezfPjq0g4vpNPmWnVkmJXMkxiNlGvj/EiiauEQ39Tby9gK/\
-tWX456MK5DgbqmaPxtevqrhOuqVtlkn5LorrZBsOZ4/a5asquJNu+\
-ZxlUr6LgjvphtzZo3flqorupFuiZ5mU76LoTm3D+\
-uwRvnpVZXjSIwOzTMp3UYYnPtAxewSvXVXZnfRIzSyT8l2U3SkdeJo9si9cVQme9MjZLJPyXZTg6R0\
-InD3KL15VIZ70SOYsk/JdFOKJD8zOHsGXrqrsTnpkeZZJ+S7K7tQOlM8e4ZevqgxPeqR/\
-lkn5LsrwNC9cmD3a37iqYjzplRezTMq5GE92Icns0X7lqorxpFfCzDIpZ1SMU+\
-guvpj2BruJ8mW4j72Onbua8z1mUDuetfuyHWBCb50l6miYNXttHgXOyQlQsUaqn546Jj0htvDMI6iF\
-nxJ+tNZcRMKPY1q9EW7onZyv6gzQsYdNvjv6EJuDtaWxaqdXyA+\
-hoB3fWDAZXOOzQdz9eAOjBNkGwp6lJxCKNXfi+gZydTPwXffATyXtdR5RoX186oSn/\
-RdXjsjEMH56tcf6iOXXkwpJN6NJWFKLFl4vIpVJpWLdOeQxRnZ0VGSdfFSsu0eZysW6PWV1ogtQ2JU\
-lW+wcV20fheZpIWWUGfbKlhviwEP0juDsEZj8aT0oWBzGp0WJXviwWIS9Px+\
-pFnLdHuoKVnnLRuJ1C48kqfKmRiKMVItkb/mhTsxoetmMLpzKXRFUVL+\
-UCg4se01R4br91xkV0qGn6BzTa5PosbXyE5/\
-6eIt7yHE7AX468slMCxogOMzcHTwmYUdzRhyS3I2SQg2mby/\
-AuDgDsstWqIP7F77jZQ7a0oOp8PfjIO5hTHQWFrriKCAL0M8pvc2rTBapHxAnuViObtqi49KrNAnCm\
-r3Y8zKruz/ugKc+\
-hgWMHH392mSNZGxBGX5O1ljOmui1OFFCdAb8GlDiZnTocPclNjshZseA5ZG6iY4BZ24Fmx8GvmAe8S\
-ZmHkXdQr0W4Jafychwk4rH0HwOkcBXJhH4Ua0lpfVuqx12X7e1HEObRm5fYZ9nHBdzJLUFZfFcbc3V\
-1rultsrIsl6ts8jSDnbZradBqr6Y9BZXXMUmeTkmHpjk5Zm6d4vdGJPfgj5UbwpWyblxmZDaOBMHfW\
-mLmNiz+lSVXqFu93ApHQ3g+I4RaGUunl+esGWo+2qRy9isaXDW8g4eylorh/\
-gcBwSvzVnsKrBYlsxvmsfiBFlZ7qpBe3O+mn2+6st99mqOynoMySJONTWVPQb5sOm3u2vJfbprob/\
-WdJ224aPAGmSa0og+aejH2eaSdkfkHBNgod2POokr7P5kR/4VNnL6/\
-BWjHjVinY56jKDY1BE0lBFyhD8A3sI9yjve2hP8Yq2JWRKDqRF+NAqZ0CuD581QPho6I/\
-2lw34jlJ86hnpWJSm6TK/320Mtx+3qqzpLwbmmI4+sHQR+bxGdFmIXbt/\
-KV4z2hpLqgYscr1d8xzl36A1nUd6LXo00X6Odu2bs//6Xfv6rd83YYn8i2lyext4lZCSXeTW7gF/\
-uW8B/HcNcfex4eDvA6IyuXTreQKLa7KJs/z3zl2axpWFaSrP+TLUFsvk5URD+\
-abrMndmzMBrnEhx22p84+AWLORXLWlC9YFU9uueRzeaKDYPNTodmFRitnbDVpo/\
-XycI6XdZgl1EWq56E80ez5/FSyDhrIOXLdiQUG23sO2bWcgqOd6ycDSO7j1E1+\
-mbuPk7PfSzI0VmhHI9TIlYbO8lHUQlm2VjGVIaRJn2tW1kGRW6svCcfZCqBNQwIjl+sZF481L/\
-2Lapp1jx/zfW9ExysUYUBlvFPx+m1P7v2UYDoDb3xHtQ3tBEoB8L7uYQyUYLq/\
-pQ4I66ehH57GwWsi9QUlkY0hS10hpnzYkET0MCfZGrFRaMEUHrHSCymATQrZjTnlxJ/\
-mXrzVdxfKsb9MU0LacV1ww/BUU/YNE54VCO1iPfyTtzCIW67yMQjTr9a7ArwdKPy+nr/Hlf7+\
-lu78ThW+dfovkbknbHFu9zF4m/xnmkgFGgDujBCvj3yuvB6OtZs/\
-dGAbadLMsPaGGf5JW2nNtQzhancI88MMJuQTbzntehaeBGkFtoImdvDWBj3cVcTbNsci1TFR/\
-hGt4yPOvWk9pahPgAfqgiJR9zjnLS/60Zc26/7I31DE4i1QcMGzeV+hZOKxMVlLjQg4+\
-rrIWGUvtBv7oREJmCywmoMPs8EUspHfi9yOHhMIxNCaq4OiZeMGgQcNqo7sU37NEDtNg62/Zd0+\
-0f8MPpv4ciHH+D6LZGv7EQz6+\
-fxN4ux0ByPCVRxNknANmPSouY6biN2tgu1EfsqSRtV5qGljRTeCRlD8gndg18QkvN0V33UxsMx2jjN\
-t1E7Yv5z2kpxrztqZ2k78XHSpsZyjqLWFjPqq/LGNnKsAGU9CwXWnh+\
-0Rp01vR5PPeU5pvfHFcJrSYqYbBaZ/KjiTb3OT5LXBTbq5k8NLTcDDE+\
-fPQOqFZvuDUR5S32vLo7I5rq5TVdSz7H1CQocZEC9VDcX54UkP2kCwu0dbKOOG6ZA6kmJEvlaortY9\
-hpwoMJEiZV62l3HLjZDBlZfWHhx13KGvngvqkPHHKtDEm8fu6F3Wi0UdNmmul5Cktqh/\
-4Jq1l6UvHaETiJde+MIt2BiEeLoX1ZA/7167rTqdsdxrUNMYJykrlfqH63V9WVoMx67/\
-kGm28zhyPLnP/tVpq8BOPTSX9lVcifFTtRXrmSlH2J9Qe+\
-YMAsi6VipL6SXfgSN3s6xU2Y8CfveYr4dEATm7iAHfYH2u8lb3DJAnuNt9tVDaL/bj6hSun66Sk+\
-FRgTxg3yfEbXiTqpkgfJWvnLyvUAboa9qwO4d0HsxGvJm8cO93YQl9wIg/K5HicIWN/\
-Slvd1tJ2yhNtFvx4iBSh/DOJmvnRfuqIsktcNF2ElWEmJG7eWT6nNDMgI6ILtDl+\
-2St7V9HJ76lr58EGDALd1INsRXSTVqrYkppyTfw9yX3FHNfk/GTtLORodPr63cT5/QOFu8bhflO7/\
-JsmCh9kO2EmQnWWqh3N0tg/huJ8TZ8uTmPjrxHNsxGQ83vwByLzIvLGL3RYYeyr7V+m9/+\
-fM6NLgUb9Y4x7k8W19ln19vBu+zz+82gx+wz282m1/vOXh0s2z7Y++RB2ppYDUp1gkHyKJbT/pfX+\
-JOZt3GLBtnV+\
-QGVueGwlLrMfv1VAuNrY2W6vsg8EDjsXWPvpFXaGsG1WhrJsxuXQxaf41ESsWGeUD3Xn1qevRG/\
-QgAcimPja83y/m2Y5WoLyv3BFmVGpL2XC/XQS8vEAzzbIsAvvToV11ffNpBXuiEPYO1rHcBCS+\
-pK0PKoCnzY03NWky+ASlMXbGFeN9yBj3xeevsGq1egeEOlhmiDJbpI9BQQI5+ll2Ngek/\
-2v1qWAb7GR2gpNf+telX9pqdm4za2SVn0e/S1eFod3zzFNEkeHSlvX/t+\
-bLlZTAaoA5A2zg0gBMdnI+ozJpm/NC/9PxG2CA3C33rGGAwxXii/0oZBy6ykl+KdW+\
-6Phnbuvebhbl5n5v3Mcz78ty8z5B5n2Csd+r76KXT6rToLTCTjXjoRHAQpIsRw2si3+CkyRBT+o7+\
-96V686Pj42egRcnxcRtYJTg+TjgJnjxwwocd4zhzM/EBMoGj4idrUSLLXpXoaqf0bqf+\
-y53S252G5Pmp66WfTo1Wt+sHgU8ZHlvszp5pkqr8+d/+fMjjtwqV5c9/8c/\
-vdGQhKTk3U9Obhdbqr0vPT0WdTUt3VOvwfnxL/I06CxbmxPiJH2LD98/q87nmfK45n2u+hrnmXN/\
-P9f1c38/1/VzfXwl934tz9U8sekRNo2KZ5vWVWN7ozIHumR95tV0v/\
-SUUT2dAH14s1FulDb1CNSOUT9VU8A//Qr7V3Pj9+zCJinRYRnFNc4EbZp+/\
-mJrqe68enQ2K7rX1O144vh4sNaYI1gEOTBg0owa2sDV1I1TlGo171P58E+xPO+\
-5tKem3rq8mhAX2DG3n5es3Qx/0hSwmJQc3Nci+\
-UtfT6OFbBtr7df3MabffOg6e0Ke4O2T3ydyXmPsSc19iFn2J9waFeWtpQ19Kl05yjsT3/k7/5Q+\
-7GUdiQ1/tW3jIYPUSB0T/afOjOBwdRaN7weg4Fj0Qis5FoosnDs4FoTf0W3mDRv2mLxek6Tp4G/\
-rtfu+peQ0e9vsuuVaildkfQitxsQ39/SF2vwkg3B1mdemLOwM2j/a7Gq8hJuZI/\
-7MCK4KvyVmd4orOhBb1Zj3ip7kpnZvSuSmdWVN6IyPFW5UN/Wb0/1ZgnjrnWD+\
-bzLwwFXl8QKtudwJgre5nn/VqkA3uHifca9xrs6oXGvBv/8FX/6P+\
-jc2sobgV9baPPMfG0Y6oeCM8tTVRWhl7JRrx1vWNKEcQJRPLFfRBdBFPBnhy74W7Eaefuc9jk1ORrE\
-kNS5BEw0SyjRucqiFBtLGgYWSZgiEaPBYlLIuI50VOlnlT0SRNtpAhDXYoDLezDzqOhbNZipMdVoSZ\
-+xgcQYTOEWooioAVHqBBnMrbsiWrliVLvGDIigYwiELDUA1ZbmiCoDSQiCVs24JgqIPgfK+\
-Q2d8FHgqA/\
-ZJUURk8IU2SNM0UADzNoukBTR5ZMjYN0wCMyaJmWJKscg3ECYplqQAflmUbGSqHRSwPArY5sYsUg2Z\
-onCYgVbU1TsICamiaKNq8ZvOmpYoKVgUO81g1eEkSNE5tKKLKq1gROMWWRFMRhUHQiuW9ZKA5JnJ38\
-EmAsY5/3KGFnmZhxIYsIEMxsAhk4kRVxqoJdBM4QTVNQ9BMC/Ecb/\
-K8BsjlbEnjFOA6UzU4W7GEhjYIY7G8ugzGR57tBy1WPgubqalIkXigrMAjbHHAaYoli4poAXfxqiI1\
-gLSIPudUjHlZsEW7YQiKzCFDMIwh+NsbM3H3Tpy0DDRSTiomTfw+\
-COH0UounQE6a2HpSEg9JnZzCNmni3klF5JLUsD0iT5iYdBDGaaa+7KFywsSLk4J5eWq/\
-HjdOnFiO3M6cbtsixKcXoKxmn4F/QmqRnwk2/E7m1Sds01HfQyjZMVN/\
-MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"}, 
+                    "OEM6eJztPUtz20h6pvjQw7Ilz3hmdyaHKIw2lU0iheCbU5OSKUqylLFsW\
+S17NrVKjRtAQ0IJBLhoQDY3tVVJVQ657CE7Oe5hbznmJ+\
+SQe6py2k1VLtk5pHLJHJPb5OvGG6RkgJRtUSYPIgX04+vv/fXrUzJ07hC/\
+3DReEark6b093SJmzyQWtlRDh8dKhhYODVZAydHcI5VaygwtHOETeIJmkS1JhFJ0G9ndLjb7uwTLKP\
+NjJUuXt/o67qrSviHbGmHVZ/zqWUQseveo3yOUWC+MHtFXV2l+B2uUeG/\
+ve29JVyQyAnDI6irKH0L7fShz+\
+4h0exo8dCB0Gs7SpQOsE0Q0IlmGGe0zdwhgeJ3k6exDU5Wjlb3vWdYIe1Wg85u2ZXloWHBH5LT76c7\
+2gameAwgvdkxDt7Z1+\
+ZBQwzYlguZ3tjdVq4t7FC27iIFKT2CcxGTAM1C2iIb7RKZ3nS52bF1iGL8IO7kj0yb+\
+MBbavR7BJtYB+bnHhh68md/\
+ElCCrrxHlVmzs89vnWLMxYIbOt23L6AKJJf9tYZ9Yp4aMFg5MAri11PNQo21NPdG7RLc8hNJChzBO8\
+b6DontdfEKQ+lMCGJt1MebXivSbP1K7hJq3+Gfxgf8EKi52bNOEhp8DwATd2QH8dnBvl6gnpwyE/\
+IHxEvrM0PttkRqabZFweXpnH5/oqqJKnIc73wG553ZM3OVEzdI5jh7Gvvnib3/\
+5dREanN9STeAZNmZ4f/hws2Nohml+j39+vWF+yD/fbJg/4p/fbHQ+8Ue8iCxT7T3R9/\
+SebQVc7Ly82wHQAbADLMuqfhJ/vcDB4vDE6LjI3+xj80TVaZiN2XfnVudW/\
+PfFsBQCZvfayfjfnmxn47IdFzK3KloqHmBJI1bblE4BX0WUK362UkQL0M4WUbCtWegjl+\
+f3LNJt67rh6BKU/fbnvwrpDrvY+ez4+BkFJjo+\
+7hFgouPjLUOyGZvBk4eqtWuLx8f76isiPzRx79Tp132ywh9BOdFWNfn4+\
+IA1sGmbIjH7X30VVKJrwrpQXy+t93jtoq+\
+pGHDj4OF28QgGpjGOHRkH0Fuk7ZzXtlBer5fK1WZZeIGyRVpEs5RIhi5TNF9Ezq8imntqY91SrX7AT\
+qivW/jVjmF2aRYUb3SwXqlllxsGhNorgWaB/\
+e2uTkP4ceQ394goQbEcjHewzBDdssAegcIDGsUlYMkFhkHItUZiWAb7SQ6Q1ysCrmBimbjXzkz6zkI\
+qORdTyffRqfGSyax+\
+0jkFfS4xlRpH0e3HNthAE3TB2cC7u2CDQLuA8lIp03XZgMq8ac4Pjn6JV33DbJA9MnrXlwGWGU00VS\
+cHBlVdu+sQONPJ+KUco/tOnIWOZtCRnYW4lZl6C1NvYQRvIT/1Ft5fb2GMwS67RN/\
+HIFeEWqOPOB8au/erMCS0nI+GlmtMH6I+hbZfPAYAGHVV+\
+QVAdQbqxtPEq9SJKtsfrKHbezqYAaxtYQu3M2sov6MChpRFp932zBrKsScMK+wbffQFMXWihfiNrr/\
+UoNQupqfogdIUlIZSUojQqLXYj7oslZr1Rl1oSnKlJgtEEQmuic1aRVbkWlOoVZWW1GxVlEZFrorNw\
+Q4rHrNzPB1v6yeaSk+PH9qqTGgIDM800HVd9MGpVEtCE+\
+NSo1EhjbKE61holgGmelOW67VyRaw3WuVytVopiU2xXi+\
+1KpVGCVdJjShKpTIMnD8bDs4hUQhoVokcAJ7pMep3RUOjx9tAJhOUPIcwDFiZ4Fat1mpJFQCvJZdIS\
+ZTKWK4TSZREUhLq1ZYo1+\
+pNoYSFSkOWmwAfqdcVLDYFUiX1QcA2UgHGAQKle05e7dqaFgatJBKhVRUkCYARmo1Ws1TFQrlWLdXg\
+b7OGlYYoCSKRqkpdqAkKqShKqSI3K82GIGNSGwLabnrQwChpW+\
+QEbCwiP7FZoadhGIlYr2CxIZIqkEmoNuukKQHdKkKlKUlipSXJuCyUpXK5BcgVlFpLaIhVUWqKwJ1y\
+pdQahPFBehj3dAU0CC8fhk1qNXGjVgbKVsqYyAJwWkOuVxtVGbir3GzUSkBazJ4LTULK9YpSVUpiBU\
+QEixVRrAzCtpMKtkAkHGtNZLBBEamQlQrBRAIS4kalAuCCmNSxXG60FAAJK2UZBLVWJyKuVuUSELsC\
+yBWruC6TlqIQaRDCvREhfKbLLozbMpQIA1mtKjVJkRrlEmiTWqNer1VKDaVKiNJsyoDZmlAS64DSMq\
+nWS0SoCo06ljD8bgqVaqMsjEviQ6zLRjcANQxbvUEEuQqqDTfEFqgLqVEjTbGMm0ILA84ICLWClVK9\
+rJTrwAOCQFq1MrCD2CiVqqSKxxURB7YvuZ9H5OEwyvWWAFqjIgpSRWnhGnBis1WXGHoAW6VWFf62qi\
+LTPK0yaF5FbgAayyIIEigaPITIX6SC8QifkUfgl4EVcpVNtweem25t9iOorLdqBKBq4HJZKZVaQr1R\
+qoG1KAtSvVyu1AC1LbkpVUAdVZUmaPByFXixIVclUNsluTQumAEHciiPjOHYrJaruCqJ5VKjqghV4E\
+uwYs1WQyxV6gopS7LSqIsg3Y2aICkNMG9VQazhEmhNUIiNallYQ3fbmma83GaTutzF5SHWGlp07S86\
+xT3m1v5+yIK7ZhtJEN28YBPMxOTF2tk1zyehWWiW/4Hxr1xU9wvS3wKvo9/\
+JdjJDqjoIvOAVGz9Ehjn6uxe1/kjtqoA/AOBC4J1I1hvjDy6B0wlleMEM/\
+b2LCrYhPOKFzAwPix49uEIAE7V0Ia7B1XOIFGLM14+j87nLaslGzQf913/\
+zAEove1oezJEKvNSHQH7GjyR9QnYWh5cNpi1YocwFhdwYOXAXGYhsrSMEaptSQ4L6S+\
+FnADEtOPM8ANO90KvnfKki9hBK2pIfvzn4c/ESzOAOdOCh+\
+aKeO4vA2ygHkTtu31pD80CiI6aZrM59EECH9O6DBfCAp6I4FcUJEMXcJMrgAbZOgyHc21Jpj0/\
+wAak6hq1brNB9/6nDCs4LoOEiC1LDJZfYg1iheWSYFuuGBv3cZc/cuSuIEEMvdlVZJjqLxek+\
+7tHcYwiG1tDCs54METIbSidDS8mCasO2era1t7W66kXjf5KsYg+\
+AhUq3oqF8wsrnBwZdXeVTt2mqnY5W7QQeAqhZeicyExFf4RYStQbeGKhR5x2bbdkiPc3oK3madyZmZ\
+2mOv7ozMPec4xM18M3moOF7IZhIYbOU+4ZNiXFOTDZL6YaTdHCe15+C7RQumR4HwBAEo0Q2K/zzL/\
+8caTUQiXl41n9Ezonmlvxmg83tHhha/wTaCa2AuN/O9CzXEHOHHHisdb7j/zszvJ3vLi+\
+VpKEEtRP1dXUNJRvauCSCh8m4cBVpqsRmkM/\
+4VPl6okqaAf3tGpo8gnIYMOw0B8aWojnPNXBCA5TnbDxsxSA+zc0iH9Bbw5YrFnmti+bH886yGf+\
+d6+SDCdJNAP/EBJUqRxlb4Z//2bhsyYOvkdE5j0qvFdfF7XOovgshrcYXSJb4uIOVm4hEu3Z8xtUR/\
+r8uNHwFhK1JRNYnfvH37PNvG6bAP/+5Yf4F//z3Bpp7pOpnrO/YgpNv/\
+hZ51x3gkTOwR0xfzuwpgJRGIrpLp0Q64zuLMFs2AQuecopWmVEKCXnM5jaLbxhK2Uk6Q5XOMqUzSCn\
+tUGpxfTcC7jn1E6WVXMfPDY+ckGeqmS7TTK6L7Gkmz2OeaqapZrq+msmdU5gszcTnZG+\
+4ZkoU6qTTUO7arq+i/P+nOmqqo66Ljgq2X2QhIHJ59HprqKEg82lmVzk5O4ySayd/\
+KvVaK6mZS5XT5RtGrjM5sxdwoPu/OyHK5wzTErbz+VVTdC6+fXRoBxfTafwtO5NMSu5IjEZKf+L/\
+HVDUc4nuoB7Wd0yj2xaN86QCOcqGqsmj8cxNFddxt7RNMinfR3Edb8Ph5FE7e1MFd9wtn5NMyvdRcM\
+fdkDt59M7dVNEdd0v0JJPyfRTdK9uwPnmEz99UGR73yMAkk/\
+J9lOGxD3RMHsELN1V2xz1SM8mkfB9l94oOPE0e2WdvqgSPe+\
+Rskkn5Pkrw1R0InDzKz91UIR73SOYkk/J9FOKxD8xOHsHnb6rsjntkeZJJ+T7K7pUdKJ88wi/\
+cVBke90j/JJPyfZThq7xwYfJof/umivG4V15MMimnYjzehSSTR/vFmyrG414JM8mknFAx9qG7+\
+GLa2/wmylfWPtFtJXI15wfcoNq6vP2qZxLKbp2lzWSYlYI2j0z15ASoWKD5L09ViZ0Qm32mU9wlT2k\
+5WWsaptYTl1ZvhRuCk/N5xAEdedj08+RD7AzWro1U279CfggFFffGgvHgGp0N3O5HGxgjyCYQ9sw/\
+gZCuuRPNELGGJNPQtAPDl7Q3eUSF9fGlap3GL65MyMQwfna1x2rC8qteBa+\
+bZBLm1WKFV9NIpVcpXXcqfUSw4hwVWaWfpetuL1Q5XbenvI5zAQq/\
+sqTNz3EV9rElnaZSRqFhL7Y1i5g6ZncEh4/ARE/rQcH0MD5NS/\
+TUh8Uc7P1polpY0wLUpaxyzUai91OPxKvytkZSSVSLhm/\
+5YU5MMr0sORdORa4ISqtfMikHFr6mKHXd+HVGqXToKT4n7Nokdmwt+9hgPt7cDlY12yRPE5/\
+MlKEBSqzQ3cEjEjaZM6JS724UH2owfTsmIekZkF+\
+2whzcPzdUPXTQlh1Mhb9PTLeHEdGZWujSo4DOQj+\
+n7DavLJ1jfoCb5GLBuWmLjQvlWRKEFWUu8DLz2z+xwVMfwQI6jj66NV4jIVuQhZ/\
+jNRaxJqjgJkpwzoDfAkrccQ4dbr8ikm0Rfgy4nqgb5xhw6Faw6WHgC+\
+KItxF5pHULUcEkXSOUkeEOE4+h+Rwcgc+NI/BJrSWj9Xa3Z/\
+XftLUcQZs6bl9qn2cUFzOR2oKyZKq2pmrr/\
+VJbWSzLr9dZdH6LaPzWU9NXX1x60yuudEFehIkHgrwoUwe32I0Q/Kb0oYIQLBdx40JTaqMEDmi+\
+TSWiyzFVhXLM7R4upckAdu8YgVam4vnuhC1E3deLXMhmXQVnLWyRoay1eEjOiUnJypTFbgKLhcn8tn\
+nMTZAV5q4CtDflq8nnq1jus9dzVNhj8BZx8r6pDBjk047R66949+\
+muWMZKR1N7ooFNeZBpMgl9Ustws8157SbkHAlgYd0nDeJSuz/hkX/MR86ev2bUSWes/\
+VGPMCl25QgayggRwh8Ab5GA8qq+8pi8XOkQnsTgygifjEIS9MrheTuUd4bOSX/\
+psN8K5a8cQ4FV8YousOv9dnBX1fpoCfEUnCsI63TlwDSCRXRWiF+\
+4fTda0dkbSvMHGlb1oPiWeq6yG86cvBdBDT9foxK5Zuz//pd9/\
+iu4Zmwunog2kqcxuISMRjKvhhfws7EF/\
+DcxzKVHqk42TYLP2Nqlqg8kqg0vysbvmb80iy2bpmU0i2eqTZHNT3Um4Z/6y9yhPQvJOJcSy+\
+49V8lLPueULmtB/\
+oJVdeeeRx7NpRsGj06HZhVI1o7V7bHHq3R2lS1r8Mso01X3pvOT2XN3KWSUNZDsZTsS0o3W9R1Dazk\
+pxztSzobE7qNTjb2Zuo9X5z6m5OiwUI7GKQ6rjZzkI60E82wsIypDR5O+\
+0a0sgyI3Ut6Tj0KVwBqalLgvFkMvdtH3/5BpmhXdWNEM/\
+YSYK0xhgGX84Si9xrNrH5mY3dDr7kF9SxuBIiB8GEko4ySojqfESbh6Yhm9TWzyLnxTmEloCrv4jHD\
+nRYYmoIE/CNVyizoJoJAtehZTBJqlM5rTS4nfpd58Hfdn0nG/\
+S9NUWnFVNCxw1D02dRMeFWjB4b2oEzd7SHoalkjC8KvLrwD3Nyqvrsb3uCoz13bjsavyb7F9jVg/\
+44t3kYvFr/GeaSAUaAO2MEL/KPG68Ko/1nD9ZMD2/\
+CWZYW2Msvzit1MY6plCKLenSybhAdnYe17TroWnQWqqjZCRPYypce92Nca2zZFIlX6Eb3XLeNLQk9l\
+bjnoTfKg0JE64x9lrf1tzuDau+x19wxKI9UDDmp2FuMLxReLiMhcakFH19ZBplNjUb+\
+SERGjCZJHXGHwemkjJHhnBzOHgMY3QFFJnach8SdJJwGGjuufatC9N3OsRc9N4xbZ/uA+d/\
+2aPDPgBrt88/XjLiaxfuN98joXlePSgcrNJArY5k6Y1124brrOdqg3XV/\
+HayHMPzW8k9U5IF5LnbA9+SkjO/V31Thu7I7RxGm2jcMT9Z7+V9F630878pufj+\
+E2N5Bw5rc2F1FfurW3kWATK6jI25R3D7CaNmt6Mp+\
+7zHNf7owrhLS9FTDiLTHRU7qZe9afe6xQbdaOnhhY6JoGnz54B1dKFewOzvJnYq4tnZCPdLLOV1HMi\
+P8emikWo5+\
+vm9Lzg5Sf1QFjeIgq2NcsHEnklMvT7nu7i2WvAgbI8JZYJtDsiGpEsDlZsWnhuW1aHvvjAqcPG7KpD\
+6m4fu43sbhebfb6pLkhIUjg0XjLNGsySF47wiaNrbx+RLgQWFnH+\
+5QXQ7xQjp1U3bVWTDwmFcdIiyhU/WymiBWjTHTv6KNRt6HBk9tuf/\
+yrU1wAcKPNXSp7e87Hj9BUpmYtDjGaRLUEURP2xMl8IZX4MjS5H2Ck0Ho9973LfDggCsTvIQWyi/\
+b73lnRFkGd3m33+ENrvxxGV8ddPl9ipUIcghhnt06GW20mezjLeilb2vmdZI+xVAdjdBr3noiFqFj/\
+d2fZYcscEwm/\
+rjCh8cQPN72xvqlYX9yhadhEDlZ7AOLmvHRVupwsvtcNF2PFWElxGDfJJxdyQkIAOyO7QZTvvbWGfW\
+KeGjBYOTAK4ZRvJhvgqvkYtdAjjFO97mPsSOaoZ92QUL+2sc/j01uID/wmbZ3PX7Zx853d4Fizc2+\
+UrQYqXpRbK3W+L1NBsi4TL0zv7+ERXFVXiPNz5Dsg9x70wh93nOHoY++aLv/\
+3l10VocN7drHFOInm2vsc/v94wP+SfbzbMH/HPbzY6nwQOHtss23ui7+mglgZWk1ydcIBltvUk/\
+voSdzLsNobZOLwiN7A6NxSWQsDsM74WGlkbzRf3QeCBxiPrHrQWVWgrItNoKxJEtxoBrb9CHaWiQBz\
+QXy9emR69XTwCgDTGY6PrzWy0bVclooXSeqnUEBqN1guULYJenqUE4myZAr6Q86uI5p7aWLdUKzBYC\
+6gPSHjFXBmaBU0ZHatv1lzyDUih74rNuvuWQ+hxz1uH12hRDoY7WGaIMlhgj0BDATniLLvkAhM/\
+2v16WAb7SQ6Q12t8bfq1vYZjk6SdXXIW/\
+T5bHXZ2x3dOMUuCx1ba42vPly0vg9EAdQDaRmUTOM7BeYfKvGnOD/Gl57fCBpEo9NoxwGCKcU//\
+ZUIOnGMl34l172gGHdm6x83C1LxPzfsI5n1hat4nyLyPMdZ7xX38Su3aXXYLzHgjDnr3Gs9++\
+7dfsz//cGXgLhcPTIPRnMj82prrDe0HRWeXknPDjmHr1uiykCldIVgHBMyPbvGYm8hEvnI2v7OnyyC\
+iZlfV2SJ3tvgD4PSe2+u8138RLXmcDsbYUtRXb57hP4px0PUhy8dF5Ouzawbah0V0poIncd1Qli/C+\
+9EhuT9kPqw4jZymkdM0ckofOQVefDwoGeLzh5pHi668sXBKi4c9l60loMxfQnF/5viDQWFuz6+hed+\
+Zg8K+Z2X+U335P36h/GwDzbpu1xpairlC7Vtr6G7UWrBHy3Gj3mEP4yY13BmNmcNZt/Aa+\
+nCIMWLN3R9mCtiLewOKmD1dcl1tT0eiP07hOIds7lUuWmR+dl3U/J3iAZZg4FP9PtXvU/0+\
+sfr9dkiK27k1dMf5v21Kp+\
+o5QWedz46fUWCV4x5TtceeBqTHD1Vr1xZDiWicis6DFf6EHnMVeXzAqm7aJrBW/\
+6uvghp0TVgX6uul9R6veqFV+dd//8e/\
+e1X94YOQVbnr9LaPdVUhzsShu17czqy5t68qi86I2zNrzlW6ine/\
+8EfOebUQ8HT9pbbm3tL6QGkKSkMpKURo1FrsR12WSs16oy40JblSkwWiiATXxGatIityrSnUqkpLar\
+YqSqMiV8XmYIejZJD3wRk3f/kgOONlyPYBGzc/8yBg42YA9kEbN//sIGhXluHUh3Hc/\
+JqDMI6dwdGHbdz8gYOwXVGGOh/\
+CcfOjDUJ4dRm4fCDHzf80LomHZBjyYRs3v824InJJBpWAyGPm7xiE8SozRASoHDM/\
+wbhgXn4DfsCNY9+/TpdDm8DalBrsnNBS+Bn4J7Tg+Jlgw++FXj3nu35iD6GkLfn+\
+oHfjPQPX986GdODh6qKeO4udDAsqP7lwZ1Zoe9w01L2Woe7/A0i8S+s="}, 
                     "ClickToCopyTemplate"]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
                     False, GridBoxItemSize -> {
@@ -17510,7 +17283,7 @@ MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"},
              DateString[
               TimeZoneConvert[
                DateObject[
-               3.8667362211655199`17.339919535787043*^9, TimeZone -> 0]], {
+               3.8667523206097294`17.339921344000697*^9, TimeZone -> 0]], {
               "MonthName", " ", "DayShort", ", ", "Year", " ", "Hour12Short", 
                ":", "Minute", " ", "AMPMLowerCase"}], SingleEvaluation -> 
              True, Evaluator -> "System"], FontSlant -> Italic, FontColor -> 
@@ -17524,9 +17297,9 @@ MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"},
                TagBox[
                 
                 PaneSelectorBox[{
-                 False -> "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", True -> 
+                 False -> "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", True -> 
                   StyleBox[
-                   "\"PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+                   "\"PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "HyperlinkActive", StripOnInput -> False]}, 
                  Dynamic[
                   CurrentValue["MouseOver"]], ImageSize -> Automatic, 
@@ -17536,10 +17309,11 @@ MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"},
                  "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\\
 Mixed Graphs\\build\\"]], Appearance -> None, BaseStyle -> "Hyperlink", 
                Evaluator -> Automatic, Method -> "Preemptive"], 
-              "OEM6eJxFjs0KwjAQhIkUEfQhpHeLxZs3q1gPCqXRkyulPxsNpLZkE6xvb1MK3oZ\
-vdnZGMJql+SdqOiTBaJo2TguPvLMkw72jVMjZXUxofsW6VblB57PRt/5+C3Aj1ATQokENcGhKW+\
-Pb9CSW5mQLgIvssIp13r6SvFRoRrIcUH9XWKkqgMQ9iKwuUH+z7B+\
-iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"]], "", 
+              "OEM6eJxFjs0KwjAQhIkUEfQhpHeLvXjwZhXrQaE0enKl9GejgdSWbIL17W1Kwdv\
+wzc7OCEazNP9ETYckGE3TxmnhkXeWZLh3lAo5u4sJza9Ytyo36Hw2+\
+tbfbwFuhJoAWjSoAQ5NaWt8m57E0pxsAXCRHVaxzttXkpcKzUiWA+\
+rvCitVBZC4B5HVBepvlv1DtAqDcBOsg3ZI+3zhZu30c+jh7PEDzXBGFQ=="}, 
+             "ClickToCopyTemplate"]], "", 
            MouseAppearance[
             Button[
              MouseAppearance[
@@ -17600,8 +17374,8 @@ iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"]], "",
                   Not[
                    FreeQ[
                    DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "9d2de5a5-1c36-495d-a22d-2b5805f325cb"]]]]]], Appearance -> 
-             None, BoxID -> "9d2de5a5-1c36-495d-a22d-2b5805f325cb"], 
+                    "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c"]]]]]], Appearance -> 
+             None, BoxID -> "4cbdbb0c-effc-4fa7-a96d-5c1dfff0fd7c"], 
             "LinkHand"]}}, 
          ItemSize -> {{Automatic, Automatic, Automatic, Fit, 8, Automatic}, 
            Automatic}, 
@@ -17648,7 +17422,7 @@ iVRiEm2AdtEPa5ws3a6efQw9njx/NHEYS"}, "ClickToCopyTemplate"]], "",
                     TagBox[
                     "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
 MixedGraphPaclet\\\\Mixed \
-Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
@@ -17656,7 +17430,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"31.1099065`", "\"s\"", "seconds", 
+                    TemplateBox[{"12.6024821`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
@@ -17703,7 +17477,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     TagBox[
                     "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
 MixedGraphPaclet\\\\Mixed \
-Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"", 
+Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.16.0.paclet\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
@@ -17711,7 +17485,7 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"31.1099065`", "\"s\"", "seconds", 
+                    TemplateBox[{"12.6024821`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -17728,8 +17502,8 @@ Graphs\\\\build\\\\PeterBurbery__MixedGraphs-1.13.0.paclet\"",
                     TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
                     "InitialData" -> <|"Files" -> {<|
                     "File" -> File["Kernel\\MixedGraphs.wl"], "Hash" -> 
-                    "2ec18a6950d354bca6fe0189a34fe39eadc3b4b2e45e64a2241662c79\
-596dab5"|>, <|"File" -> 
+                    "f81f7f0fe17597f0f6dc0867618cd35d1efbea5b853dfd58154f9c893\
+f73d4b8"|>, <|"File" -> 
                     File["Documentation\\English\\Guides\\MixedGraphFunctions.\
 nb"], "Hash" -> 
                     "34018aa0773e72ca6a182f6d68dd6523b679224430b8b66093370a4e5\
@@ -17740,8 +17514,8 @@ EulerizeGraph.nb"], "Hash" ->
 b81e4e6"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 GraphConvexHull.nb"], "Hash" -> 
-                    "b9193a88f915e3a09944f29f2cd847e831e2e8b2553918074828e7317\
-f54c743"|>, <|"File" -> 
+                    "0be1941cc6ec1879804a12540512585af7bc1bec4f6151fe3ff03d838\
+71dae56"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 GraphicalDegreeSequenceQ.nb"], "Hash" -> 
                     "eb63ab7be4f331486e8c0a43138ccb39cda212c229a9d1f5917b4bc8b\
@@ -17760,8 +17534,8 @@ MixedGraphUndirectedEdges.nb"], "Hash" ->
 8134721"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 RandomMixedGraph.nb"], "Hash" -> 
-                    "6278ade22ed07dfdbcb50b3066709c32526f5f15fbc1a054772eba73b\
-c5a4267"|>, <|"File" -> 
+                    "67e1d46dca7b9a4ec75e8b2a819aa44e38afaf062f262ae11e952832b\
+7004e4a"|>, <|"File" -> 
                     File["Documentation\\English\\ReferencePages\\Symbols\\\
 RandomWeightedMixedGraph.nb"], "Hash" -> 
                     "d6918b83b1c3f9a5ed1896c0813e14094e1494b0e0b924b8fd70e12b8\
@@ -17957,8 +17731,8 @@ e567421"|>}|>, "AllowEmbedding" -> True, "InitialShape" ->
                     Item[
                     Pane[
                     Annotation[
-                    "2ec18a6950d354bca6fe0189a34fe39eadc3b4b2e45e64a2241662c79\
-596dab5", 
+                    "f81f7f0fe17597f0f6dc0867618cd35d1efbea5b853dfd58154f9c893\
+f73d4b8", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -18037,8 +17811,8 @@ GraphConvexHull.nb"],
                     Item[
                     Pane[
                     Annotation[
-                    "b9193a88f915e3a09944f29f2cd847e831e2e8b2553918074828e7317\
-f54c743", 
+                    "0be1941cc6ec1879804a12540512585af7bc1bec4f6151fe3ff03d838\
+71dae56", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -18172,8 +17946,8 @@ RandomMixedGraph.nb"],
                     Item[
                     Pane[
                     Annotation[
-                    "6278ade22ed07dfdbcb50b3066709c32526f5f15fbc1a054772eba73b\
-c5a4267", 
+                    "67e1d46dca7b9a4ec75e8b2a819aa44e38afaf062f262ae11e952832b\
+7004e4a", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -18572,8 +18346,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
                     TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-                    MouseAnnotation[]], 
-                    Initialization :> (
+                    MouseAnnotation[]], Initialization :> (
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
                     CreateUUID[]), DynamicModuleValues :> {}, 
                     BaseStyle -> {LineBreakWithin -> False}, 
@@ -18630,7 +18403,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"7.3685059`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.0071779`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -18677,7 +18450,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"7.3685059`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.0071779`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -18687,15 +18460,8 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    RowBox[{"{", 
-                    RowBox[{
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], ",", 
-                    "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
-MixedGraphPaclet\\\\Mixed \
-Graphs\\\\Documentation\\\\English\\\\ReferencePages\\\\Symbols\\\\\
-GraphConvexHull.nb\""}], "}"}], "SummaryItem"]}]}, {
+                    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}], 
+                    "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -18703,94 +18469,8 @@ GraphConvexHull.nb\""}], "}"}], "SummaryItem"]}]}, {
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    RowBox[{"\[LeftAssociation]", 
-                    
-                    RowBox[{
-                    "\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\\
-MixedGraphPaclet\\\\Mixed \
-Graphs\\\\Documentation\\\\English\\\\ReferencePages\\\\Symbols\\\\\
-GraphConvexHull.nb\"", "\[Rule]", 
-                    RowBox[{
-                    TagBox["Success", "SummaryHead"], "[", 
-                    
-                    DynamicModuleBox[{Typeset`open$$ = False, 
-                    Typeset`embedState$$ = "Ready"}, 
-                    TemplateBox[{
-                    PaneSelectorBox[{False -> GridBox[{{
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Time\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
+                    RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}], 
                     "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"BuildDocumentationNotebook\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{
-                    Automatic}}}, AutoDelete -> False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{2}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{
-                    Top}}}, AutoDelete -> False, 
-                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
-                    "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}], 
-                    True -> GridBox[{{
-                    FrameBox[
-                    StyleBox["\"\[Checkmark]\"", 
-                    Directive[
-                    RGBColor[
-                    0.3607843137254902, 0.596078431372549, 
-                    0.3803921568627451], 25], StripOnInput -> False], 
-                    ContentPadding -> False, FrameStyle -> None, 
-                    FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                    GridBox[{{
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Time\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    
-                    TemplateBox[{"7.2942015`", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
-                    "SummaryItem"]}]}, {
-                    RowBox[{
-                    TagBox[
-                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
-                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"BuildDocumentationNotebook\"", "SummaryItem"]}]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{
-                    Automatic}}}, AutoDelete -> False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{2}}, 
-                    "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{
-                    Top}}}, AutoDelete -> False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
-                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}]}], 
-                    "\[RightAssociation]"}], "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -18806,22 +18486,23 @@ GraphConvexHull.nb\"", "\[Rule]",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"100.`", "\"%\"", "percent", "\"Percent\""}, 
-                    "QuantityPostfix", SyntaxForm -> Mod], "SummaryItem"]}]}, {
+                    TemplateBox[{"Indeterminate", "\"%\"", "percent", 
+                    "\"Percent\""}, "QuantityPostfix", SyntaxForm -> Mod], 
+                    "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
                     TemplateBox[{"\"ProcessedFilesCount\"", "\": \""}, 
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["1", "SummaryItem"]}]}, {
+                    TagBox["0", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
                     TemplateBox[{"\"SuccessfulFilesCount\"", "\": \""}, 
                     "RowDefault"], "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["1", "SummaryItem"]}]}, {
+                    TagBox["0", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox[
                     
@@ -18842,9 +18523,9 @@ GraphConvexHull.nb\"", "\[Rule]",
                     BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
                     False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
                      GridBoxAlignment -> {"Columns" -> {{Left}}, 
-                    "Rows" -> {{Top}}}, AutoDelete -> False, GridBoxItemSize -> {\
-"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    BaselinePosition -> {1, 1}]}, 
+                    "Rows" -> {{Top}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}]}, 
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], "}"}],
                      "SummaryItem"]}]}, {
@@ -18871,145 +18552,142 @@ GraphConvexHull.nb\"", "\[Rule]",
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                    Short[#, 0.75]& ], 
-                  "OEM6eJztPVtvG9l5pnnRxbJl73pz2aatyipFmkYu5z6zSCBLlGS7sbyyRt5\
-NEBXrMzNnpIGGM8ycoWymCNACfSgKBGibPOYh6O8o0If+\
-gj4UyWuTh6Iv3cf2bfudMxfOkJTMIWmvKZMPIjVzLt/\
-57uc7l88ukcVD9GLbf4mJXSV3HnkhDtoBDlHo+B48tkukdujTAnaFVB47JLSvk9oROoEn+\
-oLeMU1MiH5D77RaKOg+xMjSSz+yy+T2TtdDLcfc962Oi2n162n1so5Dcuuo28YEh8/\
-9NvbW10l1D7kEJ2/vJm9xy8CWDuDg9XW9egjtd6HMjSPcarvwMIIwarhMVg+\
-Qh3XsYjP0g3yflUMAI+mkShYeBI6Vr5x8L9BG6KsaWdruhGGChuV4RFG7H+7tHgTOOYDwfC/\
-wvXDXsw4x8TuBifWlvd1tJ2yhNtFvx4iBSh/\
-DOHFAgaeg7GAXdbFFbkVd7HU8k2L8IuxUjoIOToexvNVuYxQgD5BfeeJ7vTdL24hgPey62L7WN/\
-al3XPkdhBghixtdUK/BSQ207e1fRye+pa+fBBgwG3onGca3XKdE6+\
-FvTBBKKk1MeWU5LtX9FELnWDd+QkGjC3EGEtr5fqtHjktTIJr7LNyP30CFVeanSCAhj8BgLF+cw/\
-w20Tth9g5OaUgVA/8F9BnidzdMojvdkKcLU9u7qMTz7Edk/Fw8wsg9+JegFqMqGWyyNBD2bda/+\
-0vf16HBpd2nAB4ho4Z3h8+2G76rh8EX2WfX28G77PP7zaDH7DPbzabX09HvKKHgdP+\
-2HvktTthj4ujl7eaADoAdoAsy/FO+l8vM7AYPH10XGFv9lFw4ngky8b0u3mtea3/\
-98Ww1HrMnrRTSr8T2S73y3a/kMVV9dX6ATJdHG4F5ingq65X6h+t1fVlaGcH26jjhvoHMc8/CnFry/\
-P8SJfo5c9/9quM7ujUmx8dHz8jwETHx20MTHR8vOObHcpm8OSBEz7sGMfH+85LbD0IUPs06jd+\
-ssYeQTmj47jW8fEBbWC7Exg46H72Wa8S2eDuccK9xr02q11PNRUFbhI83KgfwcBcyrFj4wB6y7VdSd\
-oWAOiGpjVk6blerpO6vkCw6XsW0ZfqevSrri8+7SAvdMJuj530rheil3t+\
-0CJlULz5wSalbsfcMCDUSQl9Adi/0/JIBj+R/FYeY7tXrALjHSwzRLcs00eg8IBG/\
-RKwGgNDIWRaY2RYBvsZHaCkVx24gorlyL02rxfvLKOSK30q+a5+6r+\
-gMuudNE9Bn5tUpfaj6MaTDtjAAHTB2cC7W2CDQLuA8nII1XXlHpVZ04wfIv3SX/U1s0H5yG+/\
-vQxwm9LEdTx84BMntrsRgUvNUloqMrpfirPQdH0ytrPQb2Xm3sLcWxjDW6jOvYV311uYYLC3Y6LvI5\
-ArTMLxR1zNjD35VRsytVzKTy03qD7UuwTafv4EAKDUdaznANUZqJtEE6+\
-TaFa59d6GfuORB2YAuTsoRFulDb265wCG7JWo3a3rG3qFPqFYod/6B9/HgYfdDL+\
-Rey9cKPUQkVP9Po9NTkWyJjUsQRINE8k2bnCqhgTRxoIGk1hTMESDx6KEZRHxvMjJMm8qmqTJFjKkw\
-Q6FhNkZno53vRPXIafHDzqOhUkGjMQ0kHuekYIjiNA5Qg1FEbDCAzSIU3lbtmTVsmSJFwxZ0QAGUWg\
-YqiHLDU0QlAYSsYRtWxAMdRCc7w0H5xDbGDSriQ8Az+RY77YM3yXHu0CmAJQ8gzALGI+\
-RJkmaZgoAnmY1cMMweWTJ2DRMAzAmi5phSbLKNRAnKJalAnxYlm1kqBwWsTwI2GYhwBhAoHTP8cuHH\
-dfNgmZonCYgVbU1TsICAvkSRZvXbN60VFHBqsBhHqsGL0mCxqkNRVR5FSsCp9iSaCqiMAjaw+\
-KggVFyd/AJ2Fgd/7hDCz3NwogNWUCGYmARyMSJqoxVE+\
-gmcIJqmoagmRbiOd7keQ2Qy9mSxinAdaZqcLZiCQ1tEMb7xWF85NmgQVj5LGympiJF4oGyAo+\
-wxQGnKZYsKqIF3MWritQA0iL6nFMx5mXBFu2GISgyhwzBMIbgb68QbD2RiKw1tsAG5aTCsgWMsIlNE\
-SmCAOCCmMjI4hXNBpCQzVuSxUkyNpAoWg2TMwRAriEi2cKabWNzEMJHY0L4zLNiGHctKJEFEphOMm1\
-T4RsNG0uKLEtCQ7FFjG1VtQCzEtcwZEApqBK5gTmRU2RkIvitcoKo8NykJD5EnuW3eqBmYZN5RUUW5\
-nlsNRTLtkBmJSBhQ5aVBog0L/GyLdmcZBsmhxqSqCg8IFMRDFNCIi8rk4pIBNunzM/\
-D1nAYLRmk01AFgzMFW0MScKKqySZFD2CroYnwVxMNqnk0XjRU21IAjbwBggSKBg0h8vcLwXiEzvBj8\
-MvACsXKptUGz80Lt7s5VIKtwACVArbAbjQ0DlAoyaClOVPmeUEyFUmzVFMwTVm0VdDgvAi8qFiiCWq\
-7YTUmBbPHgQzKI384NkVeRKJp8KDubE4EvjQwUjXFaAhg4EAz2opsgHQrEmfaimSoImdIqMFLYEpkR\
-eS5Df3Wluv6L3ZpUJe5uGyKtaGvxPZXP0Vt6tb+\
-ccaCx2ZbN2F285wGmHHAim2VNxKfhJShWfYHxr92Ud3v4+4OeB3dZrlZGlI1QuAFr+\
-j4YWZYIX94UeuPnZYD+AMALgQ+mskmY/zmJXBGUxlWsET+6KKCWzA9YoWCEpsWPb4/\
-RQBHaulCXIOrFxEpw5ivHkfzuzGrjTZqNui//\
-pv7UPp2ouXBHDnAS12YyF9PZ5IpIZsrw8v2wha0UOmCQvEcuecuUhDpWkcG1C1CfBPqr2afAcSkFsV\
-5AKY7mVefsKWKvodQsmOm87cIfzFeehHcgQ4SNF/\
-Uc3MFeFuvwMwdbV3b0JeAREdUM4XNuyCAEenjB8vgAc9FcS6KMyCKlVmUwQMUnvaGcGfHIW0W4ANSN\
-f2OF9JCd9OnEStEL4CGK3SSmi25Sh/0FVrS/\
-SCk3ZBeP7foszh2BTPEzIuHjmVhj87FyT5qk8oTmAxt6MvP2hbMkOlQmiXSGG1S7XfCdid8tLO+\
-nszGvzNaxTYAC5Wu5afyI1Y+P/DJ+joL3RapdjpetRN4CKCWyc1cJKJ/\
-hZsbqTXwxkCNRu9otGUHt12/a1dJNQrMLpAKe3VzIPZcYYEa+KYxaPhe7gVSaJRy3+8Q7J/jgEYp4+\
-kkGYzzpiHYZu2S8DgApsNkFFuBwD7/9q+5VnsisQTPuo/xOXbjkr/bpLHdA9/tnkA7mRWQ+\
-DsKzzINsXjIgEdu8wv2fxThbX5xealRGhqh9kh9Ta+h0YY2KYng4WhcuK67jkkjyGcsVH5vpEquD/\
-099F1rDOUwYNhJBYwt0RcT1yCaGuhVxsbDVgz6w9x05gN6a9hyxQqrdVF8vBotm7HflWa1FyDdBvBP\
-AlCpVp6xbfb5n83LljzYGhlZTKj0SnFd2T2H6g9hSuuyBZJVNu7eyk1OomM7fj3WEem/\
-MTRsBYSuSeTWJ/7pH+nn3zcDjn3+czP4Ifv896a++\
-NjxzmjffQtOqflbYV03gUfOwB5RfXn9kQ1IUUaiu3mKzTO2swjRZROw4AVDtPZ1uzYij3WYzWIbhgp\
-2UsxQFbNMxQxSQTtUWFy/\
-HAFPnPqZ0kqx4xdPj6Ipz1wzXaaZYhc50UyJxzzXTHPN9PZqpjimMFuaicVkr7hmGmmqU0xDxWu7qY\
-pK/5/rqLmOelt0VG/7RRkmRDGPvt0aaijILMwcK6doh9Ho2ikNpb7VSur6pcrp8g0jbzM5yxdwYPx/\
-HBBlMcOihG1+d9oUXezfPjq0g4vpNPmWnVkmJXMkxiNlGvj/EiiauEQ39Tby9gK/\
-tWX456MK5DgbqmaPxtevqrhOuqVtlkn5LorrZBsOZ4/a5asquJNu+\
-ZxlUr6LgjvphtzZo3flqorupFuiZ5mU76LoTm3D+\
-uwRvnpVZXjSIwOzTMp3UYYnPtAxewSvXVXZnfRIzSyT8l2U3SkdeJo9si9cVQme9MjZLJPyXZTg6R0\
-InD3KL15VIZ70SOYsk/JdFOKJD8zOHsGXrqrsTnpkeZZJ+S7K7tQOlM8e4ZevqgxPeqR/\
-lkn5LsrwNC9cmD3a37iqYjzplRezTMq5GE92Icns0X7lqorxpFfCzDIpZ1SMU+\
-guvpj2BruJ8mW4j72Onbua8z1mUDuetfuyHWBCb50l6miYNXttHgXOyQlQsUaqn546Jj0htvDMI6iF\
-nxJ+tNZcRMKPY1q9EW7onZyv6gzQsYdNvjv6EJuDtaWxaqdXyA+\
-hoB3fWDAZXOOzQdz9eAOjBNkGwp6lJxCKNXfi+gZydTPwXffATyXtdR5RoX186oSn/\
-RdXjsjEMH56tcf6iOXXkwpJN6NJWFKLFl4vIpVJpWLdOeQxRnZ0VGSdfFSsu0eZysW6PWV1ogtQ2JU\
-lW+wcV20fheZpIWWUGfbKlhviwEP0juDsEZj8aT0oWBzGp0WJXviwWIS9Px+\
-pFnLdHuoKVnnLRuJ1C48kqfKmRiKMVItkb/mhTsxoetmMLpzKXRFUVL+\
-UCg4se01R4br91xkV0qGn6BzTa5PosbXyE5/\
-6eIt7yHE7AX468slMCxogOMzcHTwmYUdzRhyS3I2SQg2mby/\
-AuDgDsstWqIP7F77jZQ7a0oOp8PfjIO5hTHQWFrriKCAL0M8pvc2rTBapHxAnuViObtqi49KrNAnCm\
-r3Y8zKruz/ugKc+\
-hgWMHH392mSNZGxBGX5O1ljOmui1OFFCdAb8GlDiZnTocPclNjshZseA5ZG6iY4BZ24Fmx8GvmAe8S\
-ZmHkXdQr0W4Jafychwk4rH0HwOkcBXJhH4Ua0lpfVuqx12X7e1HEObRm5fYZ9nHBdzJLUFZfFcbc3V\
-1rultsrIsl6ts8jSDnbZradBqr6Y9BZXXMUmeTkmHpjk5Zm6d4vdGJPfgj5UbwpWyblxmZDaOBMHfW\
-mLmNiz+lSVXqFu93ApHQ3g+I4RaGUunl+esGWo+2qRy9isaXDW8g4eylorh/\
-gcBwSvzVnsKrBYlsxvmsfiBFlZ7qpBe3O+mn2+6st99mqOynoMySJONTWVPQb5sOm3u2vJfbprob/\
-WdJ224aPAGmSa0og+aejH2eaSdkfkHBNgod2POokr7P5kR/4VNnL6/\
-BWjHjVinY56jKDY1BE0lBFyhD8A3sI9yjve2hP8Yq2JWRKDqRF+NAqZ0CuD581QPho6I/\
-2lw34jlJ86hnpWJSm6TK/320Mtx+3qqzpLwbmmI4+sHQR+bxGdFmIXbt/\
-KV4z2hpLqgYscr1d8xzl36A1nUd6LXo00X6Odu2bs//6Xfv6rd83YYn8i2lyext4lZCSXeTW7gF/\
-uW8B/HcNcfex4eDvA6IyuXTreQKLa7KJs/z3zl2axpWFaSrP+TLUFsvk5URD+\
-abrMndmzMBrnEhx22p84+AWLORXLWlC9YFU9uueRzeaKDYPNTodmFRitnbDVpo/\
-XycI6XdZgl1EWq56E80ez5/FSyDhrIOXLdiQUG23sO2bWcgqOd6ycDSO7j1E1+\
-mbuPk7PfSzI0VmhHI9TIlYbO8lHUQlm2VjGVIaRJn2tW1kGRW6svCcfZCqBNQwIjl+sZF481L/\
-2Lapp1jx/zfW9ExysUYUBlvFPx+m1P7v2UYDoDb3xHtQ3tBEoB8L7uYQyUYLq/\
-pQ4I66ehH57GwWsi9QUlkY0hS10hpnzYkET0MCfZGrFRaMEUHrHSCymATQrZjTnlxJ/\
-mXrzVdxfKsb9MU0LacV1ww/BUU/YNE54VCO1iPfyTtzCIW67yMQjTr9a7ArwdKPy+nr/Hlf7+\
-lu78ThW+dfovkbknbHFu9zF4m/xnmkgFGgDujBCvj3yuvB6OtZs/\
-dGAbadLMsPaGGf5JW2nNtQzhancI88MMJuQTbzntehaeBGkFtoImdvDWBj3cVcTbNsci1TFR/\
-hGt4yPOvWk9pahPgAfqgiJR9zjnLS/60Zc26/7I31DE4i1QcMGzeV+hZOKxMVlLjQg4+\
-rrIWGUvtBv7oREJmCywmoMPs8EUspHfi9yOHhMIxNCaq4OiZeMGgQcNqo7sU37NEDtNg62/Zd0+\
-0f8MPpv4ciHH+D6LZGv7EQz6+\
-fxN4ux0ByPCVRxNknANmPSouY6biN2tgu1EfsqSRtV5qGljRTeCRlD8gndg18QkvN0V33UxsMx2jjN\
-t1E7Yv5z2kpxrztqZ2k78XHSpsZyjqLWFjPqq/LGNnKsAGU9CwXWnh+\
-0Rp01vR5PPeU5pvfHFcJrSYqYbBaZ/KjiTb3OT5LXBTbq5k8NLTcDDE+\
-fPQOqFZvuDUR5S32vLo7I5rq5TVdSz7H1CQocZEC9VDcX54UkP2kCwu0dbKOOG6ZA6kmJEvlaortY9\
-hpwoMJEiZV62l3HLjZDBlZfWHhx13KGvngvqkPHHKtDEm8fu6F3Wi0UdNmmul5Cktqh/\
-4Jq1l6UvHaETiJde+MIt2BiEeLoX1ZA/7167rTqdsdxrUNMYJykrlfqH63V9WVoMx67/\
-kGm28zhyPLnP/tVpq8BOPTSX9lVcifFTtRXrmSlH2J9Qe+\
-YMAsi6VipL6SXfgSN3s6xU2Y8CfveYr4dEATm7iAHfYH2u8lb3DJAnuNt9tVDaL/bj6hSun66Sk+\
-FRgTxg3yfEbXiTqpkgfJWvnLyvUAboa9qwO4d0HsxGvJm8cO93YQl9wIg/K5HicIWN/\
-Slvd1tJ2yhNtFvx4iBSh/DOJmvnRfuqIsktcNF2ElWEmJG7eWT6nNDMgI6ILtDl+\
-2St7V9HJ76lr58EGDALd1INsRXSTVqrYkppyTfw9yX3FHNfk/GTtLORodPr63cT5/QOFu8bhflO7/\
-JsmCh9kO2EmQnWWqh3N0tg/huJ8TZ8uTmPjrxHNsxGQ83vwByLzIvLGL3RYYeyr7V+m9/+\
-fM6NLgUb9Y4x7k8W19ln19vBu+zz+82gx+wz282m1/vOXh0s2z7Y++RB2ppYDUp1gkHyKJbT/pfX+\
-JOZt3GLBtnV+\
-QGVueGwlLrMfv1VAuNrY2W6vsg8EDjsXWPvpFXaGsG1WhrJsxuXQxaf41ESsWGeUD3Xn1qevRG/\
-QgAcimPja83y/m2Y5WoLyv3BFmVGpL2XC/XQS8vEAzzbIsAvvToV11ffNpBXuiEPYO1rHcBCS+\
-pK0PKoCnzY03NWky+ASlMXbGFeN9yBj3xeevsGq1egeEOlhmiDJbpI9BQQI5+ll2Ngek/\
-2v1qWAb7GR2gpNf+telX9pqdm4za2SVn0e/S1eFod3zzFNEkeHSlvX/t+\
-bLlZTAaoA5A2zg0gBMdnI+ozJpm/NC/9PxG2CA3C33rGGAwxXii/0oZBy6ykl+KdW+\
-6Phnbuvebhbl5n5v3Mcz78ty8z5B5n2Csd+r76KXT6rToLTCTjXjoRHAQpIsRw2si3+CkyRBT+o7+\
-96V686Pj42egRcnxcRtYJTg+TjgJnjxwwocd4zhzM/EBMoGj4idrUSLLXpXoaqf0bqf+\
-y53S252G5Pmp66WfTo1Wt+sHgU8ZHlvszp5pkqr8+d/+fMjjtwqV5c9/8c/\
-vdGQhKTk3U9Obhdbqr0vPT0WdTUt3VOvwfnxL/I06CxbmxPiJH2LD98/q87nmfK45n2u+hrnmXN/\
-P9f1c38/1/VzfXwl934tz9U8sekRNo2KZ5vWVWN7ozIHumR95tV0v/\
-SUUT2dAH14s1FulDb1CNSOUT9VU8A//Qr7V3Pj9+zCJinRYRnFNc4EbZp+/\
-mJrqe68enQ2K7rX1O144vh4sNaYI1gEOTBg0owa2sDV1I1TlGo171P58E+xPO+\
-5tKem3rq8mhAX2DG3n5es3Qx/0hSwmJQc3Nci+\
-UtfT6OFbBtr7df3MabffOg6e0Ke4O2T3ydyXmPsSc19iFn2J9waFeWtpQ19Kl05yjsT3/k7/5Q+\
-7GUdiQ1/tW3jIYPUSB0T/afOjOBwdRaN7weg4Fj0Qis5FoosnDs4FoTf0W3mDRv2mLxek6Tp4G/\
-rtfu+peQ0e9vsuuVaildkfQitxsQ39/SF2vwkg3B1mdemLOwM2j/a7Gq8hJuZI/\
-7MCK4KvyVmd4orOhBb1Zj3ip7kpnZvSuSmdWVN6IyPFW5UN/Wb0/1ZgnjrnWD+\
-bzLwwFXl8QKtudwJgre5nn/VqkA3uHifca9xrs6oXGvBv/8FX/6P+\
-jc2sobgV9baPPMfG0Y6oeCM8tTVRWhl7JRrx1vWNKEcQJRPLFfRBdBFPBnhy74W7Eaefuc9jk1ORrE\
-kNS5BEw0SyjRucqiFBtLGgYWSZgiEaPBYlLIuI50VOlnlT0SRNtpAhDXYoDLezDzqOhbNZipMdVoSZ\
-+xgcQYTOEWooioAVHqBBnMrbsiWrliVLvGDIigYwiELDUA1ZbmiCoDSQiCVs24JgqIPgfK+\
-Q2d8FHgqA/\
-ZJUURk8IU2SNM0UADzNoukBTR5ZMjYN0wCMyaJmWJKscg3ECYplqQAflmUbGSqHRSwPArY5sYsUg2Z\
-onCYgVbU1TsICamiaKNq8ZvOmpYoKVgUO81g1eEkSNE5tKKLKq1gROMWWRFMRhUHQiuW9ZKA5JnJ38\
-EmAsY5/3KGFnmZhxIYsIEMxsAhk4kRVxqoJdBM4QTVNQ9BMC/Ecb/\
-K8BsjlbEnjFOA6UzU4W7GEhjYIY7G8ugzGR57tBy1WPgubqalIkXigrMAjbHHAaYoli4poAXfxqiI1\
-gLSIPudUjHlZsEW7YQiKzCFDMIwh+NsbM3H3Tpy0DDRSTiomTfw+\
-COH0UounQE6a2HpSEg9JnZzCNmni3klF5JLUsD0iT5iYdBDGaaa+7KFywsSLk4J5eWq/\
-HjdOnFiO3M6cbtsixKcXoKxmn4F/QmqRnwk2/E7m1Sds01HfQyjZMVN/\
-MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"}, 
+                  "OEM6eJztPUtz20h6pvjQw7Ilz3hmdyaHKIw2lU0iheCbU5OSKUqylLFsWS1\
+7NrVKjRtAQ0IJBLhoQDY3tVVJVQ657CE7Oe5hbznmJ+\
+SQe6py2k1VLtk5pHLJHJPb5OvGG6RkgJRtUSYPIgX04+vv/fXrUzJ07hC/\
+3DReEark6b093SJmzyQWtlRDh8dKhhYODVZAydHcI5VaygwtHOETeIJmkS1JhFJ0G9ndLjb7uwTLKP\
+NjJUuXt/o67qrSviHbGmHVZ/zqWUQseveo3yOUWC+MHtFXV2l+B2uUeG/\
+ve29JVyQyAnDI6irKH0L7fShz+\
+4h0exo8dCB0Gs7SpQOsE0Q0IlmGGe0zdwhgeJ3k6exDU5Wjlb3vWdYIe1Wg85u2ZXloWHBH5LT76c7\
+2gameAwgvdkxDt7Z1+\
+ZBQwzYlguZ3tjdVq4t7FC27iIFKT2CcxGTAM1C2iIb7RKZ3nS52bF1iGL8IO7kj0yb+\
+MBbavR7BJtYB+bnHhh68md/\
+ElCCrrxHlVmzs89vnWLMxYIbOt23L6AKJJf9tYZ9Yp4aMFg5MAri11PNQo21NPdG7RLc8hNJChzBO8\
+b6DontdfEKQ+lMCGJt1MebXivSbP1K7hJq3+Gfxgf8EKi52bNOEhp8DwATd2QH8dnBvl6gnpwyE/\
+IHxEvrM0PttkRqabZFweXpnH5/oqqJKnIc73wG553ZM3OVEzdI5jh7Gvvnib3/\
+5dREanN9STeAZNmZ4f/hws2Nohml+j39+vWF+yD/fbJg/4p/fbHQ+8Ue8iCxT7T3R9/\
+SebQVc7Ly82wHQAbADLMuqfhJ/vcDB4vDE6LjI3+xj80TVaZiN2XfnVudW/\
+PfFsBQCZvfayfjfnmxn47IdFzK3KloqHmBJI1bblE4BX0WUK362UkQL0M4WUbCtWegjl+\
+f3LNJt67rh6BKU/fbnvwrpDrvY+ez4+BkFJjo+\
+7hFgouPjLUOyGZvBk4eqtWuLx8f76isiPzRx79Tp132ywh9BOdFWNfn4+\
+IA1sGmbIjH7X30VVKJrwrpQXy+t93jtoq+\
+pGHDj4OF28QgGpjGOHRkH0Fuk7ZzXtlBer5fK1WZZeIGyRVpEs5RIhi5TNF9Ezq8imntqY91SrX7AT\
+qivW/jVjmF2aRYUb3SwXqlllxsGhNorgWaB/\
+e2uTkP4ceQ394goQbEcjHewzBDdssAegcIDGsUlYMkFhkHItUZiWAb7SQ6Q1ysCrmBimbjXzkz6zkI\
+qORdTyffRqfGSyax+\
+0jkFfS4xlRpH0e3HNthAE3TB2cC7u2CDQLuA8lIp03XZgMq8ac4Pjn6JV33DbJA9MnrXlwGWGU00VS\
+cHBlVdu+sQONPJ+KUco/tOnIWOZtCRnYW4lZl6C1NvYQRvIT/1Ft5fb2GMwS67RN/\
+HIFeEWqOPOB8au/erMCS0nI+GlmtMH6I+hbZfPAYAGHVV+\
+QVAdQbqxtPEq9SJKtsfrKHbezqYAaxtYQu3M2sov6MChpRFp932zBrKsScMK+wbffQFMXWihfiNrr/\
+UoNQupqfogdIUlIZSUojQqLXYj7oslZr1Rl1oSnKlJgtEEQmuic1aRVbkWlOoVZWW1GxVlEZFrorNw\
+Q4rHrNzPB1v6yeaSk+PH9qqTGgIDM800HVd9MGpVEtCE+\
+NSo1EhjbKE61holgGmelOW67VyRaw3WuVytVopiU2xXi+\
+1KpVGCVdJjShKpTIMnD8bDs4hUQhoVokcAJ7pMep3RUOjx9tAJhOUPIcwDFiZ4Fat1mpJFQCvJZdIS\
+ZTKWK4TSZREUhLq1ZYo1+\
+pNoYSFSkOWmwAfqdcVLDYFUiX1QcA2UgHGAQKle05e7dqaFgatJBKhVRUkCYARmo1Ws1TFQrlWLdXg\
+b7OGlYYoCSKRqkpdqAkKqShKqSI3K82GIGNSGwLabnrQwChpW+\
+QEbCwiP7FZoadhGIlYr2CxIZIqkEmoNuukKQHdKkKlKUlipSXJuCyUpXK5BcgVlFpLaIhVUWqKwJ1y\
+pdQahPFBehj3dAU0CC8fhk1qNXGjVgbKVsqYyAJwWkOuVxtVGbir3GzUSkBazJ4LTULK9YpSVUpiBU\
+QEixVRrAzCtpMKtkAkHGtNZLBBEamQlQrBRAIS4kalAuCCmNSxXG60FAAJK2UZBLVWJyKuVuUSELsC\
+yBWruC6TlqIQaRDCvREhfKbLLozbMpQIA1mtKjVJkRrlEmiTWqNer1VKDaVKiNJsyoDZmlAS64DSMq\
+nWS0SoCo06ljD8bgqVaqMsjEviQ6zLRjcANQxbvUEEuQqqDTfEFqgLqVEjTbGMm0ILA84ICLWClVK9\
+rJTrwAOCQFq1MrCD2CiVqqSKxxURB7YvuZ9H5OEwyvWWAFqjIgpSRWnhGnBis1WXGHoAW6VWFf62qi\
+LTPK0yaF5FbgAayyIIEigaPITIX6SC8QifkUfgl4EVcpVNtweem25t9iOorLdqBKBq4HJZKZVaQr1R\
+qoG1KAtSvVyu1AC1LbkpVUAdVZUmaPByFXixIVclUNsluTQumAEHciiPjOHYrJaruCqJ5VKjqghV4E\
+uwYs1WQyxV6gopS7LSqIsg3Y2aICkNMG9VQazhEmhNUIiNallYQ3fbmma83GaTutzF5SHWGlp07S86\
+xT3m1v5+yIK7ZhtJEN28YBPMxOTF2tk1zyehWWiW/4Hxr1xU9wvS3wKvo9/\
+JdjJDqjoIvOAVGz9Ehjn6uxe1/kjtqoA/AOBC4J1I1hvjDy6B0wlleMEM/\
+b2LCrYhPOKFzAwPix49uEIAE7V0Ia7B1XOIFGLM14+j87nLaslGzQf913/\
+zAEove1oezJEKvNSHQH7GjyR9QnYWh5cNpi1YocwFhdwYOXAXGYhsrSMEaptSQ4L6S+\
+FnADEtOPM8ANO90KvnfKki9hBK2pIfvzn4c/ESzOAOdOCh+\
+aKeO4vA2ygHkTtu31pD80CiI6aZrM59EECH9O6DBfCAp6I4FcUJEMXcJMrgAbZOgyHc21Jpj0/\
+wAak6hq1brNB9/6nDCs4LoOEiC1LDJZfYg1iheWSYFuuGBv3cZc/cuSuIEEMvdlVZJjqLxek+\
+7tHcYwiG1tDCs54METIbSidDS8mCasO2era1t7W66kXjf5KsYg+\
+AhUq3oqF8wsrnBwZdXeVTt2mqnY5W7QQeAqhZeicyExFf4RYStQbeGKhR5x2bbdkiPc3oK3madyZmZ\
+2mOv7ozMPec4xM18M3moOF7IZhIYbOU+4ZNiXFOTDZL6YaTdHCe15+C7RQumR4HwBAEo0Q2K/zzL/\
+8caTUQiXl41n9Ezonmlvxmg83tHhha/wTaCa2AuN/O9CzXEHOHHHisdb7j/zszvJ3vLi+\
+VpKEEtRP1dXUNJRvauCSCh8m4cBVpqsRmkM/\
+4VPl6okqaAf3tGpo8gnIYMOw0B8aWojnPNXBCA5TnbDxsxSA+zc0iH9Bbw5YrFnmti+bH886yGf+\
+d6+SDCdJNAP/EBJUqRxlb4Z//2bhsyYOvkdE5j0qvFdfF7XOovgshrcYXSJb4uIOVm4hEu3Z8xtUR/\
+r8uNHwFhK1JRNYnfvH37PNvG6bAP/+5Yf4F//z3Bpp7pOpnrO/YgpNv/\
+hZ51x3gkTOwR0xfzuwpgJRGIrpLp0Q64zuLMFs2AQuecopWmVEKCXnM5jaLbxhK2Uk6Q5XOMqUzSCn\
+tUGpxfTcC7jn1E6WVXMfPDY+ckGeqmS7TTK6L7Gkmz2OeaqapZrq+msmdU5gszcTnZG+\
+4ZkoU6qTTUO7arq+i/P+nOmqqo66Ljgq2X2QhIHJ59HprqKEg82lmVzk5O4ySayd/\
+KvVaK6mZS5XT5RtGrjM5sxdwoPu/OyHK5wzTErbz+VVTdC6+fXRoBxfTafwtO5NMSu5IjEZKf+L/\
+HVDUc4nuoB7Wd0yj2xaN86QCOcqGqsmj8cxNFddxt7RNMinfR3Edb8Ph5FE7e1MFd9wtn5NMyvdRcM\
+fdkDt59M7dVNEdd0v0JJPyfRTdK9uwPnmEz99UGR73yMAkk/\
+J9lOGxD3RMHsELN1V2xz1SM8mkfB9l94oOPE0e2WdvqgSPe+\
+Rskkn5Pkrw1R0InDzKz91UIR73SOYkk/J9FOKxD8xOHsHnb6rsjntkeZJJ+T7K7pUdKJ88wi/\
+cVBke90j/JJPyfZThq7xwYfJof/umivG4V15MMimnYjzehSSTR/vFmyrG414JM8mknFAx9qG7+\
+GLa2/wmylfWPtFtJXI15wfcoNq6vP2qZxLKbp2lzWSYlYI2j0z15ASoWKD5L09ViZ0Qm32mU9wlT2k\
+5WWsaptYTl1ZvhRuCk/N5xAEdedj08+RD7AzWro1U279CfggFFffGgvHgGp0N3O5HGxgjyCYQ9sw/\
+gZCuuRPNELGGJNPQtAPDl7Q3eUSF9fGlap3GL65MyMQwfna1x2rC8qteBa+\
+bZBLm1WKFV9NIpVcpXXcqfUSw4hwVWaWfpetuL1Q5XbenvI5zAQq/\
+sqTNz3EV9rElnaZSRqFhL7Y1i5g6ZncEh4/ARE/rQcH0MD5NS/\
+TUh8Uc7P1polpY0wLUpaxyzUai91OPxKvytkZSSVSLhm/\
+5YU5MMr0sORdORa4ISqtfMikHFr6mKHXd+HVGqXToKT4n7Nokdmwt+9hgPt7cDlY12yRPE5/\
+MlKEBSqzQ3cEjEjaZM6JS724UH2owfTsmIekZkF+\
+2whzcPzdUPXTQlh1Mhb9PTLeHEdGZWujSo4DOQj+\
+n7DavLJ1jfoCb5GLBuWmLjQvlWRKEFWUu8DLz2z+xwVMfwQI6jj66NV4jIVuQhZ/\
+jNRaxJqjgJkpwzoDfAkrccQ4dbr8ikm0Rfgy4nqgb5xhw6Faw6WHgC+\
+KItxF5pHULUcEkXSOUkeEOE4+h+Rwcgc+NI/BJrSWj9Xa3Z/\
+XftLUcQZs6bl9qn2cUFzOR2oKyZKq2pmrr/\
+VJbWSzLr9dZdH6LaPzWU9NXX1x60yuudEFehIkHgrwoUwe32I0Q/Kb0oYIQLBdx40JTaqMEDmi+\
+TSWiyzFVhXLM7R4upckAdu8YgVam4vnuhC1E3deLXMhmXQVnLWyRoay1eEjOiUnJypTFbgKLhcn8tn\
+nMTZAV5q4CtDflq8nnq1jus9dzVNhj8BZx8r6pDBjk047R66949+\
+muWMZKR1N7ooFNeZBpMgl9Ustws8157SbkHAlgYd0nDeJSuz/hkX/MR86ev2bUSWes/\
+VGPMCl25QgayggRwh8Ab5GA8qq+8pi8XOkQnsTgygifjEIS9MrheTuUd4bOSX/\
+psN8K5a8cQ4FV8YousOv9dnBX1fpoCfEUnCsI63TlwDSCRXRWiF+\
+4fTda0dkbSvMHGlb1oPiWeq6yG86cvBdBDT9foxK5Zuz//pd9/\
+iu4Zmwunog2kqcxuISMRjKvhhfws7EF/\
+DcxzKVHqk42TYLP2Nqlqg8kqg0vysbvmb80iy2bpmU0i2eqTZHNT3Um4Z/6y9yhPQvJOJcSy+\
+49V8lLPueULmtB/\
+oJVdeeeRx7NpRsGj06HZhVI1o7V7bHHq3R2lS1r8Mso01X3pvOT2XN3KWSUNZDsZTsS0o3W9R1Dazk\
+pxztSzobE7qNTjb2Zuo9X5z6m5OiwUI7GKQ6rjZzkI60E82wsIypDR5O+\
+0a0sgyI3Ut6Tj0KVwBqalLgvFkMvdtH3/5BpmhXdWNEM/\
+YSYK0xhgGX84Si9xrNrH5mY3dDr7kF9SxuBIiB8GEko4ySojqfESbh6Yhm9TWzyLnxTmEloCrv4jHD\
+nRYYmoIE/CNVyizoJoJAtehZTBJqlM5rTS4nfpd58Hfdn0nG/\
+S9NUWnFVNCxw1D02dRMeFWjB4b2oEzd7SHoalkjC8KvLrwD3Nyqvrsb3uCoz13bjsavyb7F9jVg/\
+44t3kYvFr/GeaSAUaAO2MEL/KPG68Ko/1nD9ZMD2/\
+CWZYW2Msvzit1MY6plCKLenSybhAdnYe17TroWnQWqqjZCRPYypce92Nca2zZFIlX6Eb3XLeNLQk9l\
+bjnoTfKg0JE64x9lrf1tzuDau+x19wxKI9UDDmp2FuMLxReLiMhcakFH19ZBplNjUb+\
+SERGjCZJHXGHwemkjJHhnBzOHgMY3QFFJnach8SdJJwGGjuufatC9N3OsRc9N4xbZ/uA+d/\
+2aPDPgBrt88/XjLiaxfuN98joXlePSgcrNJArY5k6Y1124brrOdqg3XV/\
+HayHMPzW8k9U5IF5LnbA9+SkjO/V31Thu7I7RxGm2jcMT9Z7+V9F630878pufj+\
+E2N5Bw5rc2F1FfurW3kWATK6jI25R3D7CaNmt6Mp+\
+7zHNf7owrhLS9FTDiLTHRU7qZe9afe6xQbdaOnhhY6JoGnz54B1dKFewOzvJnYq4tnZCPdLLOV1HMi\
+P8emikWo5+\
+vm9Lzg5Sf1QFjeIgq2NcsHEnklMvT7nu7i2WvAgbI8JZYJtDsiGpEsDlZsWnhuW1aHvvjAqcPG7KpD\
+6m4fu43sbhebfb6pLkhIUjg0XjLNGsySF47wiaNrbx+RLgQWFnH+\
+5QXQ7xQjp1U3bVWTDwmFcdIiyhU/WymiBWjTHTv6KNRt6HBk9tuf/\
+yrU1wAcKPNXSp7e87Hj9BUpmYtDjGaRLUEURP2xMl8IZX4MjS5H2Ck0Ho9973LfDggCsTvIQWyi/\
+b73lnRFkGd3m33+ENrvxxGV8ddPl9ipUIcghhnt06GW20mezjLeilb2vmdZI+xVAdjdBr3noiFqFj/\
+d2fZYcscEwm/\
+rjCh8cQPN72xvqlYX9yhadhEDlZ7AOLmvHRVupwsvtcNF2PFWElxGDfJJxdyQkIAOyO7QZTvvbWGfW\
+KeGjBYOTAK4ZRvJhvgqvkYtdAjjFO97mPsSOaoZ92QUL+2sc/j01uID/wmbZ3PX7Zx853d4Fizc2+\
+UrQYqXpRbK3W+L1NBsi4TL0zv7+ERXFVXiPNz5Dsg9x70wh93nOHoY++aLv/\
+3l10VocN7drHFOInm2vsc/v94wP+SfbzbMH/HPbzY6nwQOHtss23ui7+mglgZWk1ydcIBltvUk/\
+voSdzLsNobZOLwiN7A6NxSWQsDsM74WGlkbzRf3QeCBxiPrHrQWVWgrItNoKxJEtxoBrb9CHaWiQBz\
+QXy9emR69XTwCgDTGY6PrzWy0bVclooXSeqnUEBqN1guULYJenqUE4myZAr6Q86uI5p7aWLdUKzBYC\
+6gPSHjFXBmaBU0ZHatv1lzyDUih74rNuvuWQ+hxz1uH12hRDoY7WGaIMlhgj0BDATniLLvkAhM/\
+2v16WAb7SQ6Q12t8bfq1vYZjk6SdXXIW/\
+T5bHXZ2x3dOMUuCx1ba42vPly0vg9EAdQDaRmUTOM7BeYfKvGnOD/Gl57fCBpEo9NoxwGCKcU//\
+ZUIOnGMl34l172gGHdm6x83C1LxPzfsI5n1hat4nyLyPMdZ7xX38Su3aXXYLzHgjDnr3Gs9++\
+7dfsz//cGXgLhcPTIPRnMj82prrDe0HRWeXknPDjmHr1uiykCldIVgHBMyPbvGYm8hEvnI2v7OnyyC\
+iZlfV2SJ3tvgD4PSe2+u8138RLXmcDsbYUtRXb57hP4px0PUhy8dF5Ouzawbah0V0poIncd1Qli/C+\
+9EhuT9kPqw4jZymkdM0ckofOQVefDwoGeLzh5pHi668sXBKi4c9l60loMxfQnF/5viDQWFuz6+hed+\
+Zg8K+Z2X+U335P36h/GwDzbpu1xpairlC7Vtr6G7UWrBHy3Gj3mEP4yY13BmNmcNZt/Aa+\
+nCIMWLN3R9mCtiLewOKmD1dcl1tT0eiP07hOIds7lUuWmR+dl3U/J3iAZZg4FP9PtXvU/0+\
+sfr9dkiK27k1dMf5v21Kp+\
+o5QWedz46fUWCV4x5TtceeBqTHD1Vr1xZDiWicis6DFf6EHnMVeXzAqm7aJrBW/\
+6uvghp0TVgX6uul9R6veqFV+dd//8e/\
+e1X94YOQVbnr9LaPdVUhzsShu17czqy5t68qi86I2zNrzlW6ine/\
+8EfOebUQ8HT9pbbm3tL6QGkKSkMpKURo1FrsR12WSs16oy40JblSkwWiiATXxGatIityrSnUqkpLar\
+YqSqMiV8XmYIejZJD3wRk3f/kgOONlyPYBGzc/8yBg42YA9kEbN//sIGhXluHUh3Hc/\
+JqDMI6dwdGHbdz8gYOwXVGGOh/\
+CcfOjDUJ4dRm4fCDHzf80LomHZBjyYRs3v824InJJBpWAyGPm7xiE8SozRASoHDM/\
+wbhgXn4DfsCNY9+/TpdDm8DalBrsnNBS+Bn4J7Tg+Jlgw++FXj3nu35iD6GkLfn+\
+oHfjPQPX986GdODh6qKeO4udDAsqP7lwZ1Zoe9w01L2Woe7/A0i8S+s="}, 
                  "ClickToCopyTemplate"]]}}, Alignment -> Left, 
              ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], FontColor -> 
             GrayLevel[0.5], FontSize -> 12]}}, 
@@ -19021,300 +18699,6 @@ MEnlR8FNvbMhHSS4uqjn5kqztAUzuK9feOQss8w9jyrMowrvdlTh/wFJsoxq"},
          EvaluationCell[], {TaggingRules, "StripeOpen"}, False]]]], "Text", 
      FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> False]], 
    "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
-   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
-  Cell[
-   BoxData[
-    StyleBox[
-     TagBox[
-      GridBox[{{
-         ItemBox[
-          TagBox[
-           GridBox[{{
-              OverlayBox[{
-                StyleBox[
-                 TagBox[
-                  DynamicModuleBox[{Typeset`var$$ = False}, 
-                   InterpretationBox[
-                    StyleBox[
-                    PaneSelectorBox[{False -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667366932302978`17.33991958880724*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    AutoDelete -> False, 
-                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}], True -> GridBox[{{
-                    OpenerBox[
-                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
-                    Automatic, AutoAction -> False, ContinuousAction -> 
-                    False], 
-                    StyleBox[
-                    DynamicBox[
-                    ToBoxes[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667366932302978`17.33991958880724*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    StandardForm], SingleEvaluation -> True, Evaluator -> 
-                    "System"], FontSlant -> Italic, FontColor -> 
-                    GrayLevel[0.5], FontSize -> 0.9 Inherited, StripOnInput -> 
-                    False]}, {"", 
-                    PaneBox["\"\"", ImageMargins -> 0]}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
-                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
-                    GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {
-                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
-                    BaselinePosition -> {1, 1}]}, 
-                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
-                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
-                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
-                    Baseline], Deployed -> False, StripOnInput -> False], 
-                    OpenerView[{
-                    Style[
-                    Dynamic[
-                    DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667366932302978`17.33991958880724*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                    SingleEvaluation -> True, Evaluator -> "System"], 
-                    FontSlant -> Italic, FontColor -> GrayLevel[0.5], 
-                    FontSize -> 0.9 Inherited], ""}, False]], 
-                   DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
-                 ShowContents -> False, StripOnInput -> False], 
-                StyleBox[
-                 DynamicBox[
-                  ToBoxes[
-                   DateString[
-                    TimeZoneConvert[
-                    DateObject[
-                    3.8667366932302978`17.33991958880724*^9, TimeZone -> 
-                    0]], {"MonthName", " ", "DayShort", ", ", "Year", " ", 
-                    "Hour12Short", ":", "Minute", " ", "AMPMLowerCase"}], 
-                   StandardForm], SingleEvaluation -> True, Evaluator -> 
-                  "System"], FontSlant -> Italic, FontColor -> GrayLevel[0.5],
-                  FontSize -> 0.9 Inherited, StripOnInput -> False]}, 
-               Alignment -> {Right, Baseline}], "\"   \"", 
-              ItemBox[
-              "$Canceled", ItemSize -> Scaled[0.75], StripOnInput -> False]}},
-             GridBoxAlignment -> {
-             "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
-            False, GridBoxItemSize -> {
-             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
-          ItemSize -> Fit, StripOnInput -> False], 
-         ItemBox[
-          StyleBox[
-           ActionMenuBox[
-            TagBox[
-             TagBox[
-              GridBox[{{
-                 TemplateBox[{
-                   TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[1., 0.4627450980392157, 0.], 
-                    RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   "\"Potential issues found\""}, "PrettyTooltipTemplate"], 
-                 TemplateBox[{
-                   TagBox[
-                    GridBox[{{
-                    TemplateBox[{
-                    RGBColor[
-                    0.49019607843137253`, 0.49019607843137253`, 
-                    0.49019607843137253`], 
-                    RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
-                    "SuggestionIconTemplate"], 
-                    StyleBox[
-                    "1", FontColor -> GrayLevel[0.5], FontSize -> 9, 
-                    StripOnInput -> False]}}, 
-                    GridBoxAlignment -> {
-                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
-                    False, GridBoxItemSize -> {
-                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
-                   "\"Suggestions found\""}, "PrettyTooltipTemplate"], 
-                 "\"   \""}}, AutoDelete -> False, 
-               GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
-              "Grid"], 
-             MouseAppearanceTag["LinkHand"]], {TemplateBox[{
-                TemplateBox[{
-                  RGBColor[
-                  0.49019607843137253`, 0.49019607843137253`, 
-                   0.49019607843137253`], 
-                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
-                 "SuggestionIconTemplate"], "\" \"", 
-                "\"The symbol RandomMixedGraph is not declared in the paclet \
-info\""}, "RowDefault"] :> DefinitionNotebookClient`WithCurrentNotebook[
-               EvaluationNotebook[], 
-               DefinitionNotebookClient`LoadDefinitionNotebook[
-                "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-               DefinitionNotebookClient`PackageScope`setHint[
-                "Suggestion", "Paclet", 
-                 DefinitionNotebookClient`$CurrentNotebook, 
-                 "6a58b472-3255-4393-842d-a9f9b0a3532f", 144014500, 
-                 "UndeclaredSymbol", <|
-                 "CellID" -> 144014500, "PacletDirectory" -> 
-                  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\
-\\Mixed Graphs"], 
-                  "DeclaredSymbols" -> {
-                   "RandomMixedGraph", 
-                    "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph", 
-                    "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph", 
-                    "PeterBurbery`MixedGraphs`EulerizeGraph", 
-                    "PeterBurbery`MixedGraphs`GraphInformation", 
-                    "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges", 
-                    "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs", 
-                    "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ", 
-                    "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy", 
-                    "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ", 
-                    "PeterBurbery`MixedGraphs`GraphConvexHull"}, "File" -> 
-                  "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\\
-Mixed Graphs\\Documentation\\English\\ReferencePages\\Symbols\\\
-RandomMixedGraph.nb", "Excluded" -> False, "DocumentationNotebook" -> True, 
-                  "DocumentFlag" -> None, "ObjectName" -> "RandomMixedGraph", 
-                  "FullName" -> "PeterBurbery`MixedGraphs`RandomMixedGraph", 
-                  "Categorization" -> <|
-                   "EntityType" -> "Symbol", "PacletName" -> 
-                    "PeterBurbery/MixedGraphs", "Context" -> 
-                    "PeterBurbery`MixedGraphs`", "URI" -> 
-                    "PeterBurbery/MixedGraphs/ref/RandomMixedGraph"|>, "Type" -> 
-                  "Function", "FileHash" -> 4615054867908363319, "Flag" -> 
-                  None, "Extensions" -> {"Documentation"}|>]; 
-               DefinitionNotebookClient`PackageScope`seek[144014500]; Null], 
-             TemplateBox[{
-                TemplateBox[{
-                  RGBColor[1., 0.4627450980392157, 0.], 
-                  RGBColor[1., 1., 1.], 10, {{0, 18}, {-2, 17}}}, 
-                 "SuggestionIconTemplate"], "\" \"", 
-                "\"The paclet version (1.13.0) is the same as the published \
-resource (1.13.0)\""}, "RowDefault"] :> 
-             DefinitionNotebookClient`WithCurrentNotebook[
-               EvaluationNotebook[], 
-               DefinitionNotebookClient`LoadDefinitionNotebook[
-                "Paclet", DefinitionNotebookClient`$CurrentNotebook]; 
-               DefinitionNotebookClient`PackageScope`setHint[
-                "Warning", "Paclet", 
-                 DefinitionNotebookClient`$CurrentNotebook, 
-                 "2ce84ac0-67b6-4427-8cbd-78b7c8734505", 216076509, 
-                 "PacletVersionUnchanged", <|
-                 "Current" -> "1.13.0", "Published" -> "1.13.0", 
-                  "Selection" -> ("Version" -> "1.13.0"), "PublisherID" -> 
-                  "PeterBurbery", "PacletDirectory" -> 
-                  File["C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\
-\\Mixed Graphs"], "ResourceName" -> "PeterBurbery/MixedGraphs"|>]; 
-               DefinitionNotebookClient`PackageScope`seek[216076509]; Null]}, 
-            Appearance -> None, Method -> "Queued"], "BoxID" -> 
-           "WarningCountButton", StripOnInput -> False], ItemSize -> All, 
-          StripOnInput -> False], 
-         ItemBox[
-          TagBox[
-           ButtonBox[
-            TagBox[
-             PaneSelectorBox[{False -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[64, 85], 0.7529411764705882]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> None],
-                True -> GraphicsBox[{
-                  GrayLevel[
-                   NCache[
-                    Rational[128, 255], 0.5019607843137255]], 
-                  
-                  PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
-                   0.42426406871192845`}, {0.42426406871192845`, 
-                   0.282842712474619}}], 
-                  
-                  PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
-                   0.282842712474619, -0.42426406871192845`}, \
-{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
-                   0.42426406871192845`}}]}, ImageSize -> 18, 
-                 PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
-                 None]}, 
-              Dynamic[
-               CurrentValue["MouseOver"]], ImageSize -> Automatic, 
-              FrameMargins -> 0], 
-             MouseAppearanceTag["LinkHand"]], ButtonFunction :> 
-            With[{DefinitionNotebookClient`Stripes`PackagePrivate`nbo$ = 
-               EvaluationNotebook[]}, 
-              CurrentValue[
-               DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                DockedCells] = If[
-                TrueQ[
-                 MemberQ[
-                  CurrentValue["ModifierKeys"], "Control"]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Cell[
-                  Blank[], "StripeCell", 
-                  BlankNullSequence[]]], 
-                DeleteCases[
-                 Flatten[{
-                   CurrentValue[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`nbo$, 
-                    DockedCells]}], 
-                 Condition[
-                  Pattern[DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                   Blank[Cell]], 
-                  Not[
-                   FreeQ[
-                   DefinitionNotebookClient`Stripes`PackagePrivate`c$, 
-                    "878c68c6-a4ab-4214-8540-a118ef699758"]]]]]], Appearance -> 
-            None, BoxID -> "878c68c6-a4ab-4214-8540-a118ef699758", Evaluator -> 
-            Automatic, Method -> "Preemptive"], 
-           MouseAppearanceTag["LinkHand"]], ItemSize -> All, StripOnInput -> 
-          False]}}, 
-       GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
-       AutoDelete -> False, 
-       GridBoxItemSize -> {
-        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
-     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
-     False]], "StripeCell", CellFrameMargins -> {{20, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{"CompatibilityTest" -> HoldComplete[
     BinaryDeserialize[
@@ -19363,32 +18747,32 @@ Fu6DuJJG2H9mK2QZ3X1Y8rjKVdsLU11Qbnfn/Mae/TiO1RZHs2bny+6Vwq5Sfi8TnHKi+1+K4NOh"]\
   "PacletBuildData" -> {
    "LastBuiltArchive" -> 
     "C:\\Users\\peter\\Documents\\GitHub\\MixedGraphPaclet\\Mixed \
-Graphs\\build\\PeterBurbery__MixedGraphs-1.13.0.paclet", "FileHashes" -> 
+Graphs\\build\\PeterBurbery__MixedGraphs-1.16.0.paclet", "FileHashes" -> 
     ByteArray[CompressedData["
-1:eJwBDgTx+yFib1JiAQAAAAEEAAA4Qzp4nHNU1Q02dslPLs1NzStJLMnMz9N3
+1:eJwBBAT7+yFib1JiAQAAAPcDAAA4Qzp4nHNU1Q02dslPLs1NzStJLMnMz9N3
 zUvPySzO0HcvzUxJLdb3zaxITXEvSizIcCvNSwapKNbLS3Jk0g1mC84vLUpO
 9bG8br2B48AsCaBISGJRemqJj/n7CqHInApr3WAl7GZ75qWkVujHG+glpxUj
-GVXM4pefl4owh/NDo360ZpG7brAaPnOKU9NBUsXxhnjMusfwcN8zNq5kYs0y
-xmOW5M8CiX2H0k10gzWIMUsvPTUPj2mCvg8al1Q8t9QNzsVuWlBqWmpRal5y
-akBiOjBGgitzk/JzivVJUhyUmJeSn4uITLQ47Dzy5d7Eg/aKCFft3T9HbKPk
-TQ/dYFuSLHItzUktyqxKxWYLQ2D5Le58SxmELR8dt1U3nWov1w22J8kWsOnO
-+XllqRUepTk5aPYs4o3yNtt+IQphT4ES56YytTNuusEepNuTmZyY45KaXpSa
-GpxaWApSFIhm4ZuN8314QvbrIiz8YHFY4Y9cepVusAPpFnrmpeUX5YLVo1l0
-Of35nLJNk6oQFkXpFt4549/vqBvsRpJFiKTgklmUmlySmuJYlIyetUNz1fIz
-1mnKIqybof5ItulRpqRusCeZ1oXmpUAtdE0BqkCzsYx7z+0zlwIEEDaaHNq3
-OSMywJLUkCSQ4s1b5qZ8/s7tgLBI5ae4VGtFczGpaQRiUXhqZnoG0FM4LVy2
-/XLsaa/NQQgLeWTjKqbzWGboBnuTZGFIYnaqD8iI4hJoPsgtAJYoeSVOlWh2
-engxOsvohSUg7Ix9vq/i6RHOQFLtRMQa2MqQfJz+DJBT3P9pmStSXphWqu8q
-VXnCQjdYC7udwamJRckZkELTFFItpOIpMKc+kTvwXvafCinm4atmqh/+u7Db
-VhFY+GkSaV5xJh7jzqspGN0R/cStG6xLjHFpmak5KcV65Tl4jHyf+1Pio1IB
-sCI0IcbITBDtm1qSmJJYkojf5J//Nduuz20GFsB6xJgMrx6N8Ji5dKVmn97V
-QDcizSwvyixJ1cvJT87GY2ZmqL9SxKNQb91gdRxmFqTm5BDZrpA9N+fEC4XI
-NKIMMyJg2L8vQcdntlq7EmWYMQHD9m2aaupcXlFOlGEmBAxrdVK0v98w3VQ3
-WJugYUS1oWKvhWjUv7SsJclAfA2pj2utf5yKqwsiyUBzPAZy3Nq7c+H9HB+S
-DLTEY+DiBz3/zWY9tSPJwCQ8Br6S1t7+cHGTNe7SAdNAAg3Ij5fuXFVtuMWg
-GyzlnVqUl5qDVNsGJCbnpJaglgE+7Kv/lb/lMNJBGIEQEcUwAq1s8hHY7Xvr
-w7RpkQjdCBFeiH2gBgyaroCgJYksby2lEboQIoIQXb6JeZlpwEoNf4l1Sjl+
-1a/nGlkAM+SyMYSd/GY=
+GVXM4pefl4owZ4Ecl47vrkMFusFq+MwpTk0HSRXHG+Ix69kXxfu8TlMViDXL
+GI9Z1kY1+css5at0gzWIMUsvPTUPj2mdcQ/PVs9+qqgbnIvdtKDUtNSi1Lzk
+1IDEdGCMBFfmJuXnFOuTpDgoMS8lPxcRmWhx2Hnky72JB+0VEa7au3+O2EbJ
+mx66wbYkWeRampNalFmVis0WhsDyW9z5ljIIWz46bqtuOtVerhtsT5ItYNOd
+8/PKUis8SnNy0OzJ69F4YGmuIo+w56mAhcDn1wE6usEepNuTmZyY45KaXpSa
+GpxaWApSFIhm4ZuN8314QvbrIiz8YHFY4Y9cOjCJOJBuoWdeWn5RLlg9mkWX
+05/PKds0qQphUZRu4Z0z/v2OusFuJFmESAoumUWpySWpKY5FyehZOzRXLT9j
+naYswroZ6o9kmx5lSuoGe5JpXWheCtRC1xSgCjQby7j33D5zKUAAYaPJoX2b
+MyIDLEkNSQIpvkXo1fPIj8VIaeTyh4/pk/LOeJOaRiAWhadmpmcAPYXTwmXb
+L8ee9tochLCQRzauYjqPZYZusDdJFoYkZqf6gIwoLoHmg9wCYImSV+JUiWan
+hxejs4xeWALCztjn+yqeHuEMJNVORKyBrQzJx+nPADnF/Z+WuSLlhWml+q5S
+lScsdIO1sNsZnJpYlJwBKTRNIdVCKp4C8+nhbc+VD+xLIMU8fNXMjps1f+Y/
+qHfTDdYk0rziTDzGzT46Ze8Ly51pusG6xBiXlpmak1KsV56Dx8j3uT8lPioV
+uOsGmxBjZCaI9k0tSUxJLEnEb/KnK/+mvL/VZ6sbrEeMyfDq0QiPmY42HOVr
+A/IyiDSzvCizJFUvJz85G4+ZmaH+ShGPQoGZUx2HmQWpOTlEtivYatf3nkt7
+YkSUYUYEDNu415VDm5MhhCjDjAkYtm/TVFPn8opyogwzIWBYq5Oi/f2G6aa6
+wdoEDSOqDbWoQIYx3H26IUkG4mtI5SU9sMpVz6gnyUBzPAZqXzj/Mj7zXSxJ
+BlriMXDxg57/ZrOe2pFkYBIeA19Ja29/uLjJGnfpgGkg0Q1IKe/UorzUHKTa
+NiAxOSe1BLUM8GFf/a/8LYeRDsIIhIgohhFoZZOPzvu4GdOcCpkRuhEivBD7
+QA0YNF1sWWpzX934VYKUC+EighBdvol5mWnASg1/iTVrtvM3rin1WgCmjrLy
+7bby+g==
       "]]}, "Paclet" -> "None"},
 CreateCellID->True,
 DynamicEvaluationTimeout->60,
@@ -19758,7 +19142,6 @@ VX/aMEEQzrerjFhhelYAzofFB3r8AgApYdcE
                     NCache[2/3, 0.66667], 0], 
                     Thickness[
                     NCache[2/45, 0.044444]], 
-                    
                     FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
                     0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
                     0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
@@ -20230,7 +19613,6 @@ AsyncronousResourceInformationUpdates = False,
                 Quiet[
                  
                  Block[{$ContextPath = RSNB`$cp$, 
-                   
                    ResourceSystemClient`$\
 AsyncronousResourceInformationUpdates = False, 
                    DefinitionNotebookClient`$ButtonCodeID = None}, 
@@ -20459,6 +19841,7 @@ AsyncronousResourceInformationUpdates = False,
                  Quiet[
                   
                   Block[{$ContextPath = RSNB`$cp$, 
+                    
                     ResourceSystemClient`$\
 AsyncronousResourceInformationUpdates = False, 
                     DefinitionNotebookClient`$ButtonCodeID = None}, 

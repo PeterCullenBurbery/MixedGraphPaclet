@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.13.0",
+    "Version" -> "1.16.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -20,17 +20,21 @@ PacletObject[
           }
         },
         "Symbols" -> {
+          "PeterBurbery`MixedGraphs`EulerizeGraph",
+          "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ",
+          "PeterBurbery`MixedGraphs`GraphConvexHull",
+          "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ",
+          "PeterBurbery`MixedGraphs`GraphInformation",
+          "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
+          "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
           "PeterBurbery`MixedGraphs`RandomMixedGraph",
           "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
-          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
-          "PeterBurbery`MixedGraphs`EulerizeGraph",
-          "PeterBurbery`MixedGraphs`GraphInformation",
-          "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
-          "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
-          "PeterBurbery`MixedGraphs`GeneralizedEulerianGraphQ",
           "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
-          "PeterBurbery`MixedGraphs`GraphicalDegreeSequenceQ",
-          "PeterBurbery`MixedGraphs`GraphConvexHull"
+          "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
+          "PeterBurbery`MixedGraphs`OddVertexList",
+          "PeterBurbery`MixedGraphs`OddVertexQ",
+          "PeterBurbery`MixedGraphs`EvenVertexListt",
+          "PeterBurbery`MixedGraphs`EvenVertexQ"
         }
       },
       {"Documentation", "Language" -> "English"}

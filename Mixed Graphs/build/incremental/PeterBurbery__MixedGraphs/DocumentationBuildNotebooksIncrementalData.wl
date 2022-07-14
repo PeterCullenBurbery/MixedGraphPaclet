@@ -24,8 +24,8 @@
    "FileHash" -> "58sp+pnCL5HJc19OIzxX1c5KKXMCQ/2Ohdv4V6dgo8s="|>, 
  "English\\ReferencePages\\Symbols\\RandomMixedGraph.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[20.4465974, "Seconds"]|>], 
-   "FileHash" -> "bv3qJE+yTCb8tS8mK5AiraU6CT57bYMdoe2IWiN6ic0="|>, 
+     <|"Time" -> Quantity[27.3493176, "Seconds"]|>], 
+   "FileHash" -> "UEFHWI8k8fyIpx17j151gnN5E4au1Y8n0rTkDvp1KU0="|>, 
  "English\\ReferencePages\\Symbols\\RandomWeightedMixedGraph.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
      <|"Time" -> Quantity[16.0208468, "Seconds"]|>], 
@@ -40,5 +40,5 @@
    "FileHash" -> "sj9h/yftEf6HA2Oyp5Z51xJLR0h7HpXSjLzsXMA1vc0="|>, 
  "English\\ReferencePages\\Symbols\\GraphConvexHull.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[7.2942015, "Seconds"]|>], 
-   "FileHash" -> "wTeeXpabYF1NBcRzJBGbdqETpYVHuocNAmPKhnMMrRA="|>|>
+     <|"Time" -> Quantity[4.1636488, "Seconds"]|>], 
+   "FileHash" -> "DlVHkmwYuDLCdsSJmzvSusKxl62V9Qa7Fh3HwlD0rkM="|>|>
