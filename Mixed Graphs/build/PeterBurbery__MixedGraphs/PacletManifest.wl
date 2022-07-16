@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "f81f7f0fe17597f0f6dc0867618cd35d1efbea5b853dfd58154f9c893f73d4b8"
+            "d1c448ef9b58bd585df5a9adc89c46326f292bf9964d8ab72f171a1c2ec2042b"
                 
         |>
         ,
@@ -124,6 +124,20 @@
             "Hash"
             ->
             "67e1d46dca7b9a4ec75e8b2a819aa44e38afaf062f262ae11e952832b7004e4a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\RandomSymbolicWeightedMixedGraph.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a1d0c665493a54442f7f8008e28c4da321c110a051a86d4196d6cabbe40b0b42"
                 
         |>
         ,

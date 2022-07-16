@@ -41,4 +41,8 @@
  "English\\ReferencePages\\Symbols\\GraphConvexHull.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
      <|"Time" -> Quantity[4.1636488, "Seconds"]|>], 
-   "FileHash" -> "DlVHkmwYuDLCdsSJmzvSusKxl62V9Qa7Fh3HwlD0rkM="|>|>
+   "FileHash" -> "DlVHkmwYuDLCdsSJmzvSusKxl62V9Qa7Fh3HwlD0rkM="|>, 
+ "English\\ReferencePages\\Symbols\\RandomSymbolicWeightedMixedGraph.nb" -> 
+  <|"Result" -> Success["BuildDocumentationNotebook", 
+     <|"Time" -> Quantity[11.9562065, "Seconds"]|>], 
+   "FileHash" -> "sONUeT8CY9HtDGV40xC9lXeUE7F8XdfYgt8zpWp8ZkU="|>|>
