@@ -1,0 +1,139 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4797,        131]
+NotebookOptionsPosition[      3554,        101]
+NotebookOutlinePosition[      3974,        117]
+CellTagsIndexPosition[      3931,        114]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`MixedGraphs`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8669803400810413`*^9, 3.8669803460450664`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"2a7236e6-0991-49cb-9886-b42de87619b9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"directedgraph", "=", 
+  RowBox[{"RandomWeightedMixedGraph", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"10", ",", "20"}], "}"}], ",", "1", ",", 
+    RowBox[{
+     RowBox[{"RandomReal", "[", "]"}], "&"}]}], "]"}]}]], "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"b676ccf2-9254-4e4b-a852-37e840478be7"],
+
+Cell[BoxData[
+ RowBox[{"RandomWeightedMixedGraph", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"10", ",", "20"}], "}"}], ",", "1", ",", 
+   RowBox[{
+    RowBox[{"RandomReal", "[", "]"}], "&"}]}], "]"}]], "Output",
+ CellChangeTimes->{3.866980334679097*^9, 3.8669864483617373`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"62d96413-1f51-4f28-9b05-52027f0515e3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$ConetextPaths"], "Input",
+ CellChangeTimes->{{3.866986425899195*^9, 3.866986433089491*^9}, {
+  3.8669864677133856`*^9, 3.8669864751809163`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"846e7ddd-b49e-4721-a5c5-1644f7ac7c99"],
+
+Cell[BoxData["$ConetextPaths"], "Output",
+ CellChangeTimes->{{3.866986448837733*^9, 3.866986475637936*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"e385dd22-4602-49f8-bf16-e804f8b5b65f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PalcetFind", "[", "\"\<:eter*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.866986436927187*^9, 3.866986442013741*^9}, {
+  3.866986483677925*^9, 3.8669864858589263`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"826c2ff7-6851-413a-8d7e-400da144c4f4"],
+
+Cell[BoxData[
+ RowBox[{"PalcetFind", "[", "\<\":eter*\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.8669864863129234`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"a5aaac8f-e003-4df2-a0b9-1076b8487948"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletInstall", "[", 
+  RowBox[{"ResourceObject", "[", "\"\<PeterBurbery/MixedGraphs\>\"", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.866986491724934*^9, 3.8669864927219286`*^9}, 
+   3.8669865913558598`*^9},
+ CellLabel->"In[6]:=",ExpressionUUID->"777bcb46-fbf8-4633-98cb-8a448993c056"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenWrite", "noopen", 
+   "\"Cannot open \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\peter\\\\\
+\\\\\\\\\\\\AppData\\\\\\\\\\\\\\\\Roaming\\\\\\\\\\\\\\\\Mathematica\\\\\\\\\
+\\\\\\\\Paclets\\\\\\\\\\\\\\\\Repository\\\\\\\\\\\\\\\\PeterBurbery__\
+MixedGraphs-1.20.0\\\\\\\\\\\\\\\\Documentation\\\\\\\\\\\\\\\\English\\\\\\\\\
+\\\\\\\\SearchIndex\\\\\\\\\\\\\\\\5\\\\\\\\\\\\\\\\_0.cfs\\\\\\\"\\\"}]\\).\"\
+", 2, 6, 1, 19445923530437786111, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866986606248419*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"d55c7e76-c5d5-4fd7-a19f-10851351652a"]
+}, Open  ]]
+},
+WindowSize->{559.8, 502.2},
+WindowMargins->{{12.6, Automatic}, {17.399999999999977`, Automatic}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f3f03ccc-dbf0-4257-9cbc-1fcc04797639"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 238, 3, 28, "Input",ExpressionUUID->"2a7236e6-0991-49cb-9886-b42de87619b9"],
+Cell[CellGroupData[{
+Cell[821, 27, 332, 8, 48, "Input",ExpressionUUID->"b676ccf2-9254-4e4b-a852-37e840478be7"],
+Cell[1156, 37, 359, 8, 32, "Output",ExpressionUUID->"62d96413-1f51-4f28-9b05-52027f0515e3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1552, 50, 237, 3, 28, "Input",ExpressionUUID->"846e7ddd-b49e-4721-a5c5-1644f7ac7c99"],
+Cell[1792, 55, 185, 2, 32, "Output",ExpressionUUID->"e385dd22-4602-49f8-bf16-e804f8b5b65f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2014, 62, 271, 4, 28, "Input",ExpressionUUID->"826c2ff7-6851-413a-8d7e-400da144c4f4"],
+Cell[2288, 68, 199, 3, 32, "Output",ExpressionUUID->"a5aaac8f-e003-4df2-a0b9-1076b8487948"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2524, 76, 315, 6, 28, "Input",ExpressionUUID->"777bcb46-fbf8-4633-98cb-8a448993c056"],
+Cell[2842, 84, 696, 14, 79, "Message",ExpressionUUID->"d55c7e76-c5d5-4fd7-a19f-10851351652a"]
+}, Open  ]]
+}
+]
+*)
+

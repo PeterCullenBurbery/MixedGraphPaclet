@@ -18,6 +18,7 @@ OddVertexList;
 OddVertexQ;
 EvenVertexList;
 EvenVertexQ;
+RandomSymbolicMixedGraph;
 RandomSymbolicWeightedMixedGraph;
 Begin["`Private`"];
 
@@ -74,23 +75,34 @@ OddVertexList[graph_?GraphQ]:=VertexList[graph,_?(OddQ[VertexDegree[graph,#]]&)]
 OddVertexQ[graph_?GraphQ,vertex_]:=OddQ[VertexDegree[graph,vertex]]/;MemberQ[VertexList[graph],vertex]
 EvenVertexList[graph_?GraphQ]:=VertexList[graph,_?(EvenQ[VertexDegree[graph,#]]&)]
 EvenVertexQ[graph_?GraphQ,vertex_]:=EvenQ[VertexDegree[graph,vertex]]/;MemberQ[VertexList[graph],vertex]
-RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=VertexReplace[RandomGraph[{vertices,edges},options],Thread[Range[20]->(Indexed[variablename,#]&/@Range[20])]];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]];Graph[randomGraph,EdgeWeight->(#1->randomFunction[]&)/@EdgeList[randomGraph]]]
 
-RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1:=Table[RandomSymbolicWeightedMixedGraph[{vertices,edges},threshold,randomFunction],k]
-RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicWeightedMixedGraph[{vertices,edges},threshold,randomFunction]&,array]
+RandomSymbolicMixedGraph[{vertices_,edges_},threshold_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=VertexReplace[RandomGraph[{vertices,edges},options],Thread[Range[20]->(Indexed[variablename,#1]&)/@Range[20]]];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
+ RandomSymbolicMixedGraph[{vertices_,edges_},threshold_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1:=Table[RandomSymbolicMixedGraph[{vertices,edges},threshold],k];
 
-RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=RandomGraph[graphDistribution,options];replaceCount=Floor[threshold EdgeCount[randomGraph]];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]];Graph[randomGraph,EdgeWeight->(#1->randomFunction[]&)/@EdgeList[randomGraph]]]
+ RandomSymbolicMixedGraph[{vertices_,edges_},threshold_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicMixedGraph[{vertices,edges},threshold]&,array];
 
-RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1&&k>=1:=Table[RandomSymbolicWeightedMixedGraph[graphDistribution,threshold,randomFunction],k]
+ RandomSymbolicMixedGraph[graphDistribution_,threshold_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=RandomGraph[graphDistribution,options];replaceCount=Floor[threshold EdgeCount[randomGraph]];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
 
- RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicWeightedMixedGraph[graphDistribution,threshold,randomFunction]&,array]
+ RandomSymbolicMixedGraph[graphDistribution_,threshold_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1&&k>=1:=Table[RandomSymbolicMixedGraph[graphDistribution,threshold],k];
+
+ RandomSymbolicMixedGraph[graphDistribution_,threshold_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicMixedGraph[graphDistribution,threshold]&,array];
+
+
+RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=VertexReplace[RandomGraph[{vertices,edges},options],Thread[Range[20]->(Indexed[variablename,#]&/@Range[20])]];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]];Graph[randomGraph,EdgeWeight->(#1->randomFunction[]&)/@EdgeList[randomGraph]]];
+
+RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1:=Table[RandomSymbolicWeightedMixedGraph[{vertices,edges},threshold,randomFunction],k];
+RandomSymbolicWeightedMixedGraph[{vertices_,edges_},threshold_,randomFunction_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicWeightedMixedGraph[{vertices,edges},threshold,randomFunction]&,array];
+
+RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph},randomGraph=RandomGraph[graphDistribution,options];replaceCount=Floor[threshold EdgeCount[randomGraph]];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]];Graph[randomGraph,EdgeWeight->(#1->randomFunction[]&)/@EdgeList[randomGraph]]];
+
+RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1&&k>=1:=Table[RandomSymbolicWeightedMixedGraph[graphDistribution,threshold,randomFunction],k];
+
+ RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicWeightedMixedGraph[graphDistribution,threshold,randomFunction]&,array];
+
+
 
 End[]; (* End `Private` *)
 
 EndPackage[];
-
-
-
-
 
 

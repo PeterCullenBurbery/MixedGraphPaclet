@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2460921,      40543]
+NotebookDataLength[   2460881,      40542]
 NotebookOptionsPosition[   2449052,      40293]
-NotebookOutlinePosition[   2450069,      40324]
-CellTagsIndexPosition[   2449949,      40318]
+NotebookOutlinePosition[   2450029,      40323]
+CellTagsIndexPosition[   2449909,      40317]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -40292,8 +40292,7 @@ Cell[BoxData[""], "Template",
 }, Open  ]]
 },
 WindowSize->{1141.8, 574.8},
-WindowMargins->{{
-  Automatic, 103.20000000000005`}, {-34.799999999999955`, Automatic}},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "Symbols"|>,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
@@ -40317,8 +40316,8 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"DefaultContent", 2449568, 40307},
- {"ExtendedExamples", 2449751, 40311}
+ {"DefaultContent", 2449528, 40306},
+ {"ExtendedExamples", 2449711, 40310}
  }
 *)
 (*NotebookFileOutline
