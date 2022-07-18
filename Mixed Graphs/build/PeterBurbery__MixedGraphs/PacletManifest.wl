@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "aa5f6b07193cc91520ec718ae3f7f40ebe1da91dddc1b8fd760a1a9f41baef0d"
+            "e0cfd0025b8e0bd9f55a44c5e7f8bc930cbaedfcf4bc25a1bd3a6c27ab6d1f37"
                 
         |>
         ,
@@ -25,7 +25,7 @@
             ,
             "Hash"
             ->
-            "43b2fd193d2e70d71ea9eaf87082f65bdb6feada8939f0e4cb69582e7dbc38de"
+            "406bf19f84a5defcde3e55aadf02b8884f7f8d7043506579e93a44ddb0354d79"
                 
         |>
         ,
@@ -103,6 +103,20 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\MixedGraphToDigraph.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "ddf0682b3449484124e75d15f6250c4856c27eb909374f51cd8c74b881647e90"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\MixedGraphUndirectedEdges.nb"
                     
             ]
@@ -151,7 +165,7 @@
             ,
             "Hash"
             ->
-            "df23e1988a9cff1b4f6194adb8ba0d7ceacf55dfed9e2eb657f6a1a9b0edb364"
+            "8de0c3fd8bda0958330d08f3f563cc22ce1386ac178e340ca4af74c16dd70b60"
                 
         |>
         ,

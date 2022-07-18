@@ -20,11 +20,12 @@ EvenVertexList;
 EvenVertexQ;
 RandomSymbolicMixedGraph;
 RandomSymbolicWeightedMixedGraph;
+MixedGraphToDigraph;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-ClearAll[RandomMixedGraph,EulerizeGraph,UndirectedGraphToMixedGraph,RandomWeightedMixedGraph,MixedGraphDirectedArcs,MixedGraphUndirectedEdges,GraphInformation,TakeLargestGraphComponentBy,GraphicalDegreeSequenceQ,GraphConvexHull,OddVertexList,OddVertexQ,EvenVertexList,EvenVertexQ,RandomSymbolicWeightedMixedGraph];
+ClearAll[RandomMixedGraph,EulerizeGraph,UndirectedGraphToMixedGraph,RandomWeightedMixedGraph,MixedGraphDirectedArcs,MixedGraphUndirectedEdges,GraphInformation,TakeLargestGraphComponentBy,GraphicalDegreeSequenceQ,GraphConvexHull,OddVertexList,OddVertexQ,EvenVertexList,EvenVertexQ,RandomSymbolicWeightedMixedGraph,MixedGraphToDigraph];
 RandomMixedGraph[{vertices_,edges_},threshold_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph} ,randomGraph=RandomGraph[{vertices,edges},options];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
 
 RandomMixedGraph[{vertices_,edges_},threshold_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1:=Table[RandomMixedGraph[{vertices,edges},threshold,options],k]
@@ -99,6 +100,12 @@ RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,v
 
  RandomSymbolicWeightedMixedGraph[graphDistribution_,threshold_,randomFunction_,variablename_,array_List,options:OptionsPattern[]]/;0<=threshold<=1:=Array[RandomSymbolicWeightedMixedGraph[graphDistribution,threshold,randomFunction]&,array];
 
+MixedGraphToDigraph[graph_?MixedGraphQ, 
+  options : OptionsPattern[]] := 
+ WeightedAdjacencyGraph[
+  Replace[Normal@
+    Chop@WeightedAdjacencyMatrix[graph], {0 -> \[Infinity]}, {2}], 
+  options]
 
 
 End[]; (* End `Private` *)
