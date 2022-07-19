@@ -29,8 +29,6 @@ PacletObject[
           "PeterBurbery`MixedGraphs`GraphInformation",
           "PeterBurbery`MixedGraphs`MixedGraphDirectedArcs",
           "PeterBurbery`MixedGraphs`MixedGraphUndirectedEdges",
-          "PeterBurbery`MixedGraphs`OddVertexList",
-          "PeterBurbery`MixedGraphs`OddVertexQ",
           "PeterBurbery`MixedGraphs`RandomMixedGraph",
           "PeterBurbery`MixedGraphs`RandomSymbolicMixedGraph",
           "PeterBurbery`MixedGraphs`RandomSymbolicWeightedMixedGraph",
@@ -38,7 +36,10 @@ PacletObject[
           "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
           "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
           "PeterBurbery`MixedGraphs`MixedGraphToDigraph",
-          "PeterBurbery`MixedGraphs`GeneralizedGraphData"
+          "PeterBurbery`MixedGraphs`GeneralizedGraphData",
+          "PeterBurbery`MixedGraphs`ResistanceMatrix",
+          "PeterBurbery`MixedGraphs`OddNodes",
+                    "PeterBurbery`MixedGraphs`OddNodeQ"
         }
       },
       {"Documentation", "Language" -> "English"}
