@@ -20,7 +20,6 @@ PacletObject[
           }
         },
         "Symbols" -> {
-          "PeterBurbery`AssociationFunctions`RandomSymbolicWeightedMixedGraph",
           "PeterBurbery`MixedGraphs`EulerizeGraph",
           "PeterBurbery`MixedGraphs`EvenVertexListt",
           "PeterBurbery`MixedGraphs`EvenVertexQ",
@@ -38,7 +37,8 @@ PacletObject[
           "PeterBurbery`MixedGraphs`RandomWeightedMixedGraph",
           "PeterBurbery`MixedGraphs`TakeLargestGraphComponentBy",
           "PeterBurbery`MixedGraphs`UndirectedGraphToMixedGraph",
-          "PeterBurbery`MixedGraphs`MixedGraphToDigraph"
+          "PeterBurbery`MixedGraphs`MixedGraphToDigraph",
+          "PeterBurbery`MixedGraphs`GeneralizedGraphData"
         }
       },
       {"Documentation", "Language" -> "English"}

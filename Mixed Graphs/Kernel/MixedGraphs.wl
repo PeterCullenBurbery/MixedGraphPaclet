@@ -21,11 +21,12 @@ EvenVertexQ;
 RandomSymbolicMixedGraph;
 RandomSymbolicWeightedMixedGraph;
 MixedGraphToDigraph;
+GeneralizedGraphData;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-ClearAll[RandomMixedGraph,EulerizeGraph,UndirectedGraphToMixedGraph,RandomWeightedMixedGraph,MixedGraphDirectedArcs,MixedGraphUndirectedEdges,GraphInformation,TakeLargestGraphComponentBy,GraphicalDegreeSequenceQ,GraphConvexHull,OddVertexList,OddVertexQ,EvenVertexList,EvenVertexQ,RandomSymbolicWeightedMixedGraph,MixedGraphToDigraph];
+ClearAll[RandomMixedGraph,EulerizeGraph,UndirectedGraphToMixedGraph,RandomWeightedMixedGraph,MixedGraphDirectedArcs,MixedGraphUndirectedEdges,GraphInformation,TakeLargestGraphComponentBy,GraphicalDegreeSequenceQ,GraphConvexHull,OddVertexList,OddVertexQ,EvenVertexList,EvenVertexQ,RandomSymbolicWeightedMixedGraph,MixedGraphToDigraph,GeneralizedGraphData];
 RandomMixedGraph[{vertices_,edges_},threshold_,options:OptionsPattern[]]/;0<=threshold<=1:=Block[{replaceCount,randomGraph} ,randomGraph=RandomGraph[{vertices,edges},options];replaceCount=Floor[threshold edges];randomGraph=Graph[Fold[EdgeAdd[EdgeDelete[#1,#2],First[#2]\[DirectedEdge]Last[#2]]&,randomGraph,RandomSample[EdgeList[randomGraph],replaceCount]]]];
 
 RandomMixedGraph[{vertices_,edges_},threshold_,k_?IntegerQ,options:OptionsPattern[]]/;0<=threshold<=1:=Table[RandomMixedGraph[{vertices,edges},threshold,options],k]
@@ -62,6 +63,7 @@ MixedGraphUndirectedEdges[graph_?GraphQ]:=EdgeList[graph,_\[UndirectedEdge]_]
 
 ClearAll[EulerizeGraph]
 EulerizeGraph[graph_?(UndirectedGraphQ[#]\[And]ConnectedGraphQ[#]&)]:=EdgeAdd[graph,FindEdgeCover[Subgraph[graph,VertexList[graph,x_/;OddQ@VertexDegree[graph,x]]]]]
+EulerizeGraph[graph_?(MixedGraphQ[#]\[And]ConnectedGraphQ[#]&)]:=EdgeAdd[graph,FindEdgeCover[Subgraph[graph,VertexList[graph,x_/;OddQ@VertexDegree[graph,x]]]]]
 GraphInformation[graph_?GraphQ]:=<|"Acyclic"->AcyclicGraphQ[graph],"Bipartite"->BipartiteGraphQ[graph],"Complete"->CompleteGraphQ[graph],"Connected"->ConnectedGraphQ[graph],"EdgeTransitive"->EdgeTransitiveGraphQ[graph],"WeightedEdge"->EdgeWeightedGraphQ[graph],"Empty"->EmptyGraphQ[graph],"Eulerian"->EulerianGraphQ[graph],"Hamiltonian"->HamiltonianGraphQ[graph],"LoopFree"->LoopFreeGraphQ[graph],"Mixed"->MixedGraphQ[graph],"Path"->PathGraphQ[graph],"Planar"->PlanarGraphQ[graph],"Simple"->SimpleGraphQ[graph],"Tree"->TreeGraphQ[graph],"Undirected"->UndirectedGraphQ[graph],"VertexTransitive"->VertexTransitiveGraphQ[graph],"WeightedVertex"->VertexWeightedGraphQ[graph],"WeaklyConnected"->WeaklyConnectedGraphQ[graph],"Weighted"->WeightedGraphQ[graph]|>
 
 TakeLargestGraphComponentBy[graph_?GraphQ,function_:EdgeCount,length_:1]:=TakeLargestBy[ConnectedGraphComponents[graph],function,length]
@@ -106,6 +108,7 @@ MixedGraphToDigraph[graph_?MixedGraphQ,
   Replace[Normal@
     Chop@WeightedAdjacencyMatrix[graph], {0 -> \[Infinity]}, {2}], 
   options]
+  GeneralizedGraphData[graph_?GraphQ]:=AssociationThread[{"IncidenceMatrix","Order","Size","Nodes","Edges","UndirectedEdges","DirectedArcs","AdjacencyMatrix"}->{IncidenceMatrix[graph],VertexCount[graph],EdgeCount[graph],VertexList[graph],EdgeList[graph],EdgeList[graph,_\[UndirectedEdge]_],EdgeList[graph,_\[DirectedEdge]_],AdjacencyMatrix[graph]}]
 
 
 End[]; (* End `Private` *)

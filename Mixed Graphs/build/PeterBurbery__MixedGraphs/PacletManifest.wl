@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "e0cfd0025b8e0bd9f55a44c5e7f8bc930cbaedfcf4bc25a1bd3a6c27ab6d1f37"
+            "1b2128049c9b1200bd7f8e24e848316448e77ae686d0a98b96e69f203c062f0c"
                 
         |>
         ,
@@ -25,7 +25,7 @@
             ,
             "Hash"
             ->
-            "406bf19f84a5defcde3e55aadf02b8884f7f8d7043506579e93a44ddb0354d79"
+            "2e0c454641935ec95defd2cf9079e07d4f374c25f65eb94161afa0c1d4901bfc"
                 
         |>
         ,
@@ -39,7 +39,21 @@
             ,
             "Hash"
             ->
-            "2ea95599c38aa9d0e0bc2ad6ecbcbe01649bd56810a137dd8b8be66fab81e4e6"
+            "14506babf72079baacc0c900c3892bd7c9bd6e33c14ef8cea1a87fd6f7e1840d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\GeneralizedGraphData.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "c7c43c8955ef8f613f7aef981e374424fee046040a0f3e21ded7cf574cfd64fe"
                 
         |>
         ,
