@@ -217,10 +217,9 @@ Cell[BoxData[
    DynamicModuleBox[{Typeset`graph = HoldComplete[
      Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
        20}, CompressedData["
-1:eJxTTMoPymNmYGBgAmIRKEYHjHjEcMlhEycXEDILn1toZSel6rHpRTeDHDOx
-mUFq+KCrp4b7GHGwSTWHFHuooR+fu6lpz3AH1C4TqA0YGQa/G0FgsLsPBqhR
-dpGiB5deYssaYusYYtSSqm4UkA8GcxhTy2209CMtzB7s5Sgt2oujgHoAAFLg
-AhY=
+1:eJxTTMoPSmJmYGBgAmIRKAYBRggBoRgZMAAjnMYjic6Gq2dEV82IbA4jFKKo
+Y2TA1InVBpgyIlSSArAFAnZ1xNpCvGswgguJwwgXZESRRgkBSjxOvMtIUYZD
+I1ZhooOedv5EAQBHIwIK
       "]]]}, 
     TagBox[GraphicsGroupBox[GraphicsComplexBox[CompressedData["
 1:eJxTTMoPSmViYGAQAWIQ7ePgJNRe/Mg+oWLOw0sh3+wZoOAaL1+mvsAH+2C1
@@ -3687,9 +3686,8 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 580.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> "1.6.4", "CreationTimestamp" -> 
@@ -3739,7 +3737,7 @@ WyabbVsUI30dbWyR5mC4Y6npzAQV7A7CHW8e0ORJGTUV01ufdzMGR2GbTwVmCj3d8A9cd0NNHoiRcl\
     "DefaultContentMethod" -> "Legacy"}, "ToolsOpen" -> True, "StatusMessage" -> 
   "", "SubmissionReviewData" -> {"Review" -> False}},
 CreateCellID->True,
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -4180,7 +4178,6 @@ VX/aMEEQzrerjFhhelYAzofFB3r8AgApYdcE
                 StyleBox[
                 "\"Template Input\"", "Text", FontFamily -> "Source Sans Pro",
                   FontSize -> 11, StripOnInput -> False], 
-                
                 "\"Format selection automatically using appropriate \
 documentation styles\""}, "PrettyTooltipTemplate"], ButtonFunction :> 
               With[{RSNB`nb$ = ButtonNotebook[], RSNB`$cp$ = $ContextPath}, 
@@ -6022,7 +6019,7 @@ later."]]]]],
    Cell[
     StyleData["DockedCell"], CellFrameColor -> GrayLevel[0.75], Background -> 
     GrayLevel[0.9]]}, Visible -> False, FrontEndVersion -> 
-  "13.2 for Microsoft Windows (64-bit) (July 16, 2022)", StyleDefinitions -> 
+  "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", StyleDefinitions -> 
   "PrivateStylesheetFormatting.nb"],
 ExpressionUUID->"5d632b24-a560-470f-b6db-e7d65934ee33"
 ]

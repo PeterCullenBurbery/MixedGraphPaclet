@@ -1064,10 +1064,10 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.8, 580.8},
+WindowSize->{1141.2, 574.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/MixedGraphs"|>,
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
   CharacterEncoding -> "UTF-8"],
 ExpressionUUID->"fbfd0206-5bcb-42f8-a877-1bb3a3cdd6cf"
@@ -1170,7 +1170,7 @@ Cell[44743, 974, 249, 5, 27, "ExampleSection",ExpressionUUID->"7241fb36-8ef0-43e
  CellID->394914782]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45029, 984, 108, 1, 89, "MetadataSection",ExpressionUUID->"21cfc960-b04e-4c24-bac4-35a7d4f3f73d",
+Cell[45029, 984, 108, 1, 77, "MetadataSection",ExpressionUUID->"21cfc960-b04e-4c24-bac4-35a7d4f3f73d",
  CellID->8224576],
 Cell[45140, 987, 473, 11, 33, "History",ExpressionUUID->"434a0060-1ca1-43da-8415-f6dff15d3159",
  CellID->736140318],
